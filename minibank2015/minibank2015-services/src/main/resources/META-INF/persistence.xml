@@ -1,0 +1,20 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence
+http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
+	version="1.0">
+	<persistence-unit name="myPersistenceUnit"
+		transaction-type="RESOURCE_LOCAL">
+<!-- with JNDI lookup inside JBoss App Serv -->
+<!-- <jta-data-source>java:/DefaultDS</jta-data-source> -->
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<class>tp.myapp.minibank.impl.persistence.entity._Client</class>  
+		<class>tp.myapp.minibank.impl.persistence.entity._Adresse</class>
+		<class>tp.myapp.minibank.impl.persistence.entity._Compte</class>  
+		<class>tp.myapp.minibank.impl.persistence.entity._Operation</class>
+		<properties>
+			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect" />
+		<!-- <property name="hibernate.hbm2ddl.auto" value="create-drop" /> -->
+		</properties>
+	</persistence-unit>
+</persistence>

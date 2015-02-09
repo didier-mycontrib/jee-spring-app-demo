@@ -1,0 +1,12 @@
+package org.mycontrib.generic.persistence;
+
+import java.io.Serializable;
+/*
+ * GROS PROBLEME : ceci introduit une dépendance supplémentaire
+ *                 (entité immplémentant cette interface)
+ *                 et au final ceci génère plus de problèmes que d'avantages
+ */
+public interface EntityWithId<ID extends Serializable> {
+	public ID getId();
+	public void setId(ID id);
+}

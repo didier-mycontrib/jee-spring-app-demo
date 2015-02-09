@@ -1,0 +1,19 @@
+package org.mycontrib.generic.persistence;
+
+import java.io.Serializable;
+//version plus precise utilisable si T = class "EntityXY" qui implemente l'interface  EntityWithId<ID> 
+public interface GenericDaoForEntityWithId<T extends EntityWithId<ID>,ID extends Serializable>
+    extends GenericDao<T,ID>{
+	
+	/*
+	//méthodes héritées de l'interface GenericDao<T,ID>:
+	public void deleteEntity(ID pk); // remove entity from pk
+	public void removeEntity(T e); // remove entity
+	
+	public  T updateEntity(T e); // update entity (and return persist ref )
+	
+	public  T getEntityById(ID pk);//by primary key
+	
+    public  T persistNewEntity(T e); // persist entity (and return it with pk )
+    */
+}

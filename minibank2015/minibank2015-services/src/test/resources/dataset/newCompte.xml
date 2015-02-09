@@ -1,0 +1,8 @@
+   <dataset>  
+   <!--  
+    <Compte label="compte pel" numCpt="3" solde="75.0" />
+    -->
+      <Compte label="compte pel"  solde="75.0"  />
+    
+    
+   </dataset>  

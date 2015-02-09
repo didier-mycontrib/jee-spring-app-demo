@@ -1,0 +1,36 @@
+package org.mycontrib.generic.persistence;
+
+import java.io.Serializable;
+
+import javax.inject.Named;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+
+import org.springframework.transaction.annotation.Transactional;
+
+/**
+ * 
+ * @author Didier
+ *
+ * NB: penser à placer 
+ * <context:component-scan base-package="fr.d_defrance.contrib"/>
+ * dans la configuration Spring de l'application utilisatrice
+ */
+
+//version plus precise utilisable si T = class "EntityXY" qui implemente l'interface  EntityWithId<ID> 
+//@Component ou @Named également dans sous classe prise en charge par Spring
+@Named
+@Transactional
+public class GenericDaoForEntityWithIdJpaImpl<T extends EntityWithId<ID>,ID extends Serializable> extends AbstractGenericDaoForEntityWithIdJpaImpl<T,ID> {
+	
+		
+	public GenericDaoForEntityWithIdJpaImpl() {
+		super();		
+	}
+
+	@PersistenceContext() //with default (unique) persitent Unit.
+	public void setEntityManager(EntityManager entityManager) {
+		this.entityManager = entityManager;
+	}
+	
+}

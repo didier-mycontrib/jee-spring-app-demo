@@ -1,0 +1,7 @@
+   <dataset>  
+   
+  <Client nom="therieur" prenom="alex" dateNaissance="1980-02-11" ref_adressePrincipale="1"
+       password="pwd2"  telephone="0504030201"  email="alex.therieur@ici_ou_la" />
+    
+    
+   </dataset>  

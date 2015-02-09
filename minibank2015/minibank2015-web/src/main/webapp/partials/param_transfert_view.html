@@ -1,0 +1,12 @@
+     <div id="divTransfert">
+        <h3> param virement pour le client {{numClient}}</h3> 
+         montant : <input ng-model="transfert.montant"  /> <br/>
+          numCptDeb : <input ng-model="transfert.numCptDeb"  /> <br/>
+          numCptCred : <input ng-model="transfert.numCptCred"  /> <br/>
+        <button ng-click="doVirementAndRefresh()">effectuer le virement</button>
+         <hr/>
+        {{message}}
+         <hr/>
+        <a href="#/comptes/{{numClient}}">revenir à la liste des comptes</a>
+	  </div>
+        

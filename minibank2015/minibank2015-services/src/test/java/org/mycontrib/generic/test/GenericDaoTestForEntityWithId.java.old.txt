@@ -1,0 +1,18 @@
+package org.mycontrib.generic.test;
+
+import java.io.Serializable;
+
+import org.mycontrib.generic.persistence.EntityWithId;
+
+//version plus precise utilisable si T = class "EntityXY" qui implemente l'interface  EntityWithId<ID> 
+public abstract class GenericDaoTestForEntityWithId<T extends EntityWithId<ID>,ID extends Serializable> 
+       extends GenericDaoSimpleTest<T, ID> {
+
+	@Override
+	public ID getPkOfEntity(T entity) {
+		return entity.getId();
+	}
+	
+	
+
+}
