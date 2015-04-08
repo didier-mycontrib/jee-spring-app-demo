@@ -6,15 +6,15 @@ myAjsApp.config(['$routeProvider',
   function($routeProvider) {
       $routeProvider.
 	when('/comptes/:numCli', {
-		templateUrl: 'partials/compte_list_view.html',
+		templateUrl: 'partials_v1/compte_list_view.html',
 		controller: 'CompteListCtrl'
 	}).
 	when('/virement/:numCli', {
-		templateUrl: 'partials/param_transfert_view.html',
+		templateUrl: 'partials_v1/param_transfert_view.html',
 		controller: 'TransfertCtrl'
 	}).
 	when('/welcome', {
-		templateUrl: 'partials/welcome_view.html',
+		templateUrl: 'partials_v1/welcome_view.html',
 		controller: 'MyDefaultCtrl'
 	}).
 	otherwise({

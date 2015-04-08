@@ -172,6 +172,12 @@
 			<version>${org.apache.cxf.version}</version>
 		</dependency>
 		
+		<dependency>
+  			<groupId>org.apache.cxf</groupId>
+  			<artifactId>cxf-rt-rs-security-cors</artifactId>
+  			<version>${org.apache.cxf.version}</version>
+		</dependency>
+		
 		
 		<!-- to generate good json for angular-js from JAX-RS et CXF (voir spring conf of jaxrs:server) -->		
 		<dependency>

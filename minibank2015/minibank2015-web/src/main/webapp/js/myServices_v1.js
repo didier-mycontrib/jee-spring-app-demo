@@ -1,16 +1,15 @@
-var myRestServices = angular.module('myRestServices', ['ngResource']);
+var comptesServices = angular.module('comptesServices', ['ngResource']);
          
-myRestServices.factory('Compte', ['$resource',
+comptesServices.factory('Compte', ['$resource',
         function($resource){
 	
 		return $resource('pages/services/rest/json/gestioncomptes/comptes/:idRes' /*default url*/, {  idRes:'@numero' } /*default params */, {		
 			       doVirement : { url : 'pages/services/rest/json/gestioncomptes/virement' /*redifined url */, method:'POST'},
-			      
 	           });
 	       }   
 ]);
 
-myRestServices.factory('Transfert', ['$resource',
+comptesServices.factory('Transfert', ['$resource',
            function($resource){
                            	
           return $resource('pages/services/rest/json/gestioncomptes/virement:idRes' /*default url*/, {  } /*default params */, {		
@@ -18,17 +17,6 @@ myRestServices.factory('Transfert', ['$resource',
                });
              }   
 ]);
-
-myRestServices.factory('Client', ['$resource',
-                                  function($resource){
-                          	
-                          		return $resource('.......' /*default url*/, {  idRes:'.....' } /*default params */, {		
-                          			autreMethodeQuivaBienEtARenommer : { url : '.......' /*redifined url */, method:'POST'}
-                          	           });
-                          	       }   
-                          ]);
-
-
 
 
 

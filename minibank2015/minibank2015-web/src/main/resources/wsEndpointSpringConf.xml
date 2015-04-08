@@ -46,6 +46,18 @@ http://cxf.apache.org/jaxrs http://cxf.apache.org/schemas/jaxrs.xsd">
 	<property name="serviceGestionComptes" ref="gestionComptesImpl" />
 </bean>
 
+<bean id="serviceClientsRestAdaptatorForAngularJs" class="tp.myapp.minibank.rest.service.ClientRestJsonServiceAdaptor" >
+	<property name="serviceGestionClients" ref="gestionClientsImpl" />
+</bean>
+
+
+
+
+<bean id="corsFilter" class="org.apache.cxf.rs.security.cors.CrossOriginResourceSharingFilter">
+    <property name="allowCredentials" value="true"/>
+</bean>        
+      
+
 <!-- url complete de type "http://localhost:8080/mywebapp/services/rest/myservice/xxx"
 avec "services" associe à l'url-pattern de CxfServlet dans web.xml
 et myservices/xxx associe aux valeurs de @Path() de la classe java et des methodes-->
@@ -54,10 +66,12 @@ et myservices/xxx associe aux valeurs de @Path() de la classe java et des method
 	 <jaxrs:providers>
 		<ref bean='jacksonJsonProvider' />
 		<ref bean='jacksonXmlProvider' />
+		<ref bean='corsFilter' /> 
 	</jaxrs:providers> 
 	
 	<jaxrs:serviceBeans>
 		<ref bean="serviceComptesRestAdaptatorForAngularJs" />
+		<ref bean="serviceClientsRestAdaptatorForAngularJs" />
 	</jaxrs:serviceBeans>
 	<jaxrs:extensionMappings>
 		<entry key="xml" value="application/xml" /> 

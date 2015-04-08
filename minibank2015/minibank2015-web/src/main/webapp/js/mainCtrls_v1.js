@@ -12,8 +12,14 @@ $scope.transfert =  {
 	
 
 $scope.refreshWithNumClientWithRest = function (){
-		 $scope.comptes =  Compte.query({ numClient : $scope.numClient});   // url = .../comptes?numClient=1
-		 $scope.message = "-/-";
+	//url REST = .../comptes?numClient=1	
+	Compte.query({ numClient : $scope.numClient}).$promise.then(
+		    //success
+		    function( value ){
+		    	$scope.comptes = value;
+		    });
+
+		 $scope.message = "--/--";
 	};
 		
 	
@@ -29,8 +35,12 @@ $scope.doVirementAndRefresh = function (){
 		    		 + $scope.transfert.numCptDeb + " vers le compte "  + $scope.transfert.numCptCred;	
 		    	//+ RAZ du montant pour éviter deux transferts consecutifs (par erreurs)
 		    		 $scope.transfert.montant=0; $scope.transfert.ok=null;		    	 
-		    	 //Réactualiser les comptes seulement après que le virement soit effectué (mais pas avant) !!!
-		    	 $scope.comptes =  Compte.query({ numClient : $scope.numClient});
+		    	 //Réactualiser les comptes seulement après que le virement soit effectué (mais pas avant) !!!		    	 
+		    	 Compte.query({ numClient : $scope.numClient}).$promise.then(
+		    			    //success
+		    			    function( value ){
+		    			    	$scope.comptes = value;
+		    			    });
 		    	 }
 		    },
 		    //error

@@ -9,7 +9,13 @@ myAjsControllers.controller('CompteListCtrl', [ '$scope' , 'Compte' , '$routePar
  
 $scope.numClient = $routeParams.numCli; //numCli en fin d'url (in $routeProvider config)
 
-$scope.comptes =  Compte.query({ numClient : $scope.numClient});   // url REST = .../comptes?numClient=1		
+//url REST = .../comptes?numClient=1	
+Compte.query({ numClient : $scope.numClient}).$promise.then(
+	    //success
+	    function( value ){
+	    	$scope.comptes = value;
+	    });
+	$scope.message = "--/--";
 
 }]);
 
