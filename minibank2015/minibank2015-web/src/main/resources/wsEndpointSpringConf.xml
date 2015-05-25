@@ -54,7 +54,7 @@ http://cxf.apache.org/jaxrs http://cxf.apache.org/schemas/jaxrs.xsd">
 
 
 <bean id="corsFilter" class="org.apache.cxf.rs.security.cors.CrossOriginResourceSharingFilter">
-    <property name="allowCredentials" value="true"/>
+   <!--  <property name="allowCredentials" value="true"/> -->
 </bean>        
       
 

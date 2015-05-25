@@ -5,7 +5,7 @@ myRestServices.factory('Compte', ['$resource',
 	
 		return $resource('pages/services/rest/json/gestioncomptes/comptes/:idRes' /*default url*/, {  idRes:'@numero' } /*default params */, {		
 			       doVirement : { url : 'pages/services/rest/json/gestioncomptes/virement' /*redifined url */, method:'POST'},
-			       dernieresOperations : { url : 'pages/services/rest/json/gestioncomptes/dernieresOperations' /*redifined url */, method:'GET', isArray:true},
+			      
 	           });
 	       }   
 ]);
@@ -22,11 +22,12 @@ myRestServices.factory('Transfert', ['$resource',
 myRestServices.factory('Client', ['$resource',
                                   function($resource){
                           	
-                          		return $resource('pages/services/rest/json/gestionclients/clients/:idRes' /*default url*/, {  idRes:'@numero' } /*default params */, {		
-                          			verifyAuth : { url : 'pages/services/rest/json/gestionclients/verifyAuth' /*redifined url */, method:'POST'}
+                          		return $resource('.......' /*default url*/, {  idRes:'.....' } /*default params */, {		
+                          			autreMethodeQuivaBienEtARenommer : { url : '.......' /*redifined url */, method:'POST'}
                           	           });
                           	       }   
                           ]);
+
 
 
 

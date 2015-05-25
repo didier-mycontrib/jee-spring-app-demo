@@ -13,8 +13,11 @@ http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
 		<class>tp.myapp.minibank.impl.persistence.entity._Compte</class>  
 		<class>tp.myapp.minibank.impl.persistence.entity._Operation</class>
 		<properties>
-			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect" />
-		<!-- <property name="hibernate.hbm2ddl.auto" value="create-drop" /> -->
-		</properties>
+			 <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect" /> 
+			<!-- <property name="hibernate.hbm2ddl.auto" value="none" /> -->
+			<!-- <property name="hibernate.hbm2ddl.auto" value="create-drop" /> -->
+			<!--  <property name="hibernate.dialect" value="org.hibernate.dialect.HSQLDialect" /> -->
+	 		<!-- <property name="hibernate.hbm2ddl.auto" value="update" /> -->
+	 </properties>
 	</persistence-unit>
 </persistence>
