@@ -1,0 +1,35 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence
+http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
+	version="1.0">
+	<persistence-unit name="myPersistenceUnit"
+		transaction-type="RESOURCE_LOCAL">
+<!-- with JNDI lookup inside JBoss App Serv -->
+<!-- <jta-data-source>java:/DefaultDS</jta-data-source> -->
+		
+	<!-- 	<provider>org.hibernate.ejb.HibernatePersistence</provider>
+	       replace by jpaVendor in springConf -->
+		
+		
+		<class>tp.app.zz.impl.persistence.entity._Devise</class>  
+		<!-- <class>tp.app.zz.impl.persistence.entity._Pays</class> -->
+		<properties>
+		
+		
+		 <property name="hibernate.dialect" value="${hibernate.dialect}" />
+		 <property name="hibernate.hbm2ddl.auto" value="${hibernate.hbm2ddl.auto}" /> 
+		 
+		<!--  
+		 <property name="javax.persistence.jdbc.driver" value="${myDB.driverClassName}"/>
+         <property name="javax.persistence.jdbc.user" value="${myDB.username}"/>
+         <property name="javax.persistence.jdbc.password" value="${myDB.password}"/>
+         <property name="javax.persistence.jdbc.url" value="${myDB.url}"/>
+		-->
+		
+		<!-- <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect" /> --> 
+			<!-- <property name="hibernate.dialect" value="org.hibernate.dialect.HSQLDialect" /> -->
+		<!-- <property name="hibernate.hbm2ddl.auto" value="create-drop" /> -->
+		</properties>
+	</persistence-unit>
+</persistence>

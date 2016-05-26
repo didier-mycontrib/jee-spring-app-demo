@@ -33,6 +33,22 @@
 		
 		
 		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-core</artifactId> 
+			<!-- <artifactId>mockito-all</artifactId> -->
+			<version>1.10.19</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>hamcrest-core</artifactId>
+			<version>1.3</version>
+			<scope>compile</scope>
+		</dependency>
+	
+		
+		
+		<dependency>
     		<groupId>log4j</groupId>
     		<artifactId>log4j</artifactId>
     		<version>1.2.17</version>
@@ -186,6 +202,27 @@
 		
 	</dependencies>
 	<build>
+	
+	<plugins>
+	<!-- a lancer via mvn hibernate4:export -->
+     <plugin>
+    	<groupId>de.juplo</groupId>
+    	<artifactId>hibernate4-maven-plugin</artifactId>
+    	<version>1.1.0</version>
+    		<executions>
+    			<execution>
+    				<goals>
+    					<goal>export</goal>
+    				</goals>
+    			</execution>		
+    		</executions>
+    		<configuration>
+					<target>none</target> <!-- genere schema.sql dans target -->
+					<!-- <target>script</target> --> <!-- genere schema.sql dans target 
+					                                      et affiche le contenu de schema.sql dans la console -->
+			 </configuration>
+     </plugin>
+	</plugins>
 	<!-- jdk 1.7 defini dans un pom parent -->
     <finalName>minibank2015-services</finalName>
   </build>

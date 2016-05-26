@@ -7,7 +7,13 @@ http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
 		transaction-type="RESOURCE_LOCAL">
 <!-- with JNDI lookup inside JBoss App Serv -->
 <!-- <jta-data-source>java:/DefaultDS</jta-data-source> -->
+
+	<!-- 
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+	replace by jpaVendor in spring xml or java config	
+	-->
+		
+		
 		<class>tp.myapp.minibank.impl.persistence.entity._Client</class>  
 		<class>tp.myapp.minibank.impl.persistence.entity._Adresse</class>
 		<class>tp.myapp.minibank.impl.persistence.entity._Compte</class>  

@@ -1,5 +1,6 @@
 package tp.myapp.minibank.impl.persistence.dao.jpa;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.inject.Named;
@@ -19,6 +20,11 @@ public class CompteDaoJpa extends GenericDaoJpaImpl<_Compte,Long> implements Com
 	public List<_Compte> findComptesByNumCli(long numCli) {		
 		//query for 1-n :  "select c from _Compte c where c.proprietaire.numClient= :numCli"
 	    Query q= this.getEntityManager().createQuery("select c.comptes from _Client c where c.numero= :numCli");
+		/*//test syntaxique temporaire (non appliquable fonctionnellement):
+		Query q= this.getEntityManager().createQuery("select c.comptes from _Client c where c.numero in (:listeNumCli)");
+		List<Long> listeNumCli = new ArrayList<Long>();
+		listeNumCli.add(numCli);//listeNumCli.add(2L);
+		q.setParameter("listeNumCli", listeNumCli);*/
 		q.setParameter("numCli", numCli);
 		/*
 		//test temporaire:

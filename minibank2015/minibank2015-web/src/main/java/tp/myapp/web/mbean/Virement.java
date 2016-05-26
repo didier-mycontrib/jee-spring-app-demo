@@ -3,9 +3,11 @@ package tp.myapp.web.mbean;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ManagedProperty;
 import javax.faces.bean.RequestScoped;
+import javax.faces.context.FacesContext;
 import javax.faces.model.SelectItem;
 
 import tp.myapp.minibank.itf.domain.dto.Compte;
@@ -33,6 +35,13 @@ public class Virement {
 	
 	public String effectuerVirement(){
 		String suite=null;
+		//test temporaire de redirection vers page d'erreur générique/technique:
+		if(montant < 1){
+			suite="genericError"; //.xhtml ou .jsp
+			FacesContext.getCurrentInstance().addMessage(null, 
+					new FacesMessage("montant invalide au niveau du virement","inferieur à 1"));
+			return suite;  
+		}
 		try {
 			//effectuer le virement
 			getServiceGestionComptes().transferer(montant, numCptDeb, numCptCred);

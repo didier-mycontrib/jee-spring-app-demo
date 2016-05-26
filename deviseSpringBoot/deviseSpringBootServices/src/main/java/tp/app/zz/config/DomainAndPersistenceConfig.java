@@ -1,11 +1,13 @@
-package tp.myapp.minibank.impl.config;
+package tp.app.zz.config;
 
 import javax.persistence.EntityManagerFactory;
 import javax.sql.DataSource;
 
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.jdbc.datasource.DriverManagerDataSource;
+import org.springframework.context.annotation.Import;
+import org.springframework.context.annotation.ImportResource;
 import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.JpaVendorAdapter;
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
@@ -15,24 +17,33 @@ import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
 import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-@Configuration
-@EnableTransactionManagement() //like <tx:annotation-driven> ???
-public class DomainAndPersistenceConfig {
+/*  different uses:
+ 
+   in main() :
+   JavaConfigApplicationContext context =
+    new JavaConfigApplicationContext(AppConfig.class, DataConfig.class);
+    Service service = context.getBean(Service.class);
+    
+   in springContext.xml :
+   <bean class="tp.myapp.minibank.impl.config.DomainAndPersistenceConfig"/>
+   
+   in spring test:
+   @RunWith(SpringJUnit4ClassRunner.class)
+	//@ContextConfiguration(locations="/springContextOfModule.xml") // xml config
+	@ContextConfiguration(classes={tp.myapp.minibank.impl.config.DataSourceConfig.class,
+		                       tp.myapp.minibank.impl.config.DomainAndPersistenceConfig.class}) //java config
+   
+   ...
+ */
 
-	// la source de données MySQL
-	// équivalent java de dataSourceSpringConf.xml
-	@Bean(name="myDataSource")
-	public DataSource dataSource() {
-		//org.apache.commons.dbcp.BasicDataSource (si .jar de commons-dbcp , commons-pool)
-		//org.springframework.jdbc.datasource.DriverManagerDataSource
-		DriverManagerDataSource dataSource = new DriverManagerDataSource();
-		dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-		dataSource.setUrl("jdbc:mysql://localhost:3306/minibank_db_ex1");
-		dataSource.setUsername("root");
-		dataSource.setPassword("formation");
-		// NB: idéalement avec dataSource.properties
-		return dataSource;
-	}
+
+
+@Configuration
+@Import(DataSourceConfig.class)
+//@ImportResource("classpath:/xy.xml")
+@EnableTransactionManagement() //"transactionManager" (not "txManager") is expected !!!
+@ComponentScan(basePackages={"tp.app.zz.impl","org.mycontrib.generic"}) //to find and interpret @Autowired, @Inject , @Component , ...
+public class DomainAndPersistenceConfig {
 
 	// JpaVendorAdapter (Hibernate ou OpenJPA ou ...)
 	@Bean
@@ -41,16 +52,17 @@ public class DomainAndPersistenceConfig {
 		hibernateJpaVendorAdapter.setShowSql(false);
 		hibernateJpaVendorAdapter.setGenerateDdl(false);
 		hibernateJpaVendorAdapter.setDatabase(Database.MYSQL);
+		//hibernateJpaVendorAdapter.setDatabase(Database.HSQL);
 		return hibernateJpaVendorAdapter;
 	}
 
 	// EntityManagerFactory
-	@Bean(name="myEmf")
+	@Bean
 	public EntityManagerFactory entityManagerFactory(
 			JpaVendorAdapter jpaVendorAdapter, DataSource dataSource) {
 		LocalContainerEntityManagerFactoryBean factory = new LocalContainerEntityManagerFactoryBean();
 		factory.setJpaVendorAdapter(jpaVendorAdapter);
-		factory.setPackagesToScan("tp.myapp.minibank.impl.persistence.entity");
+		factory.setPackagesToScan("tp.app.zz.impl.persistence.entity");
 		factory.setDataSource(dataSource);
 		factory.afterPropertiesSet();
 		return factory.getObject();
@@ -63,7 +75,7 @@ public class DomainAndPersistenceConfig {
 	}
 
 	// Transaction Manager for JPA or ...
-	@Bean(name="transactionManager")//(name="txManager")
+	@Bean(name="transactionManager")//("transactionManager" but not "txManager")
 	public PlatformTransactionManager transactionManager(
 			EntityManagerFactory entityManagerFactory) {
 		JpaTransactionManager txManager = new JpaTransactionManager();

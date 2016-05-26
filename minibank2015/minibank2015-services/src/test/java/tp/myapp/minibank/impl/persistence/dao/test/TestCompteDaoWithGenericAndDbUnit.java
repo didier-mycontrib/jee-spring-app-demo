@@ -13,8 +13,9 @@ import tp.myapp.minibank.impl.persistence.dao.CompteDao;
 import tp.myapp.minibank.impl.persistence.entity._Compte;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations={"/serviceSpringConf.xml","/dataSourceForTestSpringConf.xml"})
-@TransactionConfiguration(transactionManager="txManager",defaultRollback=false)
+//@ContextConfiguration(locations={"/serviceSpringConf.xml","/dataSourceForTestSpringConf.xml"})
+@ContextConfiguration(locations="/springContextOfModule.xml")
+@TransactionConfiguration(transactionManager="transactionManager",defaultRollback=false)
 public class TestCompteDaoWithGenericAndDbUnit extends GenericDaoTestWithDbUnit<_Compte,Long>{
 	
 	private CompteDao dao ;

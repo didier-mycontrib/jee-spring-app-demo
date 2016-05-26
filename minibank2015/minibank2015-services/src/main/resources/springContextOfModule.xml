@@ -4,9 +4,17 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
 http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+
     <import resource="dataSourceSpringConf.xml" />
     <import resource="serviceSpringConf.xml" />
+
 	
-	
+<!-- with java config -->
+<!-- 
+    <bean class="tp.myapp.minibank.impl.config.DomainAndPersistenceConfig"/>
+    <bean class="tp.myapp.minibank.impl.config.DataSourceConfig"/>
+-->
+    
+
 
 </beans>

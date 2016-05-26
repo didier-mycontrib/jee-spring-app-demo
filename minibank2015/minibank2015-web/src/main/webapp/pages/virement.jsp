@@ -11,7 +11,10 @@
 <f:view>
 	<h3>virement interne</h3>
 	<h:form id="virement">
-	    montant à transférer:  <h:inputText id="montant" value="#{virement.montant}"/><br/><br/>
+	    montant à transférer:  <h:inputText id="montant" value="#{virement.montant}">
+	                              <f:validateDoubleRange   minimum="0.5" maximum="999999999"/>
+	                           </h:inputText>
+	    <br/><br/>
 	 
 	    compte à débiter: <h:selectOneMenu id="numCptDeb" value="#{virement.numCptDeb}">
 	    	<f:selectItems value="#{virement.comptesPossibles}" />
@@ -22,7 +25,7 @@
 	    <h:commandButton value="effectuer virement" 
 	                     action="#{virement.effectuerVirement}"/>
 	</h:form>
-	<h:messages/> 
+	<h:messages showDetail="true"/> 
 </f:view>
 </body>
 </html>

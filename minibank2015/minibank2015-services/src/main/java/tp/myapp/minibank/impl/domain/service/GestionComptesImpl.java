@@ -97,4 +97,14 @@ public class GestionComptesImpl implements GestionComptes {
 		return listeOp;
 	}
 
+	public CompteDao getCompteDao() {
+		return compteDao;
+	}
+
+	public void setCompteDao(CompteDao compteDao) {
+		this.compteDao = compteDao;
+	}
+	
+	
+
 }

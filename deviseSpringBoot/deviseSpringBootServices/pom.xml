@@ -1,0 +1,266 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>tp</groupId>
+    <artifactId>deviseSpringBoot</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>deviseSpringBootServices</artifactId>
+  
+  
+	<properties>
+   <!-- herite de spring-boot-starter-parent et spring-boot-dependencies -->   
+         <!-- 		 
+          <hibernate.version>4.3.10.Final</hibernate.version>
+   		  <hibernate-entitymanager.version>4.3.10.Final</hibernate-entitymanager.version>
+   		  <spring.version>4.1.7.RELEASE</spring.version>
+   		 
+   		 -->
+   		  <!-- valeur (sans profile test) pour le fonctionnement normal avec MySql -->
+          <hibernate.dialect>org.hibernate.dialect.MySQLDialect</hibernate.dialect>	
+          <hibernate.hbm2ddl.auto>none</hibernate.hbm2ddl.auto>
+          <myDB.driverClassName>com.mysql.jdbc.Driver</myDB.driverClassName>
+          <myDB.url>jdbc:mysql://localhost/devise_db_ex1</myDB.url>
+          <myDB.username>root</myDB.username> <!-- root ou formation ou .... -->
+          <myDB.password>root</myDB.password>   <!-- root ou formation ou .... -->		  		
+   		  	   		  		
+	</properties>
+  
+  
+  
+  <dependencies>
+  
+        <dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>			
+			<scope>test</scope>
+		</dependency>		
+		<!-- 
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+	    -->	
+    
+      
+	 	 <dependency>
+    	<groupId>org.dbunit</groupId>
+    	<artifactId>dbunit</artifactId>
+    	<version>2.5.0</version>
+	</dependency>
+	 
+  
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+		
+		
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-core</artifactId> 
+			<!-- <artifactId>mockito-all</artifactId> -->
+		</dependency>
+		
+		<dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>hamcrest-core</artifactId>
+			<scope>compile</scope>
+		</dependency>
+	
+		
+		
+		
+		
+		<dependency>
+       	 <groupId>org.slf4j</groupId>
+       	 <artifactId>slf4j-api</artifactId>
+      	  <scope>compile</scope>
+    	</dependency>
+    	
+    	<!-- 
+    	<dependency>
+    		<groupId>log4j</groupId>
+    		<artifactId>log4j</artifactId>
+    		<scope>runtime</scope>
+		</dependency>
+  
+    	<dependency>
+     	   <groupId>org.slf4j</groupId>
+       	 	<artifactId>slf4j-log4j12</artifactId>
+        	<scope>runtime</scope>
+    	</dependency>
+    	-->
+    	
+    	<!-- logback-classic is now better than log4J .
+    	     it's the defaut (native)  SLF4J implementation
+    	     (and used by default with spring-boot) 
+    	     
+    	     Configuration file is src/main/resources/logback.xml (used if logback-test.xml not found)
+    	                       and src/test/resources/logback-test.xml (not stored in built artifact)
+    	     -->
+    	<dependency>
+    		<groupId>ch.qos.logback</groupId>
+    		<artifactId>logback-classic</artifactId>
+		</dependency>
+    	
+    	<dependency>
+    		<groupId>net.sf.dozer</groupId>
+   			 <artifactId>dozer</artifactId>
+   			 <version>5.5.1</version>
+   			 <scope>compile</scope>
+		</dependency>
+		
+	<!-- 
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<scope>runtime</scope> 
+		</dependency>
+		-->
+	
+	 <!--  not mysql , oracle , db2, ... database but EMBEDDED database (h2, hsqldb, ...)
+	  for spring-boot @EnableAutoConfiguration -->
+		<dependency>
+   			 <groupId>org.hsqldb</groupId>
+   			 <artifactId>hsqldb</artifactId>
+		</dependency>
+       
+		
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-entitymanager</artifactId>
+			<!-- with indirect/transitive <artifactId>hibernate-core</artifactId> -->
+		</dependency>
+		
+		<!-- 
+		<dependency>
+			<groupId>cglib</groupId>
+			<artifactId>cglib</artifactId>
+			<version>2.2.2</version> 
+		</dependency>
+		-->
+		
+		<!-- 
+		<dependency>
+			<groupId>javax.transaction</groupId>
+			<artifactId>jta</artifactId>
+			<version>1.1</version>
+		</dependency>
+		-->
+		
+		<dependency>
+            <groupId>javax.validation</groupId>
+            <artifactId>validation-api</artifactId>   
+            <version>1.1.0.Final</version>
+             <scope>compile</scope>                     
+        </dependency>
+		
+		<dependency>
+     		<groupId>org.hibernate</groupId>
+     		<artifactId>hibernate-validator</artifactId>
+     		 <scope>runtime</scope> 
+	   </dependency>
+	   
+	   <dependency>
+			<groupId>javax.el</groupId>
+			<artifactId>javax.el-api</artifactId>
+			<version>3.0.0</version>    <!-- indirect dependency for hibernate-validator or  ??? -->
+		</dependency>
+
+      <!--  <artifactId>spring-core</artifactId>
+         et <artifactId>spring-beans</artifactId>
+         et <artifactId>spring-aop</artifactId>
+          sont indirectement lies a spring-context -->
+
+	
+		
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<scope>compile</scope>
+		</dependency>
+		
+		
+		
+		<dependency>  
+             <groupId>javax.inject</groupId>  
+             <artifactId>javax.inject</artifactId>  
+             <version>1</version>  
+        </dependency>
+        
+        
+		
+		<dependency>
+           <groupId>org.aspectj</groupId>
+           <artifactId>aspectjrt</artifactId><!--  pour annotations @Before , @Around , .... -->
+           <scope>compile</scope>
+       </dependency> 
+       
+        <dependency>
+           <groupId>org.aspectj</groupId>
+           <artifactId>aspectjweaver</artifactId> 
+           <scope>runtime</scope>
+       </dependency>
+       
+		
+		<!-- <artifactId>spring-tx</artifactId> et 
+		     <artifactId>spring-jdbc</artifactId> sont indirectement lies a spring-orm -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-orm</artifactId>
+			<scope>compile</scope>
+		</dependency>
+		
+		
+		
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		
+		 <!--  simplement pour rattacher la facade au "ServletContext" -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<scope>compile</scope>
+		</dependency>
+		
+		 <!--  simplement pour rattacher la facade au "ServletContext" -->
+       <dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<!-- servlet-api 2.5 for tc6 et javax.servlet-api 3.0.1 for tc7 -->
+			<version>3.0.1</version>
+			<scope>provided</scope>
+		</dependency>		
+		
+	</dependencies>
+	
+	<build>
+
+	
+	<resources>
+        <resource>
+	         <directory>src/main/resources</directory>
+	         <filtering>true</filtering>
+	     </resource>	     
+    </resources>
+    
+    <testResources>
+        <testResource>
+			<directory>src/test/resources</directory>
+	         <filtering>true</filtering>
+	     </testResource>
+	</testResources>	
+	<!-- jdk 1.7 ou 1.8 defini dans un pom parent -->
+    <finalName>${project.artifactId}</finalName>
+  </build>
+	
+</project>

@@ -1,0 +1,46 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>tp</groupId>
+  <artifactId>deviseSpringBoot</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <modules>
+  	<module>deviseSpringBootServices</module>
+  	<module>deviseSpringBootWeb</module>
+  	<module>deviseSpringBootMvc</module>
+  </modules>
+  
+  <properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+       <org.spring-boot.version>1.2.5.RELEASE</org.spring-boot.version> <!-- ??? -->
+  </properties>
+  
+  <!-- (grand) parent ici ou ailleurs ou sous autre forme ?  -->
+  <parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>1.2.5.RELEASE</version>
+	</parent>
+	
+	<!-- idée (pour sous modules) : plusieurs profiles exclusifs:
+	      autoConfig (peu de dépendances "maven" à expliciter et avec @Configuration et @EnableAutoConfiguration
+	                   dans le code java)
+	      explicitConfig (plus de dépendances "maven" explicites et sans @EnableAutoConfiguration )
+	 -->
+  
+  
+   <build>
+		<plugins>
+		   <!-- configuration (enventuellement heritee) pour compilation en java 7 -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<!-- default maven-compiler-plugin version -->
+				<configuration>
+					<source>1.7</source>
+					<target>1.7</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

@@ -11,7 +11,7 @@ http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
 http://www.springframework.org/schema/context
 http://www.springframework.org/schema/context/spring-context-3.0.xsd">
     <!-- version mysql -->
-    <!-- 
+    
     <bean id="myDataSource"
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
@@ -19,11 +19,12 @@ http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 		<property name="username" value="root" />
 		<property name="password" value="root" />
 	</bean>
-	-->
+	
 	<!-- version hsqldb 
 	(java -cp ../lib/hsqldb.jar org.hsqldb.util.DatabaseManager)
 	jdbc:hsqldb:mem:devise_db_mem ou bien jdbc:hsqldb:file:devise_db
 	-->
+	<!-- 
 	<bean id="myDataSource"
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="org.hsqldb.jdbc.JDBCDriver" />
@@ -31,5 +32,6 @@ http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 		<property name="username" value="SA" />
 		<property name="password" value="" />
 	</bean>
+	-->
 	
 </beans>

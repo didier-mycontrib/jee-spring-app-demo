@@ -12,26 +12,7 @@ http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
 http://www.springframework.org/schema/context
 http://www.springframework.org/schema/context/spring-context-3.0.xsd" >
 		
-		<!-- pour la prise en compte de @persistenceContext() , ... par Spring -->
-<bean
-class="org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor"
-/>
- 
- <!--   bean "myDataSource" in dataSourceForTestSpringConf.xml or dataSourceSpringConf.xml -->
- 
-<bean id="myEmf" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
-  <property name="dataSource" ref="myDataSource"/>
-</bean> 
-
-<bean id="txManager" class="org.springframework.orm.jpa.JpaTransactionManager">
-      <property name="entityManagerFactory" ref="myEmf"/>
-</bean>
-	
-	
-<!--  prend en compte les @Transactional dans le code java -->
-	<tx:annotation-driven transaction-manager="txManager" />
-	
-	
+	<import resource="jpaSpringConf.xml" />	
 	 <context:annotation-config/>  
 	
 	<context:component-scan base-package="org.mycontrib.generic"/>

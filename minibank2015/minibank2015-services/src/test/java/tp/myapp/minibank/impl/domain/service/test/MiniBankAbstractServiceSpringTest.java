@@ -11,7 +11,10 @@ import tp.myapp.minibank.itf.domain.FacadeMiniBank;
 import tp.myapp.minibank.itf.domain.FacadeMiniBankFactory;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations={"/serviceSpringConf.xml","/dataSourceForTestSpringConf.xml"})
+//@ContextConfiguration(locations={"/serviceSpringConf.xml","/dataSourceForTestSpringConf.xml"})
+//@ContextConfiguration(locations="/springContextOfModule.xml") // xml config
+@ContextConfiguration(classes={tp.myapp.minibank.impl.config.DataSourceConfig.class,
+		                       tp.myapp.minibank.impl.config.DomainAndPersistenceConfig.class}) //java config
 public abstract class MiniBankAbstractServiceSpringTest {
 	
 	
