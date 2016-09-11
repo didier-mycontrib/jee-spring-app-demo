@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+    xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-4.1.xsd
+http://www.springframework.org/schema/aop
+http://www.springframework.org/schema/aop/spring-aop-4.1.xsd
+http://www.springframework.org/schema/mvc
+http://www.springframework.org/schema/mvc/spring-mvc-4.1.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context.xsd" >
+		
+	<!-- <import resource="xySpringConf.xml" /> -->	
+	 <context:annotation-config/>  
+	
+	<!-- <context:component-scan base-package="..."/> -->
+	<context:component-scan base-package="tp.app.zz.web"/>
+	
+	 <mvc:annotation-driven  />  <!-- @Controller , @RequestMapping , ... -->
+	<!-- <mvc:annotation-driven content-negotiation-manager="contentNegotiationManager" /> --> <!-- version pour WS REST xml,json -->
+	
+	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+	        <!-- Example: a logical view name of 'showMessage' is mapped to
+                                          '/WEB-INF/view/showMessage.jsp' -->
+	        <property name="prefix" value="/WEB-INF/view/"/>
+	        <property name="suffix" value=".jsp"/>
+	</bean>
+	
+	<!-- 
+	<bean id="contentNegotiationManager"
+             class="org.springframework.web.accept.ContentNegotiationManagerFactoryBean">
+	    <property name="favorPathExtension" value="false" />
+	    <property name="favorParameter" value="true" />
+	    <property name="parameterName" value="mediaType" />
+	    <property name="ignoreAcceptHeader" value="true"/>
+	    <property name="useJaf" value="false"/>
+	    <property name="defaultContentType" value="application/json" />
+	 
+	    <property name="mediaTypes">
+	        <map>
+	            <entry key="json" value="application/json" />
+	            <entry key="xml" value="application/xml" />
+	       </map>
+	    </property>
+    </bean>
+    -->
+
+</beans>

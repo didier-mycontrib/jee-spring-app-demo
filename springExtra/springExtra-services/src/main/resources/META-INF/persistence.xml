@@ -1,0 +1,30 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence
+http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
+	version="1.0">
+	<persistence-unit name="myPersistenceUnit"
+		transaction-type="RESOURCE_LOCAL">
+<!-- with JNDI lookup inside JBoss App Serv -->
+<!-- <jta-data-source>java:/DefaultDS</jta-data-source> -->
+
+	<!-- 
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+	replace by jpaVendor in spring xml or java config	
+	-->
+		
+		
+		<class>tp.app.zz.data.entity.Devise</class>  
+		<!-- <class>tp.app.zz.data.entity.Pays</class>  -->
+		
+		<properties>
+			<!-- <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect" /> -->
+			<property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect" />  
+			 
+			<!-- <property name="hibernate.hbm2ddl.auto" value="none" /> -->
+			<!-- <property name="hibernate.hbm2ddl.auto" value="create-drop" /> -->
+			<!--  <property name="hibernate.dialect" value="org.hibernate.dialect.HSQLDialect" /> -->
+	 		<!-- <property name="hibernate.hbm2ddl.auto" value="update" /> -->
+	 </properties>
+	</persistence-unit>
+</persistence>
