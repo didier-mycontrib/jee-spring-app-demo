@@ -15,23 +15,23 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.SessionAttributes;
 
-import tp.app.zz.web.data.Client;
+import tp.app.zz.web.data.Customer;
 
 @Controller //but not "@Component" for spring web controller
 //@Scope(value="singleton")//by default
-@RequestMapping("/client")
+@RequestMapping("/customer")
 @SessionAttributes( value={"customer"} ) //noms des "modelAttributes" qui sont EN PLUS récupérés/stockés en SESSION HTTP
                                          //au niveau de la page de rendu --> visibles en requestScope ET en sessionScope
-public class ClientCtrl {
+public class CustomerCtrl {
 	
-	private Map<Long,Client> clientMap = new HashMap<Long,Client>(); //simulation sans service
+	private Map<Long,Customer> clientMap = new HashMap<Long,Customer>(); //simulation sans service
 	
-	public ClientCtrl(){
-		clientMap.put(0L, new Client(0L,null,null));//empty default customer
-		clientMap.put(1L, new Client(1L,"Therieur","alex"));
-		clientMap.put(2L, new Client(2L,"Therieur","alain"));
-		clientMap.put(3L, new Client(3L,"Fer","lucie"));
-		clientMap.put(4L, new Client(4L,"Air","axelle"));
+	public CustomerCtrl(){
+		clientMap.put(0L, new Customer(0L,null,null));//empty default customer
+		clientMap.put(1L, new Customer(1L,"Therieur","alex"));
+		clientMap.put(2L, new Customer(2L,"Therieur","alain"));
+		clientMap.put(3L, new Customer(3L,"Fer","lucie"));
+		clientMap.put(4L, new Customer(4L,"Air","axelle"));
 	}
 	
     //NB: @SessionAttributes et @ModelAttribute sont gérés avant @RequestMapping
@@ -62,7 +62,7 @@ public class ClientCtrl {
 		}
 	
 	@RequestMapping(value="/updateClient" , method = RequestMethod.POST)
-    public String updateClient(Model model , @Valid  @ModelAttribute("customer") Client client , BindingResult bindingResult) {
+    public String updateClient(Model model , @Valid  @ModelAttribute("customer") Customer client , BindingResult bindingResult) {
 		if (bindingResult.hasErrors()) {
 		    // form validation error
 			System.out.println("form validation error: " + bindingResult.toString());
@@ -78,7 +78,7 @@ public class ClientCtrl {
 	@RequestMapping("/info")
     public String toInfosClient(Model model) {
         //mise à jour du telephone du client 0L (pour le fun / la syntaxe):
-		Client cli = (Client) model.asMap().get("customer");
+		Customer cli = (Customer) model.asMap().get("customer");
 		if(cli!=null && cli.getNumero()==0L) 
 			  cli.setTelephone("0102030405");
         return "infosClient"; //WEB-INF/view/infosClient.jsp selon viewResolver de WEB-INF/mvc-config
@@ -86,8 +86,10 @@ public class ClientCtrl {
 	
 	@RequestMapping("/endSession")
     public String endSession(Model model,HttpSession session) {
-        if(model.containsAttribute("customer"))
+        if(model.containsAttribute("customer")){
 	            model.asMap().remove("customer");
+	            model.addAttribute("customer", clientMap.get(0L));//reinit default ("unknowned") customer
+        }
 		session.invalidate();
         return "infosClient"; //WEB-INF/view/infosClient.jsp selon viewResolver de WEB-INF/mvc-config
     }

@@ -5,7 +5,7 @@ import javax.validation.constraints.Size;
 import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.NotEmpty;
 
-public class Client {
+public class Customer {
 	private Long numero;
 	private String nom;
 	private String prenom;
@@ -21,14 +21,14 @@ public class Client {
 	
 	
 	
-	public Client(Long numero, String nom, String prenom) {
+	public Customer(Long numero, String nom, String prenom) {
 		super();
 		this.numero = numero;
 		this.nom = nom;
 		this.prenom = prenom;
 	}
 
-	public Client() {
+	public Customer() {
 		super();
 	}
 	

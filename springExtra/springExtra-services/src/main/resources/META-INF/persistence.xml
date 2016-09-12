@@ -14,7 +14,10 @@ http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
 	-->
 		
 		
-		<class>tp.app.zz.data.entity.Devise</class>  
+		<class>tp.app.zz.data.entity.Devise</class> 
+		<class>tp.app.zz.data.entity.Compte</class> 
+		<class>tp.app.zz.data.entity.Client</class> 
+		<class>tp.app.zz.data.entity.Operation</class>  
 		<!-- <class>tp.app.zz.data.entity.Pays</class>  -->
 		
 		<properties>

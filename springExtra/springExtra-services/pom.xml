@@ -196,23 +196,7 @@
 			<version>${org.springframework.version}</version>
 			<scope>test</scope>
 		</dependency>
-		
-		 <!--  simplement pour rattacher la facade au "ServletContext" -->
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-web</artifactId>
-			<version>${org.springframework.version}</version>
-			<scope>compile</scope>
-		</dependency>
-		
-		 <!--  simplement pour rattacher la facade au "ServletContext" -->
-       <dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>javax.servlet-api</artifactId>
-			<!-- servlet-api 2.5 for tc6 et javax.servlet-api 3.0.1 for tc7 -->
-			<version>3.0.1</version>
-			<scope>provided</scope>
-		</dependency>		
+			
 		
 	</dependencies>
 	<build>

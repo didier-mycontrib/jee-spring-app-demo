@@ -12,8 +12,11 @@
 	<hr/>
 	<a href="../devises/liste">liste des devises</a> <br/>
 	<a href="../devises/paramConv">conversion de devise</a> <br/>
-	<a href="../client/info">infos client</a> <br/>
+	<a href="../customer/info">infos customer (version simple)</a> <br/>
+	<hr/>
+	<a href="../banque/form_identification"> login client banque</a> <br/>
 	<hr/>
 	<a href="../../index.html">retour index.html</a> <br/>
+
 </body>
 </html>

@@ -10,6 +10,7 @@
   
   <properties>
    		<org.springframework.version>4.3.2.RELEASE</org.springframework.version> <!-- 4.1.1.RELEASE , 4.3.2.RELEASE -->
+   		<org.springframework.security.version>4.1.3.RELEASE</org.springframework.security.version>
    		<!--  <org.apache.cxf.version>3.0.2</org.apache.cxf.version> --> <!-- 2.7.13 , 3.0.2 , ... -->
 	</properties>
 
@@ -79,7 +80,8 @@
      		<groupId>org.hibernate</groupId>
      		<artifactId>hibernate-validator</artifactId>
      		<version>5.1.2.Final</version>  
-     		 <scope>runtime</scope> 
+     		<!-- <scope>runtime</scope> -->
+     		  <scope>compile</scope> 
 	   </dependency>
 		
 		<dependency>
@@ -129,6 +131,23 @@
 			<groupId>javax.servlet</groupId>
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
+		</dependency>
+		
+	
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-core</artifactId>
+			<version>${org.springframework.security.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-web</artifactId>
+			<version>${org.springframework.security.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-config</artifactId>
+			<version>${org.springframework.security.version}</version>
 		</dependency>
 
 	
