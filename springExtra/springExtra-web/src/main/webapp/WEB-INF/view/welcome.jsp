@@ -5,9 +5,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>welcome</title>
+<style>
+  body { background:#00dddd; }
+</style>
 </head>
 <body>
-	<h3>welcome (spring web mvc)</h3>
+	<h3>welcome (spring web mvc) - menu secondaire</h3>
 	message=<b>${message}</b>
 	<hr/>
 	<a href="../devises/liste">liste des devises</a> <br/>
@@ -17,6 +20,10 @@
 	<a href="../banque/form_identification"> login client banque</a> <br/>
 	<hr/>
 	<a href="../../index.html">retour index.html</a> <br/>
-
+	<hr/>
+	<a href="memberOnly">memberOnly (acces restreint / spring-security)</a> <br/>
+	<hr/>
+	<a href="../app/finSession">fin de session / deconnexion</a>
+	num session http/jee= <%=session.getId()%>
 </body>
 </html>

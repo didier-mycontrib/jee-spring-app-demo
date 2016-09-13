@@ -8,7 +8,7 @@
 <title>param conversion</title>
 </head>
 <body>
-	<h3>conversion de devises </h3>
+	<h3>conversion de devises (v1 sans form:form)</h3>
 	<form action="doConversion" method="GET">
 	    source: <select name="source" >
 	              <c:forEach var="d" items="${allDevises}">
@@ -39,6 +39,6 @@
 	</form>
 	sommeConvertie=<b>${sommeConvertie}</b>
 	<hr/>
-	<a href="../app/to_welcome">retour page accueil</a> <br/>
+	<a href="../app/to_welcome">retour welcome</a> <br/>
 </body>
 </html>

@@ -9,18 +9,16 @@ http://www.springframework.org/schema/security/spring-security.xsd">
 	<!-- parametrage spring utile si filtre web DelegatingFilterProxy actif 
 		(dans web.xml) -->
 	<security:http use-expressions="true">
-		<security:intercept-url pattern="/index.html"
-			access="permitAll" />
-		<security:intercept-url pattern="/libre.jsp"
-			access="permitAll" />
-		<security:intercept-url pattern="/mvc/**"
-			access="permitAll" />
-		<!-- <security:intercept-url pattern="/**" access="permitAll" /> -->
-		<security:intercept-url pattern="/member.jsp"
-			access="hasAnyRole('supervisor','teller')" />
-		<!-- <security:intercept-url pattern="/listAccounts.html" access="isAuthenticated()" 
-			/> -->
-		<security:intercept-url pattern="/**" access="denyAll" />
+	  
+		<security:intercept-url pattern="/index.html"	access="permitAll" />
+		
+		<security:intercept-url pattern="/mvc/app/memberOnly"
+			access="hasAnyRole('ROLE_SUPERVISOR','ROLE_TELLER')" />	
+			
+		<security:intercept-url pattern="/mvc/**"	access="permitAll" />
+						
+		<!-- attention WS REST bloque en mode PUT  -->
+		
 		<security:form-login />
 		<security:logout />
 	</security:http>
@@ -36,13 +34,13 @@ http://www.springframework.org/schema/security/spring-security.xsd">
 			<!-- en prod , via jdbc , ldap ou ... -->
 			<security:user-service> <!-- petite liste explicite pour tests (mode dev) -->
 				<security:user name="admin" password="adminpwd"
-					authorities="supervisor, teller, user" />
+					authorities="ROLE_SUPERVISOR,ROLE_TELLER,ROLE_USER" />
 				<security:user name="user1" password="pwd1"
-					authorities="user" />
+					authorities="ROLE_USER" />
 				<security:user name="didier" password="didierpwd"
-					authorities="teller, user" />
+					authorities="ROLE_TELLER,ROLE_USER" />
 				<security:user name="user2" password="pwd2"
-					authorities="user" />
+					authorities="ROLE_USER" />
 			</security:user-service>
 		</security:authentication-provider>
 	</security:authentication-manager>

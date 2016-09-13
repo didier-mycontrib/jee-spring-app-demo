@@ -16,6 +16,6 @@
 		</c:forEach>
 	</table>
 	<hr/>
-	<a href="../app/to_welcome">retour page accueil</a> <br/>
+	<a href="../app/to_welcome">retour welcome</a> <br/>
 </body>
 </html>

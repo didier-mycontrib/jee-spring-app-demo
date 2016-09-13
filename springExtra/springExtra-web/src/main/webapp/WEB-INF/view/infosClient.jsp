@@ -45,6 +45,6 @@
 	    <input  type="submit" value="se déconnecter (fin de session)" />
 	</form>
 	<br/>
-	<a href="../app/to_welcome">retour page accueil</a> <br/>
+	<a href="../app/to_welcome">retour welcome</a> <br/>
 </body>
 </html>

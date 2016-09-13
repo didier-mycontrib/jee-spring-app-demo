@@ -41,7 +41,7 @@ public  class GestionDevisesImpl implements GestionDevises {
 	public java.io.Serializable createNewDevise(Devise dev) throws RuntimeException {
 		try{
 			daoDevise.persistNewEntity(dev);
-			return dev.getPk();
+			return dev.getCodeDevise();
 		}catch(Exception ex){
 		    logger.error("echec createNewDevise",ex);
 		    throw new RuntimeException("echec createNewDevise",ex);

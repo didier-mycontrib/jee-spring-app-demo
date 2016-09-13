@@ -14,8 +14,8 @@ import tp.app.zz.data.entity.Devise;
 import tp.app.zz.itf.domain.service.GestionDevises;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations={"/springContext.xml"})
-//@ContextConfiguration(classes={tp.app.zz.config.DomainAndPersistenceConfig.class}) //sans spring-boot
+//@ContextConfiguration(locations={"/springContext.xml"})
+@ContextConfiguration(classes={tp.app.zz.config.DomainAndPersistenceConfig.class}) //sans spring-boot
 //@SpringApplicationConfiguration(classes={tp.app.zz.config.DomainAndPersistenceConfig.class}) //avec spring-boot
 public class TestServiceGestionDevises { 
 

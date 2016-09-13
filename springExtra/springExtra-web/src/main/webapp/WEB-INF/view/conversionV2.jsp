@@ -14,7 +14,7 @@
 </style>
 </head>
 <body>
-	<h3>conversion de devises </h3>
+	<h3>conversion de devises (v2 avec form:form)</h3>
 	<form:form action="doConversion"  modelAttribute="conv" method="POST">
 	    source: <form:select path="monnaieSrc" >
 	              <form:options items="${allDevises}" itemLabel="monnaie" itemValue="monnaie"/>
@@ -27,6 +27,6 @@
 	</form:form>
 	sommeConvertie=<b>${sommeConvertie}</b>
 	<hr/>
-	<a href="../app/to_welcome">retour page accueil</a> <br/>
+	<a href="../app/to_welcome">retour welcome</a> <br/>
 </body>
 </html>

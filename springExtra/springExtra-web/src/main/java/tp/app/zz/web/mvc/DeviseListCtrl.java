@@ -49,9 +49,9 @@ public class DeviseListCtrl {
 	    }
 	 
 	 @RequestMapping("/doConversion")
-	    public String doConversion(Model model,@RequestParam(name="montant")double montant,
-	    									   @RequestParam(name="source")String monnaieSrc,
-	    									   @RequestParam(name="cible")String monnaieDest) {
+	    public String doConversion(Model model,@RequestParam(value="montant")double montant,
+	    									   @RequestParam(value="source")String monnaieSrc,
+	    									   @RequestParam(value="cible")String monnaieDest) {
 		    //model est de scope=request
 		   // model.addAttribute("allDevises", listeDevises); //pre-load via @PostConstruct gestionDevises.getListeDevises();
 		    model.addAttribute("montant", montant);

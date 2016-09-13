@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import tp.app.zz.data.entity.Devise;
@@ -41,14 +40,14 @@ public class DeviseJsonRestCtrl {
 		     }
 		 } 
 	 
-	 
+	
 	 @RequestMapping(value="/" , method=RequestMethod.PUT ) 
 	 @ResponseBody  
 	 Devise updateDevise(@RequestBody String deviseAsJsonString) {
 		 Devise devise=null;
 		 try {
 			ObjectMapper jacksonMapper = new ObjectMapper();
-			jacksonMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
+			//jacksonMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
 			devise = jacksonMapper.readValue(deviseAsJsonString,Devise.class);
 			System.out.println("devise to update:" + devise);			
 			gestionDevises.updateDevise(devise);
@@ -59,8 +58,11 @@ public class DeviseJsonRestCtrl {
 		}
 	} 
 	 
-	 /*// avec <mvc:annotation-driven content-negotiation-manager="contentNegotiationManager" /> ???
-	 @RequestMapping(value="/" , method=RequestMethod.PUT ,  consumes = {MediaType.APPLICATION_JSON_VALUE}) 
+	 /*
+	 // avec <mvc:annotation-driven content-negotiation-manager="contentNegotiationManager" /> 
+	 // et url en .json et ....
+	 @RequestMapping(value="/" , method=RequestMethod.PUT ,  
+			                     consumes = {MediaType.APPLICATION_JSON_VALUE}) 
 	 @ResponseBody  
 	 Devise updateDevise(Devise devise) {
 		 try {

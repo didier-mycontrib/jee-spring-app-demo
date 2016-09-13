@@ -25,10 +25,10 @@ public  class Devise  {
 	public String toString(){
 		return "Devise("+ "dChange=" + dChange+","+ "monnaie=" + monnaie+","+ "codeDevise=" + codeDevise + ")";
 	}
- 
+    /*
 	public java.io.Serializable getPk(){
 	 		return codeDevise;
-  	}
+  	}*/
 	public Double getDChange() {
 		return this.dChange;
 	}

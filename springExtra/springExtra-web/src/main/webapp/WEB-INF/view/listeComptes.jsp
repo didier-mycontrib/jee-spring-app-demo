@@ -21,5 +21,7 @@
 	</table>
 	<hr/>
 	<a href="nouveau_virement">nouveau virement</a><br/>
+	<br/>
+	<a href="../app/to_welcome">retour welcome</a> <br/>
 </body>
 </html>

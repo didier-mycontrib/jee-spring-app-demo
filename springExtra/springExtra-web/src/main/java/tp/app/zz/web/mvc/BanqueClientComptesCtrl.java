@@ -23,9 +23,8 @@ import tp.app.zz.web.mvc.form.VirementForm;
 @RequestMapping("/banque")
 @SessionAttributes( value={"numClient","listeCpt"} ) //noms des "modelAttributes" qui sont EN PLUS récupérés/stockés en SESSION HTTP
                                        //au niveau de la page de rendu --> visibles en requestScope ET en sessionScope
-public class BanqueCtrl {
+public class BanqueClientComptesCtrl {
 	
-	private Long numClientIdentifie = null;
 	
 	@Autowired //ou @Inject
 	private ServiceCompte serviceComptes;
@@ -48,7 +47,7 @@ public class BanqueCtrl {
 	 }
 	 
 	 @RequestMapping("/dernieresOperations") //init selon numCptSel avant affichage
-	    public String toDernieresOperations(Model model,@RequestParam(name="numCptSel")Long numCptSel){
+	    public String toDernieresOperations(Model model,@RequestParam("numCptSel")Long numCptSel){
 		 List<Operation> listeOp = 
 				 this.serviceComptes.rechercherCompteAvecOperations(numCptSel).getOperations();
 		 model.addAttribute("listeOp", listeOp);
@@ -57,11 +56,10 @@ public class BanqueCtrl {
 	 }
 	
 	 @RequestMapping(value="/identification" )
-	    public String doIdentification(Model model,@RequestParam(name="numClient")Long numClient) {
+	    public String doIdentification(Model model,@RequestParam("numClient")Long numClient) {
 		    
 		    List<Compte> listeCpt = serviceComptes.rechercherComptesDuClient(numClient);
 		    if(listeCpt!=null && !listeCpt.isEmpty()){
-		    	  this.numClientIdentifie = numClient;
 		          model.addAttribute("numClient",numClient);
 	              model.addAttribute("listeCpt",listeCpt);
 		    }
@@ -69,30 +67,6 @@ public class BanqueCtrl {
 	        return "listeComptes"; //WEB-INF/view/listeComptes.jsp selon viewResolver de WEB-INF/mvc-config
 	    }
 	 
-	 @RequestMapping("/nouveau_virement")
-	    public String initNouveauVirment(){
-		 return "virement"; //WEB-INF/view/virement.jsp selon viewResolver de WEB-INF/mvc-config
-	 }
 	 
-	 @RequestMapping("/doVirement")
-	    public String doVirement(Model model,@ModelAttribute("virementForm") @Valid VirementForm virementForm , BindingResult bindingResult) {
-		if (bindingResult.hasErrors()) {
-			    // form validation error
-				System.out.println("form validation error: " + bindingResult.toString());
-				return "virement";
-			} else {
-			    // form input is ok*/
-		    System.out.println("virement montant="+virementForm.getMontant() 
-		                           + " numCptDeb="+virementForm.getNumCptDeb() 
-		                           +" numCptCred="+virementForm.getNumCptCred());
-	       
-		    this.serviceComptes.virement(virementForm.getMontant(), virementForm.getNumCptDeb(), virementForm.getNumCptCred());
-		    //reactualiser les valeurs des comptes en session http:
-		    
-		    model.addAttribute("listeCpt", this.serviceComptes.rechercherComptesDuClient(numClientIdentifie));
-		    model.addAttribute("message", "virement bien effectue");
-	        return "listeComptes"; //WEB-INF/view/conversionV2.jsp selon viewResolver de WEB-INF/mvc-config
-			}
-	    }
 	
 }

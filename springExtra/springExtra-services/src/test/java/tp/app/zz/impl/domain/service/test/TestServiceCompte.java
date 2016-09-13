@@ -12,12 +12,14 @@ import org.springframework.test.context.ContextConfiguration;
 //import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+import tp.app.zz.config.DomainAndPersistenceConfig;
 import tp.app.zz.data.entity.Compte;
 import tp.app.zz.data.entity.Operation;
 import tp.app.zz.itf.domain.service.ServiceCompte;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations={"/springContext.xml"})
+//@ContextConfiguration(locations={"/springContext.xml"})
+@ContextConfiguration(classes={DomainAndPersistenceConfig.class})
 public class TestServiceCompte { 
 
     @Inject

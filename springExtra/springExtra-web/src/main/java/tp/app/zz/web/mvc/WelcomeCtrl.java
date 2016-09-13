@@ -1,5 +1,8 @@
 package tp.app.zz.web.mvc;
 
+import javax.servlet.http.HttpSession;
+
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -20,6 +23,20 @@ public class WelcomeCtrl {
 	 @RequestMapping("/to_welcome")
 	    public String toWelcome(Model model) {
 	        model.addAttribute("message", "bienvenu(e)");
+	        return "welcome"; //WEB-INF/view/welcome.jsp selon viewResolver de WEB-INF/mvc-config
+	    }
+	 
+	 @RequestMapping("/memberOnly")
+	    public String toMember(Model model) {
+	        model.addAttribute("message", "message top secret 007");
+	        return "member"; //WEB-INF/view/member.jsp selon viewResolver de WEB-INF/mvc-config
+	    }
+	 
+	 @RequestMapping("/finSession")
+	    public String finSession(Model model,HttpSession session) {
+		    SecurityContextHolder.clearContext(); //RAZ context Spring security
+		    session.invalidate();
+	        model.addAttribute("message", "session terminée");
 	        return "welcome"; //WEB-INF/view/welcome.jsp selon viewResolver de WEB-INF/mvc-config
 	    }
 

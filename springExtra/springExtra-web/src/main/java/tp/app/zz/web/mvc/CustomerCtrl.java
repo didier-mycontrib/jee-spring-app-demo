@@ -49,7 +49,7 @@ public class CustomerCtrl {
 	*/
 	
 	@ModelAttribute 
-		public void addAttributesInModel(Model model,@RequestParam(name="numCli",required=false)Long numCli) {
+		public void addAttributesInModel(Model model,@RequestParam(value="numCli",required=false)Long numCli) {
 		//System.out.println("addAttributesInModel called");
 		if(numCli!=null){
 			/*

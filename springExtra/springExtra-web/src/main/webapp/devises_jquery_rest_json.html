@@ -43,8 +43,8 @@
         
 		
 		$('#btnUpdate').on('click',function(){
-		// $("#spanMsg").html( "message in the bottle" ) ;
 		 local_update_selected_devise();
+		//$("#spanMsg").html( "message in the bottle" + JSON.stringify(deviseSelected) ) ;
 		 $.ajax({
            type: "PUT",
            url: "mvc/rest/devises/",
@@ -56,6 +56,9 @@
                } else {
                    $("#spanMsg").html("Cannot PUT updated data");
                }
+           },
+           error: function(xhr, status, error){
+        	   $("#spanMsg").html( "status:" + status + " error : " + error ) ;
            }
 		   });
 		});
@@ -88,5 +91,7 @@
 	  change : <input id="txtExchangeRate" type='text' /><br/>
 	  <input type='button' value="update devise" id="btnUpdate"/> <br/>
 	  <span id="spanMsg"></span> <br/>
+	  <hr/>
+	  <a href="index.html">retour vers index.html</a>
 	  </body>
      </html>

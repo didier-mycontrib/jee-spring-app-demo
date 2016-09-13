@@ -11,5 +11,6 @@
 	exception=<i>${exception.message}</i> <br/>
 	url=${url}
 	<hr/>
+	<a href="../app/to_welcome">retour welcome</a> <br/>
 </body>
 </html>

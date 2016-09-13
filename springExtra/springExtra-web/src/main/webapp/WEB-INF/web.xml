@@ -12,7 +12,9 @@ version="3.0">
   <context-param>
     <param-name>contextConfigLocation</param-name>
     <!-- <param-value>classpath*:/springContext.xml,classpath:/springWebContext.xml</param-value> -->
-    <param-value>classpath*:/springContext.xml,classpath:/security-config.xml</param-value> <!-- + classpath:/mvc-config.xml of DispatcherServlet -->
+    <!-- <param-value>classpath*:/springContext.xml,classpath:/security-config.xml</param-value>
+          --> <!-- + classpath:/mvc-config.xml of DispatcherServlet -->
+          <param-value>classpath:/springContextWithJavaConfig.xml,classpath:/security-config.xml</param-value>
   </context-param>
   <listener>
     <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
@@ -23,9 +25,9 @@ version="3.0">
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
          <init-param>
             <param-name>contextConfigLocation</param-name>
-            <!-- <param-value></param-value> -->
+            <param-value></param-value> 
             <!-- eventuellement vide indispensable pour eviter recherche de mvc-dispatcher-servlet.xml par defaut -->
-            <param-value>classpath:/mvc-config.xml</param-value> <!-- ou eventuellement /WEB-INF/mvc-config.xml -->
+            <!-- <param-value>classpath:/mvc-config.xml</param-value> --><!-- ou eventuellement /WEB-INF/mvc-config.xml -->
         </init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>
@@ -33,7 +35,7 @@ version="3.0">
         <servlet-name>mvc-dispatcher</servlet-name>
         <url-pattern>/mvc/*</url-pattern>
     </servlet-mapping>
-  
+ <!-- 
   <filter>
 	<filter-name>springSecurityFilterChain</filter-name>
 	<filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
@@ -43,5 +45,6 @@ version="3.0">
 	<filter-name>springSecurityFilterChain</filter-name>
 	<url-pattern>/*</url-pattern>
   </filter-mapping>
+  -->
 
 </web-app>

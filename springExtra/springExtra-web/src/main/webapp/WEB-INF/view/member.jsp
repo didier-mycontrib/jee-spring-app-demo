@@ -8,6 +8,11 @@
 </head>
 <body>
    page normalement accessible que pour les personnes ayant un 
-   des roles suivants: 'supervisor','teller'
+   des roles suivants: 'ROLE_SUPERVISOR','ROLE_TELLER'
+   <hr/>
+   num session http/jee= <%=session.getId()%>
+   <hr/>
+   <a href="../app/finSession">fin de session / deconnexion</a>
+   
 </body>
 </html>
