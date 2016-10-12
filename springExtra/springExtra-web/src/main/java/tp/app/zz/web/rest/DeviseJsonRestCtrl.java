@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -58,27 +60,32 @@ public class DeviseJsonRestCtrl {
 		}
 	} 
 	 
-	 /*
-	 // avec <mvc:annotation-driven content-negotiation-manager="contentNegotiationManager" /> 
-	 // et url en .json et ....
-	 @RequestMapping(value="/" , method=RequestMethod.PUT ,  
-			                     consumes = {MediaType.APPLICATION_JSON_VALUE}) 
-	 @ResponseBody  
-	 Devise updateDevise(Devise devise) {
+	 /*//méthode non autorisée ?
+	 @RequestMapping(value="/" , method=RequestMethod.PUT )   
+	 ResponseEntity<Devise> updateDevise(@RequestBody Devise devise) {
 		 try {
 			System.out.println("devise to update:" + devise);			
 			gestionDevises.updateDevise(devise);
-			return devise;
+			return new ResponseEntity<Devise>(devise, HttpStatus.OK);
 		} catch (Exception e) {
 			e.printStackTrace();
-			return null;
+			 return new ResponseEntity<Devise>(HttpStatus.NOT_MODIFIED);
 		}
-	} */
+	}*/
 	 
+	 
+	 /*
 	 @RequestMapping(value="/{codeDevise}" , method=RequestMethod.GET) 
 	 @ResponseBody 
 	 Devise getDeviseByName(@PathVariable("codeDevise") String  codeDevise) { 
 		 return gestionDevises.getDeviseByPk(codeDevise);  
+		 }
+	 */
+	 
+	 @RequestMapping(value="/{codeDevise}" , method=RequestMethod.GET) 
+	 ResponseEntity<Devise> getDeviseByName(@PathVariable("codeDevise") String  codeDevise) { 
+		 Devise dev = gestionDevises.getDeviseByPk(codeDevise);
+		 return new ResponseEntity<Devise>(dev, HttpStatus.OK);
 		 }
 	 
 	 //convert?amount=50&src=EUR&target=USD

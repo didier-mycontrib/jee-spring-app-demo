@@ -27,6 +27,7 @@ public class TestServiceCompte {
 	
     @Test
     public void test_virement(){
+    	
     	double s1_avant = serviceCompte.rechercherCompte(1L).getSolde();
     	double s2_avant = serviceCompte.rechercherCompte(2L).getSolde();
     	System.out.println("avant s1="+s1_avant + " et s2=" + s2_avant);

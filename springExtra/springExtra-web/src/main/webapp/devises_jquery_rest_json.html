@@ -1,6 +1,7 @@
    <html >
     <head>
 	<script src="jquery-2.2.1.js"></script>
+	<script src="jquery.cookie.js"></script>
     <script>
 	  var deviseList;
 	  var deviseIdSelected;//id=.codeDevise
@@ -23,7 +24,11 @@
 	    $.ajax({
            type: "GET",
            url: "mvc/rest/devises/",
-		   success: function (data) {
+		   success: function (data,status,xhr) {
+			   /*if(xhr){
+				   var csrfToken = xhr.getResponseHeader("Content-Type");// "Content-Type"				
+				   //alert(csrfToken);
+			   }*/
                if (data) {
 			       //alert(JSON.stringify(data));
 			       deviseList = data;
@@ -42,8 +47,18 @@
 		   });
         
 		
+	    //for spring-mvc RESTful WS and spring-security with CookieCsrfTokenRepository
+	    var xsrfToken = $.cookie('XSRF-TOKEN');//necessite plugin jquery-cookie
+	    //alert(xsrfToken);
+	    if(xsrfToken){
+	      $(document).ajaxSend(function(e, xhr, options) {
+	    	        xhr.setRequestHeader('X-XSRF-TOKEN', xsrfToken);
+	    	});
+	    }
+	    
 		$('#btnUpdate').on('click',function(){
 		 local_update_selected_devise();
+		 
 		//$("#spanMsg").html( "message in the bottle" + JSON.stringify(deviseSelected) ) ;
 		 $.ajax({
            type: "PUT",

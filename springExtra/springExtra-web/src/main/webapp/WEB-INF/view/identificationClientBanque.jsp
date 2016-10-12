@@ -9,9 +9,10 @@
 <body>
 	<h3>identification client banque</h3>
 	<hr/>
-	<form action="identification" method="GET">
+	<form action="identification" method="POST">
 	    numClient : <input name="numClient" type="text" /> <br/>
 	    <input  type="submit" value="identification client banque" /> <br/>
+	    <input type="hidden"   name="${_csrf.parameterName}"      value="${_csrf.token}"/>
 	</form>
 </body>
 </html>

@@ -8,6 +8,16 @@ http://www.springframework.org/schema/security
 http://www.springframework.org/schema/security/spring-security.xsd">
 	<!-- parametrage spring utile si filtre web DelegatingFilterProxy actif 
 		(dans web.xml) -->
+		
+	<bean id="tokenRepository"
+	class="org.springframework.security.web.csrf.CookieCsrfTokenRepository">
+	    <property name="cookieHttpOnly" value="false"/>
+	</bean> <!-- pour stocker _csrf dans un cookie XSRF-TOKEN dont la valeur est a 
+	  renvoyer dans le champ X-XSRF-TOKEN de l'entete HTTP par jQuery ou AngularJs  
+	  ce bean d'id="tokenRepository" est reference plus bas par 
+	     <csrf token-repository-ref="tokenRepository"/> -->
+	
+		
 	<security:http use-expressions="true">
 	  
 		<security:intercept-url pattern="/index.html"	access="permitAll" />
@@ -17,7 +27,11 @@ http://www.springframework.org/schema/security/spring-security.xsd">
 			
 		<security:intercept-url pattern="/mvc/**"	access="permitAll" />
 						
-		<!-- attention WS REST bloque en mode PUT  -->
+		<!-- attention form et WS REST ( en mode POST , PUT, ...) par defaut bloques 
+		    si csrf non désactivé ou bien token _csrf non géré (hidden , ...)  -->
+	    <!-- <security:csrf disabled="true"/> -->
+	    
+	    <security:csrf token-repository-ref="tokenRepository"/>
 		
 		<security:form-login />
 		<security:logout />
