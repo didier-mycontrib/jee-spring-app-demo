@@ -42,3 +42,12 @@ public class DetailsLevel {
 	   public DetailsLevelEnum detailsLevel(){ return DetailsLevelEnum.ALLDETAILS ; }
    };
 }
+
+/*
+ Remarque: en plus de @JsonIgnore , @JsonView , il existe aussi
+  @JsonManagedReference et @JsonBackReference (sémantiquement proche 
+  de mappedBy ou inverse="true")
+  pour éviter des boucles infinies lors de la sérialisation 
+  de relations bi-directionnelles
+  @JsonBackReference est un peu comme @JsonIgnore
+ */

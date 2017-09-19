@@ -4,6 +4,7 @@ package tp.myapp.minibank.web.ws.rest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,6 +17,8 @@ import tp.myapp.minibank.persistence.entity.Client;
 import tp.myapp.minibank.web.ws.rest.data.ClientAuth;
 
 @RestController 
+//@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 @RequestMapping(value="/rest/clients" , headers="Accept=application/json")
 public class ClientRestCtrl {
 	@Autowired
