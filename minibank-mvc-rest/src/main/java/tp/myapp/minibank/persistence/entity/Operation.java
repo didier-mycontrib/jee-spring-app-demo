@@ -25,7 +25,7 @@ public class Operation {
 	
 	@Id
 	@Column(name="numOp")
-	@GeneratedValue(strategy=GenerationType.AUTO)
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@JsonView(DetailsLevel.Essential.class)
 	private Long numero;
 	

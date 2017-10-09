@@ -6,15 +6,18 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.test.context.ContextConfiguration;
+import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import tp.myapp.minibank.itf.domain.service.GestionComptes;
 import tp.myapp.minibank.persistence.entity.Compte;
 import tp.myapp.minibank.persistence.entity.Operation;
 @RunWith(SpringJUnit4ClassRunner.class)
+//@RunWith(SpringRunner.class)
+
 //@ContextConfiguration(locations="/springContextOfModule.xml") // xml config
-@ContextConfiguration(classes={tp.myapp.minibank.config.DomainAndPersistenceConfig.class}) //java config
+//@ContextConfiguration(classes={tp.myapp.minibank.config.DomainAndPersistenceConfig.class}) //java config
+@SpringBootTest(classes={tp.myapp.minibank.auto.config.WithAutoConfiguration.class})
 public class TestGestionComptes {
 	
 	@Autowired

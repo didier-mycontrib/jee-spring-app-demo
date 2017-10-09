@@ -37,7 +37,7 @@ public class Compte implements DetailsFetch{
 	
 	@Id
 	@Column(name="numCpt")
-	@GeneratedValue(strategy=GenerationType.AUTO)
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@JsonView(DetailsLevel.Essential.class)
 	private Long numero;
 	

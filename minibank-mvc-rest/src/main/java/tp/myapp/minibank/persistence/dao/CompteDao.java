@@ -3,6 +3,7 @@ package tp.myapp.minibank.persistence.dao;
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
 import tp.myapp.minibank.persistence.entity.Compte;
 

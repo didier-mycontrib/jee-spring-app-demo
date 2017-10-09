@@ -18,7 +18,7 @@ import lombok.NoArgsConstructor;
 public class Adresse {
 	
 	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long idAdr;
 	private String rue;
 	private String codePostal;
