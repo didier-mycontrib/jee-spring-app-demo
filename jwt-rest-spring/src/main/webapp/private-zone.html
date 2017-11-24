@@ -1,0 +1,84 @@
+   <html >
+    <head>
+	<script src="jquery-3.2.1.min.js"></script>
+    <script>
+	
+	  var credential;
+	  var authToken; //token d'authentification (en mode bearer) à retransmettre
+	
+	  function local_update_credential(){	
+		  credential = { 
+		     "username" : null,
+		     "password" : null
+		  }; //valeur initiale (par defaut)
+		  credential.username= $('#txtUsername').val();
+		  credential.password= $('#txtPassword').val();
+	  }
+	  
+	  function load_confidential_info(divId){
+		  var confidential_info_url="./mvc/private/rest/confidential-infos/?category=news";
+		  console.log("sending ajax request with Authorization: bearer "+authToken);
+		   $(document).ajaxSend(function(e, xhr, options) {
+  	          xhr.setRequestHeader('Authorization',"Bearer "+ authToken);
+  	       });
+		   $.ajax({
+		          type: "GET",
+		          url: confidential_info_url,
+				  contentType: "application/json",
+		          success: function (data) {
+		        	   $("#"+divId).html(JSON.stringify(data))
+		           },
+		          error: function(xhr, status, error){
+		        	   $("#"+divId).html( "status:" + status + " error : " + error ) ;
+		           }
+				  });
+	  }
+	  
+      $(function() {
+		$('#btnLogin').on('click',function(){
+			local_update_credential();
+		 
+		   $("#debugMsg").html( "message in the bottle :" + JSON.stringify(credential) ) ;
+		   $.ajax({
+           type: "POST",
+           url: "mvc/public/rest/auth/basic",
+           dataType: "json",
+		   data: JSON.stringify(credential),
+		   contentType: "application/json",
+           success: function (authResponse) {
+               if (authResponse) {
+                  $("#authMsg").html("authResponse:" + JSON.stringify(authResponse));
+                  if(authResponse.authOk == true){
+                	  authToken = authResponse.authToken;
+                	  $('#content-div-id').load("./private_subpage1.html");
+                  }
+               } else {
+                   $("#authMsg").html("wrong authentication");
+               }
+           },
+           error: function(xhr, status, error){
+        	   $("#authMsg").html( "status:" + status + " error : " + error ) ;
+           }
+		   });
+		 
+		});
+	
+		
+		
+      }); 
+   </script>
+   </head>
+     <body>
+      <h3>login for private space/zone</h3>
+	  username : <input id="txtUsername" type='text' value='user1'/><br/>
+	  password : <input id="txtPassword" type='text' value='pwd_user1'/><br/>
+	  <input type='button' value="login" id="btnLogin"/> <br/>
+	  <span id="authMsg"></span> <br/>
+	  <hr/>
+	  <span id="debugMsg"></span> <br/>
+	  <hr/>
+	  <div id="content-div-id">content-div (after login)</div>
+	  <hr/>
+	  <a href="index.html">retour vers index.html</a>
+	  </body>
+     </html>

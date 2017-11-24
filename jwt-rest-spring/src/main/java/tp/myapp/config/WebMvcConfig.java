@@ -1,4 +1,4 @@
-package tp.myapp.minibank.config;
+package tp.myapp.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -10,9 +10,10 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 
 @Configuration
-@Import({DomainAndPersistenceConfig.class,MySwaggerConfig.class})
-@ComponentScan(basePackages={"tp.myapp.minibank.web.ws.rest"}) //to find and interpret @Autowired, @Inject , @Component , ...
+//@Import(DomainAndPersistenceConfig.class)
+@ComponentScan(basePackages={"tp.myapp.web.ws.rest"}) //to find and interpret @Autowired, @Inject , @Component , ...
 @EnableWebMvc
+@Import({MyWebMvcInterceptorConfig.class, MySwaggerConfig.class })
 public class WebMvcConfig {
 	
 	@Bean
