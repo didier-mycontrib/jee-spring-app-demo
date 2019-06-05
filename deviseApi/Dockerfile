@@ -5,7 +5,7 @@ FROM openjdk:8
 WORKDIR /usr/app
 
 
-COPY  target/deviseApp.jar  ./
+COPY  target/deviseApi.jar  ./
 
 
 EXPOSE 8080
