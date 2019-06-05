@@ -10,4 +10,4 @@ COPY  target/deviseApi.jar  ./
 
 EXPOSE 8080
 
-CMD ["java","-jar","deviseApp.jar" ]
+CMD ["java","-jar","deviseApi.jar" ]
