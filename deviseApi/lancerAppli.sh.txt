@@ -1,0 +1,10 @@
+#apt-get install openjdk-8-jdk
+#java -version
+#apt-get install maven
+#
+#git clone https://github.com/didier-mycontrib/jee-spring-app-demo
+#cd jee-spring-app-demo/deviseApp
+#
+#mvn clean package
+java -jar ./target/deviseApi.jar
+echo "Ctrl-C to stop";
