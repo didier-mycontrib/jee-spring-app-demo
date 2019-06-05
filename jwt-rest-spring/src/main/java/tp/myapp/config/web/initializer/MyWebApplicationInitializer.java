@@ -1,5 +1,6 @@
 package tp.myapp.config.web.initializer;
 
+import javax.servlet.MultipartConfigElement;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRegistration;
@@ -37,6 +38,13 @@ public class MyWebApplicationInitializer implements WebApplicationInitializer {
 	        dispatcher.setLoadOnStartup(1);
 	        dispatcher.setInitParameter("contextConfigLocation", "");
 	        dispatcher.addMapping("/mvc/*");
+	        
+	        String uploadDirectoryFullPath="c:\\temp";
+	        int maxFileSize = 5 * 1024 * 1024; //5Mo
+	        MultipartConfigElement multipartConfigElement = new MultipartConfigElement(uploadDirectoryFullPath,
+	        		maxFileSize,maxFileSize*2,maxFileSize/2);
+	        
+	        dispatcher.setMultipartConfig(multipartConfigElement);
 	    }
 
 	    private AnnotationConfigWebApplicationContext getContext() {
