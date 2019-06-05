@@ -7,6 +7,7 @@ WORKDIR /usr/app
 
 COPY  target/deviseApi.jar  ./
 
+#optimisation possible : https://spring.io/guides/topicals/spring-boot-docker
 
 EXPOSE 8080
 
