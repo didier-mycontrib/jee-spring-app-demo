@@ -22,8 +22,7 @@ public class ConvertisseurImpl implements Convertisseur {
 	public double convertir(double montant, String source, String cible) {
 		Devise deviseSource = deviseDao.findById(source).get();
 		Devise deviseCible = deviseDao.findById(cible).get();
-		return montant * deviseSource.getTauxChange() / deviseCible.getTauxChange();
-		//ou return montant * deviseCible.getTauxChange() / deviseSource.getTauxChange();
+	    return montant * deviseCible.getTauxChange() / deviseSource.getTauxChange();
 	}
 
 	public double euroToFranc(double montant) {

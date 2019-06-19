@@ -3,5 +3,5 @@
 su
 docker image build -t xyz/devise-api  .
 docker image ls
-docker run -p 8080:8080 -d --name devise-api-container xyz/devise-api
+docker run -p 8080:8080 -d --name devise-api-container --network mynetwork --network-alias=devise.api.host xyz/devise-api
 docker container ls
