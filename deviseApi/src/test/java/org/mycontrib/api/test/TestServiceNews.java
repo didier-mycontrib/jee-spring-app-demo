@@ -32,10 +32,17 @@ public class TestServiceNews {
 		Assert.assertTrue(n1Relu.getText().equals("news 1"));
 		System.out.println(n1Relu);
 		
-		serviceNews.toggleNewsUpperCase(2L);
+		try {
+			serviceNews.toggleNewsUpperCase(2L);
+		} catch (Exception e) {
+			//e.printStackTrace();
+			System.err.println(e.getMessage());
+		}
+		
 		News n2Relu= serviceNews.rechercherNews(2L);
-		Assert.assertTrue(n2Relu.getText().equals("NEWS 2"));
 		System.out.println(n2Relu);
+		Assert.assertTrue(n2Relu.getText().equals("NEWS 2"));
+		
 		
 	}
 		
