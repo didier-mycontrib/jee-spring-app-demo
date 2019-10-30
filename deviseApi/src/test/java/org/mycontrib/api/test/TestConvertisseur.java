@@ -1,4 +1,4 @@
-package fr.afcepf.al33.test;
+package org.mycontrib.api.test;
 
 import org.junit.Assert;
 import org.junit.Test;
