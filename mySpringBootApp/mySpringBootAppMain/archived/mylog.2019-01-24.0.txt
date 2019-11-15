@@ -1,0 +1,70 @@
+2019-01-24 18:12:22 - Starting MyMultiContextSpringBootApplication on LAPTOP-DDC with PID 15804 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppMain\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppMain)
+2019-01-24 18:12:22 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-01-24 18:12:22 - No active profile set, falling back to default profiles: default
+2019-01-24 18:12:26 - Started MyMultiContextSpringBootApplication in 4.627 seconds (JVM running for 5.337)
+2019-01-24 18:12:26 - No active profile set, falling back to default profiles: default
+2019-01-24 18:12:29 - configure rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@11dba7fc
+2019-01-24 18:12:30 - Started MyMultiContextSpringBootApplication in 3.318 seconds (JVM running for 8.659)
+2019-01-24 18:22:40 - Starting MyMultiContextSpringBootApplication on LAPTOP-DDC with PID 16548 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppMain\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppMain)
+2019-01-24 18:22:40 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-01-24 18:22:40 - No active profile set, falling back to default profiles: default
+2019-01-24 18:22:44 - Started MyMultiContextSpringBootApplication in 4.532 seconds (JVM running for 5.218)
+2019-01-24 18:22:44 - No active profile set, falling back to default profiles: default
+2019-01-24 18:22:47 - configure rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@6b89fe44
+2019-01-24 18:22:47 - Started MyMultiContextSpringBootApplication in 3.345 seconds (JVM running for 8.567)
+2019-01-24 18:23:27 - Starting MyMultiContextSpringBootApplication on LAPTOP-DDC with PID 16548 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppMain\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppMain)
+2019-01-24 18:23:27 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-01-24 18:23:27 - No active profile set, falling back to default profiles: default
+2019-01-24 18:23:28 - Started MyMultiContextSpringBootApplication in 0.823 seconds (JVM running for 49.569)
+2019-01-24 18:23:28 - No active profile set, falling back to default profiles: default
+2019-01-24 18:23:30 - configure rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@48b3148e
+2019-01-24 18:23:30 - Started MyMultiContextSpringBootApplication in 1.43 seconds (JVM running for 51.002)
+2019-01-24 18:30:32 - Starting MyMultiContextSpringBootApplication on LAPTOP-DDC with PID 15564 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppMain\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppMain)
+2019-01-24 18:30:32 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-01-24 18:30:32 - No active profile set, falling back to default profiles: default
+2019-01-24 18:30:36 - Started MyMultiContextSpringBootApplication in 4.657 seconds (JVM running for 5.335)
+2019-01-24 18:30:36 - No active profile set, falling back to default profiles: default
+2019-01-24 18:30:39 - configure rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@36b5d2cf
+2019-01-24 18:30:40 - Started MyMultiContextSpringBootApplication in 3.307 seconds (JVM running for 8.646)
+2019-01-24 18:36:27 - Starting MyMultiContextSpringBootApplication on LAPTOP-DDC with PID 18820 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppMain\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppMain)
+2019-01-24 18:36:27 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-01-24 18:36:27 - No active profile set, falling back to default profiles: default
+2019-01-24 18:36:32 - Started MyMultiContextSpringBootApplication in 4.697 seconds (JVM running for 5.411)
+2019-01-24 18:36:32 - No active profile set, falling back to default profiles: default
+2019-01-24 18:36:34 - configure rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@5c357467
+2019-01-24 18:36:35 - Started MyMultiContextSpringBootApplication in 3.316 seconds (JVM running for 8.73)
+2019-01-24 18:37:21 - Starting MyMultiContextSpringBootApplication on LAPTOP-DDC with PID 18820 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppMain\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppMain)
+2019-01-24 18:37:21 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-01-24 18:37:21 - No active profile set, falling back to default profiles: default
+2019-01-24 18:37:22 - Started MyMultiContextSpringBootApplication in 0.844 seconds (JVM running for 55.86)
+2019-01-24 18:37:22 - No active profile set, falling back to default profiles: default
+2019-01-24 18:37:23 - configure rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@63931bde
+2019-01-24 18:37:24 - Started MyMultiContextSpringBootApplication in 1.43 seconds (JVM running for 57.294)
+2019-01-24 18:37:39 - Starting MyMultiContextSpringBootApplication on LAPTOP-DDC with PID 11336 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppMain\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppMain)
+2019-01-24 18:37:39 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-01-24 18:37:39 - No active profile set, falling back to default profiles: default
+2019-01-24 18:37:43 - Started MyMultiContextSpringBootApplication in 4.705 seconds (JVM running for 5.425)
+2019-01-24 18:37:43 - No active profile set, falling back to default profiles: default
+2019-01-24 18:37:46 - configure rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@4f83ef44
+2019-01-24 18:37:46 - Started MyMultiContextSpringBootApplication in 3.428 seconds (JVM running for 8.857)
+2019-01-24 18:40:57 - Starting MyMultiContextSpringBootApplication on LAPTOP-DDC with PID 15656 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppMain\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppMain)
+2019-01-24 18:40:57 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-01-24 18:40:57 - No active profile set, falling back to default profiles: default
+2019-01-24 18:41:01 - Started MyMultiContextSpringBootApplication in 4.604 seconds (JVM running for 5.322)
+2019-01-24 18:41:01 - No active profile set, falling back to default profiles: default
+2019-01-24 18:41:03 - configure rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@3d812ba7
+2019-01-24 18:41:04 - Started MyMultiContextSpringBootApplication in 3.336 seconds (JVM running for 8.666)
+2019-01-24 18:44:38 - Starting MyMultiContextSpringBootApplication on LAPTOP-DDC with PID 14292 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppMain\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppMain)
+2019-01-24 18:44:38 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-01-24 18:44:38 - No active profile set, falling back to default profiles: default
+2019-01-24 18:44:42 - Started MyMultiContextSpringBootApplication in 4.647 seconds (JVM running for 5.342)
+2019-01-24 18:44:42 - No active profile set, falling back to default profiles: default
+2019-01-24 18:44:45 - configure rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@e95f367
+2019-01-24 18:44:46 - Started MyMultiContextSpringBootApplication in 3.301 seconds (JVM running for 8.646)
+2019-01-24 18:46:52 - Starting MyMultiContextSpringBootApplication on LAPTOP-DDC with PID 14292 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppMain\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppMain)
+2019-01-24 18:46:52 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-01-24 18:46:52 - No active profile set, falling back to default profiles: default
+2019-01-24 18:46:53 - Started MyMultiContextSpringBootApplication in 0.907 seconds (JVM running for 136.262)
+2019-01-24 18:46:53 - No active profile set, falling back to default profiles: default
+2019-01-24 18:46:55 - configure rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@5cd1260b
+2019-01-24 18:46:55 - Started MyMultiContextSpringBootApplication in 1.528 seconds (JVM running for 137.795)

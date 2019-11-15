@@ -1,0 +1,3 @@
+2019-01-24 17:59:11 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 15432 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-01-24 17:59:11 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-01-24 17:59:11 - No active profile set, falling back to default profiles: default

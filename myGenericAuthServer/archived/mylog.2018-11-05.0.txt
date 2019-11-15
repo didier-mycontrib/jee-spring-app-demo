@@ -1,0 +1,11 @@
+2018-11-05 18:02:31 - Starting MyGenericAuthServerApp on LAPTOP-DDC with PID 8412 (D:\tp\ECLIPSE_WKSP\spring\myGenericAuthServer\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\myGenericAuthServer)
+2018-11-05 18:02:31 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018-11-05 18:02:31 - No active profile set, falling back to default profiles: default
+2018-11-05 18:02:37 - Initializing filter 'jwtAuthenticationFilter'
+2018-11-05 18:02:37 - Filter 'jwtAuthenticationFilter' configured successfully
+2018-11-05 18:29:14 - Starting MyGenericAuthServerApp on LAPTOP-DDC with PID 16240 (D:\tp\ECLIPSE_WKSP\spring\myGenericAuthServer\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\myGenericAuthServer)
+2018-11-05 18:29:14 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018-11-05 18:29:14 - No active profile set, falling back to default profiles: default
+2018-11-05 18:29:18 - Initializing filter 'jwtAuthenticationFilter'
+2018-11-05 18:29:18 - Filter 'jwtAuthenticationFilter' configured successfully
+2018-11-05 18:29:21 - Started MyGenericAuthServerApp in 7.337 seconds (JVM running for 8.009)

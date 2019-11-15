@@ -1,0 +1,42 @@
+2019-01-25 07:10:51 - Starting TestServiceCompte on LAPTOP-DDC with PID 13592 (started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppCore)
+2019-01-25 07:10:51 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-01-25 07:10:51 - No active profile set, falling back to default profiles: default
+2019-01-25 07:10:56 - Started TestServiceCompte in 5.733 seconds (JVM running for 6.832)
+2019-01-25 07:10:56 - liste des comptes du client 1:
+2019-01-25 07:10:56 - 	Compte [numero=1, label=compte courant, solde=1200.0]
+2019-01-25 07:10:56 - 	Compte [numero=2, label=compte codevi, solde=50.0]
+2019-01-25 07:10:56 - compte_1 : Compte [numero=1, label=compte courant, solde=1200.0]
+2019-01-25 07:10:56 - 	Operation [numOp=1, label=achat yy, montant=-50.0, dateOp=2011-01-20 00:00:00.0]
+2019-01-25 07:10:56 - 	Operation [numOp=2, label=achat zz, montant=-30.0, dateOp=2011-01-21 00:00:00.0]
+2019-01-25 07:10:56 - avant s1=1200.0 et s2=50.0
+2019-01-25 07:10:56 - apres s1=1150.0 et s2=100.0
+2019-01-25 07:12:54 - Starting MySpringBootBasicCoreApplication on LAPTOP-DDC with PID 10388 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppCore\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppCore)
+2019-01-25 07:12:54 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-01-25 07:12:54 - No active profile set, falling back to default profiles: default
+2019-01-25 07:12:58 - Started MySpringBootBasicCoreApplication in 3.678 seconds (JVM running for 4.196)
+2019-01-25 07:13:28 - Starting TestServiceCompte on LAPTOP-DDC with PID 17496 (started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppCore)
+2019-01-25 07:13:28 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-01-25 07:13:28 - No active profile set, falling back to default profiles: default
+2019-01-25 07:13:32 - Started TestServiceCompte in 3.536 seconds (JVM running for 4.388)
+2019-01-25 07:13:32 - liste des comptes du client 1:
+2019-01-25 07:13:32 - 	Compte [numero=1, label=compte courant, solde=1200.0]
+2019-01-25 07:13:32 - 	Compte [numero=2, label=compte codevi, solde=50.0]
+2019-01-25 07:13:32 - compte_1 : Compte [numero=1, label=compte courant, solde=1200.0]
+2019-01-25 07:13:32 - 	Operation [numOp=1, label=achat yy, montant=-50.0, dateOp=2011-01-20 00:00:00.0]
+2019-01-25 07:13:32 - 	Operation [numOp=2, label=achat zz, montant=-30.0, dateOp=2011-01-21 00:00:00.0]
+2019-01-25 07:13:32 - avant s1=1200.0 et s2=50.0
+2019-01-25 07:13:32 - apres s1=1150.0 et s2=100.0
+2019-01-25 07:13:44 - Starting TestServiceGestionDevises on LAPTOP-DDC with PID 17960 (started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppCore)
+2019-01-25 07:13:44 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-01-25 07:13:44 - No active profile set, falling back to default profiles: default
+2019-01-25 07:13:48 - Started TestServiceGestionDevises in 3.665 seconds (JVM running for 4.532)
+2019-01-25 07:13:48 - test_convertir
+2019-01-25 07:13:48 - 50 euros= 5799.965897843246 yens
+2019-01-25 07:13:48 - 20 euros= 22.314 dollars
+2019-01-25 07:13:48 - test_getListeDevises
+2019-01-25 07:13:48 - 	Devise(dChange=1.1157,monnaie=euro,codeDevise=EUR)
+2019-01-25 07:13:48 - 	Devise(dChange=0.00961816,monnaie=yen,codeDevise=JPY)
+2019-01-25 07:13:48 - 	Devise(dChange=1.0,monnaie=dollar,codeDevise=USD)
+2019-01-25 07:13:48 - 	Devise(dChange=1.3294,monnaie=livre,codeDevise=GBP)
+2019-01-25 07:13:48 - test_getDeviseByName
+2019-01-25 07:13:48 - monnaie euro (getDeviseByName) : Devise(dChange=1.1157,monnaie=euro,codeDevise=EUR)

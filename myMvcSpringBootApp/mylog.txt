@@ -1,0 +1,215 @@
+2018-10-31 06:51:27 - Starting MySpringBootApplication on LAPTOP-DDC with PID 15868 (D:\tp\ECLIPSE_WKSP\spring\myMvcSpringBootApp\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\myMvcSpringBootApp)
+2018-10-31 06:51:27 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018-10-31 06:51:27 - No active profile set, falling back to default profiles: default
+2018-10-31 06:51:32 - configure(1) rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@21d9cd04
+2018-10-31 06:51:32 - commonConfigure http:org.springframework.security.config.annotation.web.builders.HttpSecurity@370c7cc5
+2018-10-31 06:51:32 - configure(2) mvc,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@370c7cc5
+2018-10-31 06:51:33 - Started MySpringBootApplication in 6.93 seconds (JVM running for 7.495)
+2018-10-31 06:53:05 - Starting MySpringBootApplication on LAPTOP-DDC with PID 19424 (D:\tp\ECLIPSE_WKSP\spring\myMvcSpringBootApp\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\myMvcSpringBootApp)
+2018-10-31 06:53:05 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018-10-31 06:53:05 - No active profile set, falling back to default profiles: default
+2018-10-31 06:53:10 - commonConfigure http:org.springframework.security.config.annotation.web.builders.HttpSecurity@5a4464c5
+2018-10-31 06:53:10 - configure(1) rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@5a4464c5
+2018-10-31 06:53:10 - commonConfigure http:org.springframework.security.config.annotation.web.builders.HttpSecurity@589fb74d
+2018-10-31 06:53:10 - configure(2) mvc,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@589fb74d
+2018-10-31 06:53:11 - Started MySpringBootApplication in 6.766 seconds (JVM running for 7.319)
+2018-10-31 06:54:52 - Starting MySpringBootApplication on LAPTOP-DDC with PID 3440 (D:\tp\ECLIPSE_WKSP\spring\myMvcSpringBootApp\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\myMvcSpringBootApp)
+2018-10-31 06:54:52 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018-10-31 06:54:52 - No active profile set, falling back to default profiles: default
+2018-10-31 06:54:57 - commonConfigure http:org.springframework.security.config.annotation.web.builders.HttpSecurity@6c5ca0b6
+2018-10-31 06:54:57 - configure(1) rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@6c5ca0b6
+2018-10-31 06:54:57 - commonConfigure http:org.springframework.security.config.annotation.web.builders.HttpSecurity@424f02b8
+2018-10-31 06:54:57 - configure(2) mvc,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@424f02b8
+2018-10-31 06:54:58 - Started MySpringBootApplication in 6.993 seconds (JVM running for 7.541)
+2018-10-31 07:10:44 - Starting MySpringBootApplication on LAPTOP-DDC with PID 14360 (D:\tp\ECLIPSE_WKSP\spring\myMvcSpringBootApp\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\myMvcSpringBootApp)
+2018-10-31 07:10:44 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018-10-31 07:10:44 - No active profile set, falling back to default profiles: default
+2018-10-31 07:10:49 - configure(1) rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@17216605
+2018-10-31 07:10:49 - configure(2) mvc,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@5c82031b
+2018-10-31 07:10:50 - Started MySpringBootApplication in 6.747 seconds (JVM running for 7.286)
+2018-10-31 07:16:28 - Starting MySpringBootApplication on LAPTOP-DDC with PID 10028 (D:\tp\ECLIPSE_WKSP\spring\myMvcSpringBootApp\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\myMvcSpringBootApp)
+2018-10-31 07:16:28 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018-10-31 07:16:28 - No active profile set, falling back to default profiles: default
+2018-10-31 07:16:33 - configure(1) rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@7b5021d1
+2018-10-31 07:16:33 - configure(2) mvc,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@370c7cc5
+2018-10-31 07:16:34 - Started MySpringBootApplication in 6.705 seconds (JVM running for 7.249)
+2018-10-31 07:30:39 - Starting MySpringBootApplication on LAPTOP-DDC with PID 14368 (D:\tp\ECLIPSE_WKSP\spring\myMvcSpringBootApp\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\myMvcSpringBootApp)
+2018-10-31 07:30:39 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018-10-31 07:30:39 - No active profile set, falling back to default profiles: default
+2018-10-31 07:30:44 - configure(1) rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@21d9cd04
+2018-10-31 07:30:44 - configure(2) mvc,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@2a04ab05
+2018-10-31 07:30:46 - Started MySpringBootApplication in 6.572 seconds (JVM running for 7.144)
+2018-10-31 18:01:22 - Starting MySpringBootApplication on LAPTOP-DDC with PID 1632 (D:\tp\ECLIPSE_WKSP\spring\myMvcSpringBootApp\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\myMvcSpringBootApp)
+2018-10-31 18:01:22 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018-10-31 18:01:22 - No active profile set, falling back to default profiles: default
+2018-10-31 18:01:29 - configure(1) rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@30cffacc
+2018-10-31 18:01:29 - configure(2) mvc,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@3d931003
+2018-10-31 18:01:29 - Started MySpringBootApplication in 7.427 seconds (JVM running for 8.079)
+2018-10-31 18:03:21 - Starting TestServiceCompte on LAPTOP-DDC with PID 2168 (started by didier in D:\tp\ECLIPSE_WKSP\spring\myMvcSpringBootApp)
+2018-10-31 18:03:21 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018-10-31 18:03:21 - No active profile set, falling back to default profiles: default
+2018-10-31 18:03:26 - configure(1) rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@1515f782
+2018-10-31 18:03:26 - configure(2) mvc,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@4ce267cc
+2018-10-31 18:03:28 - Started TestServiceCompte in 6.474 seconds (JVM running for 7.424)
+2018-10-31 18:03:28 - liste des comptes du client 1:
+2018-10-31 18:03:28 - 	Compte [numero=1, label=compte courant, solde=1200.0]
+2018-10-31 18:03:28 - 	Compte [numero=2, label=compte codevi, solde=50.0]
+2018-10-31 18:03:28 - compte_1 : Compte [numero=1, label=compte courant, solde=1200.0]
+2018-10-31 18:03:28 - 	Operation [numOp=1, label=achat yy, montant=-50.0, dateOp=2011-01-20 00:00:00.0]
+2018-10-31 18:03:28 - 	Operation [numOp=2, label=achat zz, montant=-30.0, dateOp=2011-01-21 00:00:00.0]
+2018-10-31 18:03:28 - avant s1=1200.0 et s2=50.0
+2018-10-31 18:03:28 - apres s1=1150.0 et s2=100.0
+2018-10-31 18:03:28 - test_convertir
+2018-10-31 18:03:28 - 50 euros= 5799.965897843246 yens
+2018-10-31 18:03:28 - 20 euros= 22.314 dollars
+2018-10-31 18:03:28 - test_getListeDevises
+2018-10-31 18:03:28 - 	Devise(dChange=1.1157,monnaie=euro,codeDevise=EUR)
+2018-10-31 18:03:28 - 	Devise(dChange=0.00961816,monnaie=yen,codeDevise=JPY)
+2018-10-31 18:03:28 - 	Devise(dChange=1.0,monnaie=dollar,codeDevise=USD)
+2018-10-31 18:03:28 - 	Devise(dChange=1.3294,monnaie=livre,codeDevise=GBP)
+2018-10-31 18:03:28 - test_getDeviseByName
+2018-10-31 18:03:28 - monnaie euro (getDeviseByName) : Devise(dChange=1.1157,monnaie=euro,codeDevise=EUR)
+2018-10-31 18:04:58 - Starting TestServiceCompte on LAPTOP-DDC with PID 3232 (started by didier in D:\tp\ECLIPSE_WKSP\spring\myMvcSpringBootApp)
+2018-10-31 18:04:58 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018-10-31 18:04:58 - No active profile set, falling back to default profiles: default
+2018-10-31 18:05:03 - configure(1) rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@1515f782
+2018-10-31 18:05:03 - configure(2) mvc,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@4ce267cc
+2018-10-31 18:05:04 - Started TestServiceCompte in 6.645 seconds (JVM running for 7.587)
+2018-10-31 18:05:05 - liste des comptes du client 1:
+2018-10-31 18:05:05 - 	Compte [numero=1, label=compte courant, solde=1200.0]
+2018-10-31 18:05:05 - 	Compte [numero=2, label=compte codevi, solde=50.0]
+2018-10-31 18:05:05 - compte_1 : Compte [numero=1, label=compte courant, solde=1200.0]
+2018-10-31 18:05:05 - 	Operation [numOp=1, label=achat yy, montant=-50.0, dateOp=2011-01-20 00:00:00.0]
+2018-10-31 18:05:05 - 	Operation [numOp=2, label=achat zz, montant=-30.0, dateOp=2011-01-21 00:00:00.0]
+2018-10-31 18:05:05 - avant s1=1200.0 et s2=50.0
+2018-10-31 18:05:05 - apres s1=1150.0 et s2=100.0
+2018-10-31 18:05:05 - test_convertir
+2018-10-31 18:05:05 - 50 euros= 5799.965897843246 yens
+2018-10-31 18:05:05 - 20 euros= 22.314 dollars
+2018-10-31 18:05:05 - test_getListeDevises
+2018-10-31 18:05:05 - 	Devise(dChange=1.1157,monnaie=euro,codeDevise=EUR)
+2018-10-31 18:05:05 - 	Devise(dChange=0.00961816,monnaie=yen,codeDevise=JPY)
+2018-10-31 18:05:05 - 	Devise(dChange=1.0,monnaie=dollar,codeDevise=USD)
+2018-10-31 18:05:05 - 	Devise(dChange=1.3294,monnaie=livre,codeDevise=GBP)
+2018-10-31 18:05:05 - test_getDeviseByName
+2018-10-31 18:05:05 - monnaie euro (getDeviseByName) : Devise(dChange=1.1157,monnaie=euro,codeDevise=EUR)
+2018-10-31 18:20:45 - Starting TestServiceCompte on LAPTOP-DDC with PID 2104 (started by didier in D:\tp\ECLIPSE_WKSP\spring\myMvcSpringBootApp)
+2018-10-31 18:20:45 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018-10-31 18:20:45 - No active profile set, falling back to default profiles: default
+2018-10-31 18:20:50 - configure(1) rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@1515f782
+2018-10-31 18:20:50 - configure(2) mvc,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@4ce267cc
+2018-10-31 18:20:52 - Started TestServiceCompte in 6.606 seconds (JVM running for 7.572)
+2018-10-31 18:20:52 - liste des comptes du client 1:
+2018-10-31 18:20:52 - 	Compte [numero=1, label=compte courant, solde=1200.0]
+2018-10-31 18:20:52 - 	Compte [numero=2, label=compte codevi, solde=50.0]
+2018-10-31 18:20:52 - compte_1 : Compte [numero=1, label=compte courant, solde=1200.0]
+2018-10-31 18:20:52 - 	Operation [numOp=1, label=achat yy, montant=-50.0, dateOp=2011-01-20 00:00:00.0]
+2018-10-31 18:20:52 - 	Operation [numOp=2, label=achat zz, montant=-30.0, dateOp=2011-01-21 00:00:00.0]
+2018-10-31 18:20:52 - avant s1=1200.0 et s2=50.0
+2018-10-31 18:20:52 - apres s1=1150.0 et s2=100.0
+2018-10-31 18:20:52 - test_convertir
+2018-10-31 18:20:52 - 50 euros= 5799.965897843246 yens
+2018-10-31 18:20:52 - 20 euros= 22.314 dollars
+2018-10-31 18:20:52 - test_getListeDevises
+2018-10-31 18:20:52 - 	Devise(dChange=1.1157,monnaie=euro,codeDevise=EUR)
+2018-10-31 18:20:52 - 	Devise(dChange=0.00961816,monnaie=yen,codeDevise=JPY)
+2018-10-31 18:20:52 - 	Devise(dChange=1.0,monnaie=dollar,codeDevise=USD)
+2018-10-31 18:20:52 - 	Devise(dChange=1.3294,monnaie=livre,codeDevise=GBP)
+2018-10-31 18:20:52 - test_getDeviseByName
+2018-10-31 18:20:52 - monnaie euro (getDeviseByName) : Devise(dChange=1.1157,monnaie=euro,codeDevise=EUR)
+2018-10-31 18:22:16 - Starting TestServiceCompte on LAPTOP-DDC with PID 10916 (started by didier in D:\tp\ECLIPSE_WKSP\spring\myMvcSpringBootApp)
+2018-10-31 18:22:16 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018-10-31 18:22:16 - No active profile set, falling back to default profiles: default
+2018-10-31 18:22:21 - configure(1) rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@635ff2a5
+2018-10-31 18:22:21 - configure(2) mvc,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@6734ff92
+2018-10-31 18:22:23 - Started TestServiceCompte in 6.958 seconds (JVM running for 7.961)
+2018-10-31 18:22:23 - liste des comptes du client 1:
+2018-10-31 18:22:23 - 	Compte [numero=1, label=compte courant, solde=1200.0]
+2018-10-31 18:22:23 - 	Compte [numero=2, label=compte codevi, solde=50.0]
+2018-10-31 18:22:23 - compte_1 : Compte [numero=1, label=compte courant, solde=1200.0]
+2018-10-31 18:22:23 - 	Operation [numOp=1, label=achat yy, montant=-50.0, dateOp=2011-01-20 00:00:00.0]
+2018-10-31 18:22:23 - 	Operation [numOp=2, label=achat zz, montant=-30.0, dateOp=2011-01-21 00:00:00.0]
+2018-10-31 18:22:23 - avant s1=1200.0 et s2=50.0
+2018-10-31 18:22:23 - apres s1=1150.0 et s2=100.0
+2018-10-31 18:22:23 - test_convertir
+2018-10-31 18:22:23 - 50 euros= 5799.965897843246 yens
+2018-10-31 18:22:23 - 20 euros= 22.314 dollars
+2018-10-31 18:22:23 - test_getListeDevises
+2018-10-31 18:22:23 - 	Devise(dChange=1.1157,monnaie=euro,codeDevise=EUR)
+2018-10-31 18:22:23 - 	Devise(dChange=0.00961816,monnaie=yen,codeDevise=JPY)
+2018-10-31 18:22:23 - 	Devise(dChange=1.0,monnaie=dollar,codeDevise=USD)
+2018-10-31 18:22:23 - 	Devise(dChange=1.3294,monnaie=livre,codeDevise=GBP)
+2018-10-31 18:22:23 - test_getDeviseByName
+2018-10-31 18:22:23 - monnaie euro (getDeviseByName) : Devise(dChange=1.1157,monnaie=euro,codeDevise=EUR)
+2018-10-31 18:30:01 - Starting TestServiceCompte on LAPTOP-DDC with PID 18152 (started by didier in D:\tp\ECLIPSE_WKSP\spring\myMvcSpringBootApp)
+2018-10-31 18:30:01 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018-10-31 18:30:01 - No active profile set, falling back to default profiles: default
+2018-10-31 18:30:06 - configure(1) rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@1515f782
+2018-10-31 18:30:06 - configure(2) mvc,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@4ce267cc
+2018-10-31 18:30:07 - Started TestServiceCompte in 6.376 seconds (JVM running for 7.343)
+2018-10-31 18:30:08 - liste des comptes du client 1:
+2018-10-31 18:30:08 - 	Compte [numero=1, label=compte courant, solde=1200.0]
+2018-10-31 18:30:08 - 	Compte [numero=2, label=compte codevi, solde=50.0]
+2018-10-31 18:30:08 - compte_1 : Compte [numero=1, label=compte courant, solde=1200.0]
+2018-10-31 18:30:08 - 	Operation [numOp=1, label=achat yy, montant=-50.0, dateOp=2011-01-20 00:00:00.0]
+2018-10-31 18:30:08 - 	Operation [numOp=2, label=achat zz, montant=-30.0, dateOp=2011-01-21 00:00:00.0]
+2018-10-31 18:30:08 - avant s1=1200.0 et s2=50.0
+2018-10-31 18:30:08 - apres s1=1150.0 et s2=100.0
+2018-10-31 18:30:08 - test_convertir
+2018-10-31 18:30:08 - 50 euros= 5799.965897843246 yens
+2018-10-31 18:30:08 - 20 euros= 22.314 dollars
+2018-10-31 18:30:08 - test_getListeDevises
+2018-10-31 18:30:08 - 	Devise(dChange=1.1157,monnaie=euro,codeDevise=EUR)
+2018-10-31 18:30:08 - 	Devise(dChange=0.00961816,monnaie=yen,codeDevise=JPY)
+2018-10-31 18:30:08 - 	Devise(dChange=1.0,monnaie=dollar,codeDevise=USD)
+2018-10-31 18:30:08 - 	Devise(dChange=1.3294,monnaie=livre,codeDevise=GBP)
+2018-10-31 18:30:08 - test_getDeviseByName
+2018-10-31 18:30:08 - monnaie euro (getDeviseByName) : Devise(dChange=1.1157,monnaie=euro,codeDevise=EUR)
+2018-10-31 18:42:46 - Starting TestServiceCompte on LAPTOP-DDC with PID 6592 (started by didier in D:\tp\ECLIPSE_WKSP\spring\myMvcSpringBootApp)
+2018-10-31 18:42:46 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018-10-31 18:42:46 - No active profile set, falling back to default profiles: default
+2018-10-31 18:42:51 - configure(1) rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@1515f782
+2018-10-31 18:42:51 - configure(2) mvc,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@4ce267cc
+2018-10-31 18:42:53 - Started TestServiceCompte in 6.544 seconds (JVM running for 7.472)
+2018-10-31 18:42:53 - liste des comptes du client 1:
+2018-10-31 18:42:53 - 	Compte [numero=1, label=compte courant, solde=1200.0]
+2018-10-31 18:42:53 - 	Compte [numero=2, label=compte codevi, solde=50.0]
+2018-10-31 18:42:53 - compte_1 : Compte [numero=1, label=compte courant, solde=1200.0]
+2018-10-31 18:42:53 - 	Operation [numOp=1, label=achat yy, montant=-50.0, dateOp=2011-01-20 00:00:00.0]
+2018-10-31 18:42:53 - 	Operation [numOp=2, label=achat zz, montant=-30.0, dateOp=2011-01-21 00:00:00.0]
+2018-10-31 18:42:53 - avant s1=1200.0 et s2=50.0
+2018-10-31 18:42:53 - apres s1=1150.0 et s2=100.0
+2018-10-31 18:42:53 - test_convertir
+2018-10-31 18:42:53 - 50 euros= 5799.965897843246 yens
+2018-10-31 18:42:53 - 20 euros= 22.314 dollars
+2018-10-31 18:42:53 - test_getListeDevises
+2018-10-31 18:42:53 - 	Devise(dChange=1.1157,monnaie=euro,codeDevise=EUR)
+2018-10-31 18:42:53 - 	Devise(dChange=0.00961816,monnaie=yen,codeDevise=JPY)
+2018-10-31 18:42:53 - 	Devise(dChange=1.0,monnaie=dollar,codeDevise=USD)
+2018-10-31 18:42:53 - 	Devise(dChange=1.3294,monnaie=livre,codeDevise=GBP)
+2018-10-31 18:42:53 - test_getDeviseByName
+2018-10-31 18:42:53 - monnaie euro (getDeviseByName) : Devise(dChange=1.1157,monnaie=euro,codeDevise=EUR)
+2018-10-31 18:44:22 - Starting TestServiceCompte on LAPTOP-DDC with PID 19704 (started by didier in D:\tp\ECLIPSE_WKSP\spring\myMvcSpringBootApp)
+2018-10-31 18:44:22 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018-10-31 18:44:22 - No active profile set, falling back to default profiles: default
+2018-10-31 18:44:27 - configure(1) rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@1515f782
+2018-10-31 18:44:27 - configure(2) mvc,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@4ce267cc
+2018-10-31 18:44:29 - Started TestServiceCompte in 6.678 seconds (JVM running for 7.642)
+2018-10-31 18:44:29 - liste des comptes du client 1:
+2018-10-31 18:44:29 - 	Compte [numero=1, label=compte courant, solde=1200.0]
+2018-10-31 18:44:29 - 	Compte [numero=2, label=compte codevi, solde=50.0]
+2018-10-31 18:44:29 - compte_1 : Compte [numero=1, label=compte courant, solde=1200.0]
+2018-10-31 18:44:29 - 	Operation [numOp=1, label=achat yy, montant=-50.0, dateOp=2011-01-20 00:00:00.0]
+2018-10-31 18:44:29 - 	Operation [numOp=2, label=achat zz, montant=-30.0, dateOp=2011-01-21 00:00:00.0]
+2018-10-31 18:44:29 - avant s1=1200.0 et s2=50.0
+2018-10-31 18:44:29 - apres s1=1150.0 et s2=100.0
+2018-10-31 18:44:29 - test_convertir
+2018-10-31 18:44:29 - 50 euros= 5799.965897843246 yens
+2018-10-31 18:44:29 - 20 euros= 22.314 dollars
+2018-10-31 18:44:29 - test_getListeDevises
+2018-10-31 18:44:29 - 	Devise(dChange=1.1157,monnaie=euro,codeDevise=EUR)
+2018-10-31 18:44:29 - 	Devise(dChange=0.00961816,monnaie=yen,codeDevise=JPY)
+2018-10-31 18:44:29 - 	Devise(dChange=1.0,monnaie=dollar,codeDevise=USD)
+2018-10-31 18:44:29 - 	Devise(dChange=1.3294,monnaie=livre,codeDevise=GBP)
+2018-10-31 18:44:29 - test_getDeviseByName
+2018-10-31 18:44:29 - monnaie euro (getDeviseByName) : Devise(dChange=1.1157,monnaie=euro,codeDevise=EUR)

@@ -1,0 +1,16 @@
+2018-10-23 18:50:31 - Starting MySpringBootApplication on LAPTOP-DDC with PID 5424 (D:\tp\ECLIPSE_WKSP\spring\myMvcSpringBootApp\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\myMvcSpringBootApp)
+2018-10-23 18:50:31 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018-10-23 18:50:31 - No active profile set, falling back to default profiles: default
+2018-10-23 18:50:44 - Started MySpringBootApplication in 14.503 seconds (JVM running for 16.267)
+2018-10-23 19:00:12 - Starting MySpringBootApplication on LAPTOP-DDC with PID 5800 (D:\tp\ECLIPSE_WKSP\spring\myMvcSpringBootApp\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\myMvcSpringBootApp)
+2018-10-23 19:00:12 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018-10-23 19:00:12 - No active profile set, falling back to default profiles: default
+2018-10-23 19:00:25 - Started MySpringBootApplication in 14.393 seconds (JVM running for 15.735)
+2018-10-23 19:03:08 - Starting MySpringBootApplication on LAPTOP-DDC with PID 14808 (D:\tp\ECLIPSE_WKSP\spring\myMvcSpringBootApp\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\myMvcSpringBootApp)
+2018-10-23 19:03:08 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018-10-23 19:03:08 - No active profile set, falling back to default profiles: default
+2018-10-23 19:03:22 - Started MySpringBootApplication in 14.07 seconds (JVM running for 15.4)
+2018-10-23 19:10:59 - Starting MySpringBootApplication on LAPTOP-DDC with PID 9420 (D:\tp\ECLIPSE_WKSP\spring\myMvcSpringBootApp\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\myMvcSpringBootApp)
+2018-10-23 19:10:59 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018-10-23 19:10:59 - No active profile set, falling back to default profiles: default
+2018-10-23 19:11:13 - Started MySpringBootApplication in 14.514 seconds (JVM running for 15.806)

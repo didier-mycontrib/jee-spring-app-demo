@@ -1,0 +1,167 @@
+2019-04-18 06:49:29 - Starting MyMultiContextSpringBootApplication on LAPTOP-DDC with PID 3180 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppMain\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppMain)
+2019-04-18 06:49:29 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-18 06:49:29 - No active profile set, falling back to default profiles: default
+2019-04-18 06:49:33 - Started MyMultiContextSpringBootApplication in 4.713 seconds (JVM running for 5.409)
+2019-04-18 06:49:33 - No active profile set, falling back to default profiles: default
+2019-04-18 06:49:35 - Initializing filter 'jwtAuthenticationFilter'
+2019-04-18 06:49:35 - Filter 'jwtAuthenticationFilter' configured successfully
+2019-04-18 06:49:36 - configure rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@3ed22b7e
+2019-04-18 06:49:37 - Started MyMultiContextSpringBootApplication in 3.733 seconds (JVM running for 9.145)
+2019-04-18 06:49:37 - No active profile set, falling back to default profiles: default
+2019-04-18 06:49:38 - configure rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@4f3f3af2
+2019-04-18 06:49:39 - Started MyMultiContextSpringBootApplication in 1.579 seconds (JVM running for 10.739)
+2019-04-18 06:50:02 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:50:04 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:50:07 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:50:08 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:50:08 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:50:08 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:50:10 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:50:11 - /login , loginRequest:AuthRequest(username=user1, password=pwd1)
+2019-04-18 06:50:12 - /login authResponse:AuthResponse(authToken=eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJodHRwOi8vd3d3Lm15Y29tcGFueSIsInN1YiI6InVzZXIxIiwiaWF0IjoxNTU1NTYzMDExLCJhdXRob3JpdGllcyI6IltST0xFX1VTRVJdIiwiZXhwIjoxNTU1NTYzMzExfQ.O3kiw75V53fLrAj3pzWEnpnhhJrGxzcykMVDtRpJv3KDU22OChyAO2CjfY37ovAlb0-wXbc0Ze9tV5reCUNTvg, authOk=true, message=login successful)
+2019-04-18 06:50:13 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:50:15 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:50:16 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:50:16 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:50:18 - jwt extract by JwtAuthenticationFilter in request:eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJodHRwOi8vd3d3Lm15Y29tcGFueSIsInN1YiI6InVzZXIxIiwiaWF0IjoxNTU1NTYzMDExLCJhdXRob3JpdGllcyI6IltST0xFX1VTRVJdIiwiZXhwIjoxNTU1NTYzMzExfQ.O3kiw75V53fLrAj3pzWEnpnhhJrGxzcykMVDtRpJv3KDU22OChyAO2CjfY37ovAlb0-wXbc0Ze9tV5reCUNTvg
+2019-04-18 06:50:18 - extracted claims in JWT={iss=http://www.mycompany, sub=user1, iat=1555563011, authorities=[ROLE_USER], exp=1555563311}
+2019-04-18 06:50:18 - in jwt claims, found roleName=ROLE_USER
+2019-04-18 06:50:18 - JwtAuthenticationFilter is storing authentication:org.springframework.security.authentication.UsernamePasswordAuthenticationToken@42bb3c92: Principal: org.springframework.security.core.userdetails.User@6a68dc6: Username: user1; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_USER in spring security SecurityContextHolder
+2019-04-18 06:50:20 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:50:26 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:50:26 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:50:26 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:50:34 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:50:34 - /login , loginRequest:AuthRequest(username=admin1, password=pwd1)
+2019-04-18 06:50:34 - /login authResponse:AuthResponse(authToken=eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJodHRwOi8vd3d3Lm15Y29tcGFueSIsInN1YiI6ImFkbWluMSIsImlhdCI6MTU1NTU2MzAzNCwiYXV0aG9yaXRpZXMiOiJbUk9MRV9BRE1JTl0iLCJleHAiOjE1NTU1NjMzMzR9.tVEngbOqyVEX0owYPFsPxgb_vs4tdLGkCiO1kSXUUxce2zXI__ZdEznsMyFBDtzCdU4w31sZQd1SuSuItfolYw, authOk=true, message=login successful)
+2019-04-18 06:50:36 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:50:38 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:50:38 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:50:38 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:50:39 - jwt extract by JwtAuthenticationFilter in request:eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJodHRwOi8vd3d3Lm15Y29tcGFueSIsInN1YiI6ImFkbWluMSIsImlhdCI6MTU1NTU2MzAzNCwiYXV0aG9yaXRpZXMiOiJbUk9MRV9BRE1JTl0iLCJleHAiOjE1NTU1NjMzMzR9.tVEngbOqyVEX0owYPFsPxgb_vs4tdLGkCiO1kSXUUxce2zXI__ZdEznsMyFBDtzCdU4w31sZQd1SuSuItfolYw
+2019-04-18 06:50:39 - extracted claims in JWT={iss=http://www.mycompany, sub=admin1, iat=1555563034, authorities=[ROLE_ADMIN], exp=1555563334}
+2019-04-18 06:50:39 - in jwt claims, found roleName=ROLE_ADMIN
+2019-04-18 06:50:39 - JwtAuthenticationFilter is storing authentication:org.springframework.security.authentication.UsernamePasswordAuthenticationToken@eb991c44: Principal: org.springframework.security.core.userdetails.User@ab3a66c2: Username: admin1; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ADMIN in spring security SecurityContextHolder
+2019-04-18 06:50:41 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:54:05 - Starting MyMultiContextSpringBootApplication on LAPTOP-DDC with PID 3180 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppMain\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppMain)
+2019-04-18 06:54:05 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-18 06:54:05 - No active profile set, falling back to default profiles: default
+2019-04-18 06:54:06 - Started MyMultiContextSpringBootApplication in 0.832 seconds (JVM running for 277.696)
+2019-04-18 06:54:06 - No active profile set, falling back to default profiles: default
+2019-04-18 06:54:06 - Initializing filter 'jwtAuthenticationFilter'
+2019-04-18 06:54:06 - Filter 'jwtAuthenticationFilter' configured successfully
+2019-04-18 06:54:07 - configure rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@2edd61db
+2019-04-18 06:54:07 - Started MyMultiContextSpringBootApplication in 1.346 seconds (JVM running for 279.045)
+2019-04-18 06:54:07 - No active profile set, falling back to default profiles: default
+2019-04-18 06:54:08 - configure rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@536d8684
+2019-04-18 06:54:08 - Started MyMultiContextSpringBootApplication in 1.152 seconds (JVM running for 280.204)
+2019-04-18 06:58:17 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:58:17 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:58:17 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:58:19 - jwt extract by JwtAuthenticationFilter in request:eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJodHRwOi8vd3d3Lm15Y29tcGFueSIsInN1YiI6ImFkbWluMSIsImlhdCI6MTU1NTU2MzAzNCwiYXV0aG9yaXRpZXMiOiJbUk9MRV9BRE1JTl0iLCJleHAiOjE1NTU1NjMzMzR9.tVEngbOqyVEX0owYPFsPxgb_vs4tdLGkCiO1kSXUUxce2zXI__ZdEznsMyFBDtzCdU4w31sZQd1SuSuItfolYw
+2019-04-18 06:58:19 - Expired JWT token
+2019-04-18 06:58:27 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:58:32 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:58:32 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:58:32 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:58:34 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:58:34 - /login , loginRequest:AuthRequest(username=user1, password=pwd1)
+2019-04-18 06:58:34 - /login authResponse:AuthResponse(authToken=eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJodHRwOi8vd3d3Lm15Y29tcGFueSIsInN1YiI6InVzZXIxIiwiaWF0IjoxNTU1NTYzNTE0LCJhdXRob3JpdGllcyI6IltST0xFX1VTRVJdIiwiZXhwIjoxNTU1NTYzODE0fQ.Pxy1BZYjh1tMRuz_P-eeuBXjUSP_jE15sVUUfgJzAySINlq3Mv1KjmhoMOvB7J7rMRsPZVL3YnVPjl2yfQZckw, authOk=true, message=login successful)
+2019-04-18 06:58:36 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:58:38 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:58:38 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:58:38 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:58:40 - jwt extract by JwtAuthenticationFilter in request:eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJodHRwOi8vd3d3Lm15Y29tcGFueSIsInN1YiI6InVzZXIxIiwiaWF0IjoxNTU1NTYzNTE0LCJhdXRob3JpdGllcyI6IltST0xFX1VTRVJdIiwiZXhwIjoxNTU1NTYzODE0fQ.Pxy1BZYjh1tMRuz_P-eeuBXjUSP_jE15sVUUfgJzAySINlq3Mv1KjmhoMOvB7J7rMRsPZVL3YnVPjl2yfQZckw
+2019-04-18 06:58:40 - extracted claims in JWT={iss=http://www.mycompany, sub=user1, iat=1555563514, authorities=[ROLE_USER], exp=1555563814}
+2019-04-18 06:58:40 - in jwt claims, found roleName=ROLE_USER
+2019-04-18 06:58:40 - JwtAuthenticationFilter is storing authentication:org.springframework.security.authentication.UsernamePasswordAuthenticationToken@42bb3c92: Principal: org.springframework.security.core.userdetails.User@6a68dc6: Username: user1; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_USER in spring security SecurityContextHolder
+2019-04-18 06:58:42 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:58:45 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:58:45 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:58:45 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:58:52 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:58:52 - /login , loginRequest:AuthRequest(username=admin1, password=pwd1)
+2019-04-18 06:58:53 - /login authResponse:AuthResponse(authToken=eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJodHRwOi8vd3d3Lm15Y29tcGFueSIsInN1YiI6ImFkbWluMSIsImlhdCI6MTU1NTU2MzUzMywiYXV0aG9yaXRpZXMiOiJbUk9MRV9BRE1JTl0iLCJleHAiOjE1NTU1NjM4MzN9.uENkaYL0G8FhiIhiWLZ0r0MHwYyWWBDL0wb2FIokBSef628XfVlCPQZdJaeHDnN2XQSUcWM6sSLfLOKCn9gh3Q, authOk=true, message=login successful)
+2019-04-18 06:58:55 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:58:57 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:58:57 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:58:57 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:58:59 - jwt extract by JwtAuthenticationFilter in request:eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJodHRwOi8vd3d3Lm15Y29tcGFueSIsInN1YiI6ImFkbWluMSIsImlhdCI6MTU1NTU2MzUzMywiYXV0aG9yaXRpZXMiOiJbUk9MRV9BRE1JTl0iLCJleHAiOjE1NTU1NjM4MzN9.uENkaYL0G8FhiIhiWLZ0r0MHwYyWWBDL0wb2FIokBSef628XfVlCPQZdJaeHDnN2XQSUcWM6sSLfLOKCn9gh3Q
+2019-04-18 06:58:59 - extracted claims in JWT={iss=http://www.mycompany, sub=admin1, iat=1555563533, authorities=[ROLE_ADMIN], exp=1555563833}
+2019-04-18 06:58:59 - in jwt claims, found roleName=ROLE_ADMIN
+2019-04-18 06:58:59 - JwtAuthenticationFilter is storing authentication:org.springframework.security.authentication.UsernamePasswordAuthenticationToken@eb991c44: Principal: org.springframework.security.core.userdetails.User@ab3a66c2: Username: admin1; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ADMIN in spring security SecurityContextHolder
+2019-04-18 06:59:20 - jwt extract by JwtAuthenticationFilter in request:eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJodHRwOi8vd3d3Lm15Y29tcGFueSIsInN1YiI6ImFkbWluMSIsImlhdCI6MTU1NTU2MzUzMywiYXV0aG9yaXRpZXMiOiJbUk9MRV9BRE1JTl0iLCJleHAiOjE1NTU1NjM4MzN9.uENkaYL0G8FhiIhiWLZ0r0MHwYyWWBDL0wb2FIokBSef628XfVlCPQZdJaeHDnN2XQSUcWM6sSLfLOKCn9gh3Q
+2019-04-18 06:59:20 - extracted claims in JWT={iss=http://www.mycompany, sub=admin1, iat=1555563533, authorities=[ROLE_ADMIN], exp=1555563833}
+2019-04-18 06:59:20 - in jwt claims, found roleName=ROLE_ADMIN
+2019-04-18 06:59:20 - JwtAuthenticationFilter is storing authentication:org.springframework.security.authentication.UsernamePasswordAuthenticationToken@eb991c44: Principal: org.springframework.security.core.userdetails.User@ab3a66c2: Username: admin1; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ADMIN in spring security SecurityContextHolder
+2019-04-18 06:59:22 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:59:24 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:59:24 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:59:24 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 06:59:25 - jwt extract by JwtAuthenticationFilter in request:eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJodHRwOi8vd3d3Lm15Y29tcGFueSIsInN1YiI6ImFkbWluMSIsImlhdCI6MTU1NTU2MzUzMywiYXV0aG9yaXRpZXMiOiJbUk9MRV9BRE1JTl0iLCJleHAiOjE1NTU1NjM4MzN9.uENkaYL0G8FhiIhiWLZ0r0MHwYyWWBDL0wb2FIokBSef628XfVlCPQZdJaeHDnN2XQSUcWM6sSLfLOKCn9gh3Q
+2019-04-18 06:59:25 - extracted claims in JWT={iss=http://www.mycompany, sub=admin1, iat=1555563533, authorities=[ROLE_ADMIN], exp=1555563833}
+2019-04-18 06:59:25 - in jwt claims, found roleName=ROLE_ADMIN
+2019-04-18 06:59:25 - JwtAuthenticationFilter is storing authentication:org.springframework.security.authentication.UsernamePasswordAuthenticationToken@eb991c44: Principal: org.springframework.security.core.userdetails.User@ab3a66c2: Username: admin1; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ADMIN in spring security SecurityContextHolder
+2019-04-18 07:07:16 - Starting MyMultiContextSpringBootApplication on LAPTOP-DDC with PID 3180 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppMain\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppMain)
+2019-04-18 07:07:16 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-18 07:07:16 - No active profile set, falling back to default profiles: default
+2019-04-18 07:07:16 - Started MyMultiContextSpringBootApplication in 0.708 seconds (JVM running for 1068.358)
+2019-04-18 07:07:16 - No active profile set, falling back to default profiles: default
+2019-04-18 07:07:17 - Initializing filter 'jwtAuthenticationFilter'
+2019-04-18 07:07:17 - Filter 'jwtAuthenticationFilter' configured successfully
+2019-04-18 07:07:17 - configure rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@fc0e474
+2019-04-18 07:07:17 - Started MyMultiContextSpringBootApplication in 1.289 seconds (JVM running for 1069.648)
+2019-04-18 07:07:17 - No active profile set, falling back to default profiles: default
+2019-04-18 07:07:18 - configure rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@656ca53b
+2019-04-18 07:07:19 - Started MyMultiContextSpringBootApplication in 1.099 seconds (JVM running for 1070.755)
+2019-04-18 07:11:04 - Starting MyMultiContextSpringBootApplication on LAPTOP-DDC with PID 3180 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppMain\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppMain)
+2019-04-18 07:11:04 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-18 07:11:04 - No active profile set, falling back to default profiles: default
+2019-04-18 07:11:04 - Started MyMultiContextSpringBootApplication in 0.644 seconds (JVM running for 1296.421)
+2019-04-18 07:11:04 - No active profile set, falling back to default profiles: default
+2019-04-18 07:11:05 - Initializing filter 'jwtAuthenticationFilter'
+2019-04-18 07:11:05 - Filter 'jwtAuthenticationFilter' configured successfully
+2019-04-18 07:11:05 - configure rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@4856e2be
+2019-04-18 07:11:05 - Started MyMultiContextSpringBootApplication in 1.214 seconds (JVM running for 1297.636)
+2019-04-18 07:11:05 - No active profile set, falling back to default profiles: default
+2019-04-18 07:11:06 - configure rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@47c251aa
+2019-04-18 07:11:06 - Started MyMultiContextSpringBootApplication in 0.92 seconds (JVM running for 1298.561)
+2019-04-18 07:15:55 - Starting MyMultiContextSpringBootApplication on LAPTOP-DDC with PID 3180 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppMain\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppMain)
+2019-04-18 07:15:55 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-18 07:15:55 - No active profile set, falling back to default profiles: default
+2019-04-18 07:15:56 - Started MyMultiContextSpringBootApplication in 0.599 seconds (JVM running for 1588.167)
+2019-04-18 07:15:56 - No active profile set, falling back to default profiles: default
+2019-04-18 07:15:57 - Initializing filter 'jwtAuthenticationFilter'
+2019-04-18 07:15:57 - Filter 'jwtAuthenticationFilter' configured successfully
+2019-04-18 07:15:57 - configure rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@69d2b270
+2019-04-18 07:15:57 - Started MyMultiContextSpringBootApplication in 1.08 seconds (JVM running for 1589.249)
+2019-04-18 07:15:57 - No active profile set, falling back to default profiles: default
+2019-04-18 07:15:58 - configure rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@1d888ce1
+2019-04-18 07:15:58 - Started MyMultiContextSpringBootApplication in 1.014 seconds (JVM running for 1590.268)
+2019-04-18 07:18:50 - Starting MyMultiContextSpringBootApplication on LAPTOP-DDC with PID 3180 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppMain\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppMain)
+2019-04-18 07:18:50 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-18 07:18:50 - No active profile set, falling back to default profiles: default
+2019-04-18 07:18:50 - Started MyMultiContextSpringBootApplication in 0.603 seconds (JVM running for 1762.359)
+2019-04-18 07:18:50 - No active profile set, falling back to default profiles: default
+2019-04-18 07:18:51 - Initializing filter 'jwtAuthenticationFilter'
+2019-04-18 07:18:51 - Filter 'jwtAuthenticationFilter' configured successfully
+2019-04-18 07:18:51 - configure rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@557b1bb0
+2019-04-18 07:18:51 - Started MyMultiContextSpringBootApplication in 1.075 seconds (JVM running for 1763.435)
+2019-04-18 07:18:51 - No active profile set, falling back to default profiles: default
+2019-04-18 07:18:52 - configure rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@1cf05b45
+2019-04-18 07:18:52 - Started MyMultiContextSpringBootApplication in 1.213 seconds (JVM running for 1764.654)
+2019-04-18 07:26:46 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 07:26:51 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 07:26:51 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 07:26:51 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 07:26:51 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 07:26:54 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 07:26:56 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 07:26:56 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 07:26:56 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 07:26:56 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 07:26:59 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 07:27:01 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 07:27:01 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 07:27:01 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-18 07:27:23 - jwt extract by JwtAuthenticationFilter in request:null

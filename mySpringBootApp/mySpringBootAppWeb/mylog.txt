@@ -1,0 +1,35 @@
+2019-04-16 06:50:51 - Starting MyMvcJavaWebSpringBootApplication on LAPTOP-DDC with PID 14720 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppWeb\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppWeb)
+2019-04-16 06:50:51 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-16 06:50:51 - No active profile set, falling back to default profiles: default
+2019-04-16 06:50:55 - Started MyMvcJavaWebSpringBootApplication in 4.425 seconds (JVM running for 5.039)
+2019-04-16 06:50:55 - No active profile set, falling back to default profiles: default
+2019-04-16 06:50:57 - configure rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@6798d35e
+2019-04-16 06:50:58 - Started MyMvcJavaWebSpringBootApplication in 3.324 seconds (JVM running for 8.366)
+2019-04-16 06:59:42 - Starting MyMvcJavaWebSpringBootApplication on LAPTOP-DDC with PID 19944 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppWeb\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppWeb)
+2019-04-16 06:59:42 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-16 06:59:42 - No active profile set, falling back to default profiles: default
+2019-04-16 06:59:46 - Started MyMvcJavaWebSpringBootApplication in 4.414 seconds (JVM running for 5.071)
+2019-04-16 06:59:46 - No active profile set, falling back to default profiles: default
+2019-04-16 06:59:48 - configure rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@d4e3291
+2019-04-16 06:59:49 - Started MyMvcJavaWebSpringBootApplication in 3.172 seconds (JVM running for 8.245)
+2019-04-16 07:01:57 - Starting MyMvcJavaWebSpringBootApplication on LAPTOP-DDC with PID 2432 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppWeb\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppWeb)
+2019-04-16 07:01:57 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-16 07:01:57 - No active profile set, falling back to default profiles: default
+2019-04-16 07:02:01 - Started MyMvcJavaWebSpringBootApplication in 4.437 seconds (JVM running for 5.095)
+2019-04-16 07:02:01 - No active profile set, falling back to default profiles: default
+2019-04-16 07:02:03 - configure rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@49c43721
+2019-04-16 07:02:04 - Started MyMvcJavaWebSpringBootApplication in 3.076 seconds (JVM running for 8.175)
+2019-04-16 07:04:07 - Starting MyMvcJavaWebSpringBootApplication on LAPTOP-DDC with PID 18348 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppWeb\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppWeb)
+2019-04-16 07:04:07 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-16 07:04:07 - No active profile set, falling back to default profiles: default
+2019-04-16 07:04:11 - Started MyMvcJavaWebSpringBootApplication in 4.534 seconds (JVM running for 5.191)
+2019-04-16 07:04:11 - No active profile set, falling back to default profiles: default
+2019-04-16 07:04:14 - configure rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@7dff3435
+2019-04-16 07:04:14 - Started MyMvcJavaWebSpringBootApplication in 3.137 seconds (JVM running for 8.338)
+2019-04-16 18:01:44 - Starting MyMvcJavaWebSpringBootApplication on LAPTOP-DDC with PID 10064 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppWeb\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppWeb)
+2019-04-16 18:01:44 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-16 18:01:44 - No active profile set, falling back to default profiles: default
+2019-04-16 18:01:48 - Started MyMvcJavaWebSpringBootApplication in 4.398 seconds (JVM running for 5.063)
+2019-04-16 18:01:48 - No active profile set, falling back to default profiles: default
+2019-04-16 18:01:51 - configure rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@784afd82
+2019-04-16 18:01:51 - Started MyMvcJavaWebSpringBootApplication in 3.288 seconds (JVM running for 8.354)

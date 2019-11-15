@@ -1,0 +1,34 @@
+2018-11-06 07:13:45 - jwt extract by JwtAuthenticationFilter in request:null
+2018-11-06 07:13:45 - loadUserByUsername() was called with username=user1
+2018-11-06 07:13:46 - findByUsernameAndSecurityContext/not found:No entity found for query
+2018-11-06 07:13:46 - login fetch with loginAccountService : loginInfo=null
+2018-11-06 07:13:46 - in loadUserByUsername() loginInfo not found for username=user1
+2018-11-06 07:14:21 - jwt extract by JwtAuthenticationFilter in request:null
+2018-11-06 07:14:21 - loadUserByUsername() was called with username=user1
+2018-11-06 07:14:21 - findByUsernameAndSecurityContext/not found:No entity found for query
+2018-11-06 07:14:21 - login fetch with loginAccountService : loginInfo=null
+2018-11-06 07:14:21 - in loadUserByUsername() loginInfo not found for username=user1
+2018-11-06 07:18:09 - jwt extract by JwtAuthenticationFilter in request:null
+2018-11-06 07:18:09 - loadUserByUsername() was called with username=mycompany/myapp/employees/user1
+2018-11-06 07:18:09 - login fetch with loginAccountService : loginInfo=UserAccount [username=user1, password=$2a$10$ejfNTf/fI8cRXGZpgyRnVeTy1pfS07QLJiTWCtZuzQXQiCWFOF5lG]
+2018-11-06 07:20:57 - jwt extract by JwtAuthenticationFilter in request:null
+2018-11-06 07:20:57 - loadUserByUsername() was called with username=user1
+2018-11-06 07:20:57 - findByUsernameAndSecurityContext/not found:No entity found for query
+2018-11-06 07:20:57 - login fetch with loginAccountService : loginInfo=null
+2018-11-06 07:20:57 - in loadUserByUsername() loginInfo not found for username=user1
+2018-11-06 07:21:07 - jwt extract by JwtAuthenticationFilter in request:null
+2018-11-06 07:21:07 - loadUserByUsername() was called with username=mycompany/myapp/employees/user1
+2018-11-06 07:21:07 - login fetch with loginAccountService : loginInfo=UserAccount [username=user1, password=$2a$10$ejfNTf/fI8cRXGZpgyRnVeTy1pfS07QLJiTWCtZuzQXQiCWFOF5lG]
+2018-11-06 07:27:27 - jwt extract by JwtAuthenticationFilter in request:null
+2018-11-06 07:27:33 - jwt extract by JwtAuthenticationFilter in request:null
+2018-11-06 07:27:33 - jwt extract by JwtAuthenticationFilter in request:null
+2018-11-06 07:27:34 - jwt extract by JwtAuthenticationFilter in request:null
+2018-11-06 07:27:43 - jwt extract by JwtAuthenticationFilter in request:null
+2018-11-06 07:27:43 - loadUserByUsername() was called with username=user1
+2018-11-06 07:27:43 - findByUsernameAndSecurityContext/not found:No entity found for query
+2018-11-06 07:27:43 - login fetch with loginAccountService : loginInfo=null
+2018-11-06 07:27:43 - in loadUserByUsername() loginInfo not found for username=user1
+2018-11-06 07:28:49 - jwt extract by JwtAuthenticationFilter in request:null
+2018-11-06 07:28:49 - loadUserByUsername() was called with username=mycompany/myapp/employees/user1
+2018-11-06 07:28:49 - login fetch with loginAccountService : loginInfo=UserAccount [username=user1, password=$2a$10$ejfNTf/fI8cRXGZpgyRnVeTy1pfS07QLJiTWCtZuzQXQiCWFOF5lG]
+2018-11-06 07:29:02 - jwt extract by JwtAuthenticationFilter in request:null

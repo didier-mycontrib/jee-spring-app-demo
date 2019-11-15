@@ -1,0 +1,18 @@
+2019-04-15 18:58:26 - Starting TestServiceGestionDevises on LAPTOP-DDC with PID 14036 (started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppCore)
+2019-04-15 18:58:26 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-15 18:58:26 - No active profile set, falling back to default profiles: default
+2019-04-15 18:58:30 - Started TestServiceGestionDevises in 4.131 seconds (JVM running for 5.978)
+2019-04-15 18:58:30 - test_convertir
+2019-04-15 18:58:30 - 50 euros= 5799.965897843246 yens
+2019-04-15 18:58:30 - 20 euros= 22.314 dollars
+2019-04-15 18:58:30 - test_getListeDevises
+2019-04-15 18:58:30 - 	Devise(dChange=1.1157,monnaie=euro,codeDevise=EUR)
+2019-04-15 18:58:30 - 	Devise(dChange=0.00961816,monnaie=yen,codeDevise=JPY)
+2019-04-15 18:58:30 - 	Devise(dChange=1.0,monnaie=dollar,codeDevise=USD)
+2019-04-15 18:58:30 - 	Devise(dChange=1.3294,monnaie=livre,codeDevise=GBP)
+2019-04-15 18:58:30 - test_getDeviseByName
+2019-04-15 18:58:30 - monnaie euro (getDeviseByName) : Devise(dChange=1.1157,monnaie=euro,codeDevise=EUR)
+2019-04-15 18:58:55 - Starting MySpringBootBasicCoreApplication on LAPTOP-DDC with PID 19464 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppCore\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppCore)
+2019-04-15 18:58:55 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-15 18:58:55 - No active profile set, falling back to default profiles: default
+2019-04-15 18:58:59 - Started MySpringBootBasicCoreApplication in 3.787 seconds (JVM running for 4.538)

@@ -1,0 +1,21 @@
+2019-04-15 19:04:10 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 20036 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-15 19:04:10 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-15 19:04:10 - No active profile set, falling back to default profiles: default
+2019-04-15 19:04:15 - Started MySpringBootApplicationRest in 4.767 seconds (JVM running for 5.532)
+2019-04-15 19:04:15 - No active profile set, falling back to default profiles: default
+2019-04-15 19:04:17 - configure rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@4aabfe0a
+2019-04-15 19:04:18 - Started MySpringBootApplicationRest in 3.087 seconds (JVM running for 8.623)
+2019-04-15 19:05:43 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 20036 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-15 19:05:43 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-15 19:05:43 - No active profile set, falling back to default profiles: default
+2019-04-15 19:05:43 - Started MySpringBootApplicationRest in 0.757 seconds (JVM running for 94.296)
+2019-04-15 19:05:43 - No active profile set, falling back to default profiles: default
+2019-04-15 19:05:44 - configure rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@2b9d69f4
+2019-04-15 19:05:45 - Started MySpringBootApplicationRest in 1.211 seconds (JVM running for 95.512)
+2019-04-15 19:36:54 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 15400 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-15 19:36:54 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-15 19:36:54 - No active profile set, falling back to default profiles: default
+2019-04-15 19:36:58 - Started MySpringBootApplicationRest in 4.429 seconds (JVM running for 5.066)
+2019-04-15 19:36:58 - No active profile set, falling back to default profiles: default
+2019-04-15 19:37:01 - configure rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@303e4cd0
+2019-04-15 19:37:01 - Started MySpringBootApplicationRest in 3.171 seconds (JVM running for 8.24)

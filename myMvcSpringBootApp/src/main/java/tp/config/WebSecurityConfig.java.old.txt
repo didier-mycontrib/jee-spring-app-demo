@@ -1,0 +1,125 @@
+package tp.config;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+
+@Configuration
+public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
+    
+	private static Logger logger = LoggerFactory.getLogger(WebSecurityConfig.class);
+	
+
+	@Bean
+    public BCryptPasswordEncoder passwordEncoder() {
+        return new BCryptPasswordEncoder();
+    }
+	
+	@Autowired
+    private BCryptPasswordEncoder passwordEncoder;
+
+    @Autowired
+    public void globalUserDetails(final AuthenticationManagerBuilder auth) throws Exception {
+	auth.inMemoryAuthentication()
+	  .withUser("user1").password(passwordEncoder.encode("pwd1")).roles("USER").and()
+	  .withUser("admin1").password(passwordEncoder.encode("pwd1")).roles("ADMIN").and()
+	  .withUser("user2").password(passwordEncoder.encode("pwd2")).roles("USER").and()
+	  .withUser("admin2").password(passwordEncoder.encode("pwd2")).roles("ADMIN");
+    }
+
+    @Override
+    @Bean
+    public AuthenticationManager authenticationManagerBean() throws Exception {
+        return super.authenticationManagerBean();
+    }
+
+    @Override
+    protected void configure(final HttpSecurity http) throws Exception {
+    	
+    	http.formLogin().permitAll();
+    	
+    	http.authorizeRequests()
+		       .antMatchers("/",
+                "/favicon.ico",
+                "/**/*.png",
+                "/**/*.gif",
+                "/**/*.svg",
+                "/**/*.jpg",
+                "/**/*.html",
+                "/**/*.css",
+                "/**/*.js").permitAll();
+    	
+    	
+    	configureForServerPagesIfMvc(http);
+    	configureForWebServicesIfRestApi(http); //NOT_WORKING ???
+    	
+    }
+    
+
+protected void configureForWebServicesIfRestApi(final HttpSecurity http) throws Exception {
+	
+	     /*
+	  	 http.requestMatcher(new RequestMatcher() {
+	            @Override
+	            public boolean matches(final HttpServletRequest request) {
+	            	String pathInfo = request.getPathInfo();
+	            	pathInfo = (pathInfo!=null)?pathInfo:"";
+	                final String url = request.getServletPath() + pathInfo;
+	                logger.debug("* url in requestMatcher:" + url);
+	                return !(url.startsWith("/rest/"));
+	            }
+	   	 	 })
+	   	 n'est qu'une version sophistiquée / paramétrable de http.antMatcher(...)
+	  	 */
+	  	 http.requestMatchers()
+	  	         .antMatchers("/rest/**")
+	  	         .and()
+	  	 		 .authorizeRequests()
+	  	 		   .antMatchers("/rest/**").permitAll()
+	  	 		   //.anyRequest().permitAll()
+	  	 		   //.anyRequest().authenticated()
+	  	 		.and().csrf().disable();
+	  	 		//.and().httpBasic() 
+	}
+
+protected void configureForServerPagesIfMvc(final HttpSecurity http) throws Exception {
+	/* 
+	http.antMatcher("/mvc/**")
+	 		.authorizeRequests()
+	 			//.anyRequest().permitAll()
+	 			.anyRequest().authenticated();
+	NOT WORKING */
+    
+	http.requestMatchers().antMatchers("/mvc/**")
+	        .and()
+	        .csrf()
+			.and()
+			.authorizeRequests()
+				.antMatchers("/mvc/**").authenticated()
+				//.anyRequest().permitAll()
+				.anyRequest().authenticated();
+
+	
+	
+	/*
+	http.authorizeRequests()
+	       .antMatchers("/mvc/**").authenticated()
+			//.anyRequest().permitAll()
+			.anyRequest().authenticated();
+	
+	
+		
+	http.csrf();
+	//.and().httpBasic()*/
+	
+}
+
+
+}

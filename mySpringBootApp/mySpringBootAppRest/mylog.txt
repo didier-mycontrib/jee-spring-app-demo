@@ -1,0 +1,526 @@
+2019-04-17 06:50:48 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 19916 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 06:50:48 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 06:50:48 - No active profile set, falling back to default profiles: default
+2019-04-17 06:50:53 - Started MySpringBootApplicationRest in 4.768 seconds (JVM running for 5.483)
+2019-04-17 06:50:53 - No active profile set, falling back to default profiles: default
+2019-04-17 06:55:11 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 17024 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 06:55:11 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 06:55:11 - No active profile set, falling back to default profiles: default
+2019-04-17 06:55:15 - Started MySpringBootApplicationRest in 4.692 seconds (JVM running for 5.501)
+2019-04-17 06:55:15 - No active profile set, falling back to default profiles: default
+2019-04-17 06:58:19 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 7264 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 06:58:19 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 06:58:19 - No active profile set, falling back to default profiles: default
+2019-04-17 06:58:23 - Started MySpringBootApplicationRest in 4.458 seconds (JVM running for 5.148)
+2019-04-17 06:58:23 - No active profile set, falling back to default profiles: default
+2019-04-17 06:58:26 - configure rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@3a8a1a12
+2019-04-17 06:58:26 - Started MySpringBootApplicationRest in 2.866 seconds (JVM running for 8.018)
+2019-04-17 06:59:06 - /login , loginRequest:AuthRequest(username=user1, password=pwd1)
+2019-04-17 06:59:08 - /login authResponse:AuthResponse(authToken=eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJodHRwOi8vd3d3Lm15Y29tcGFueSIsInN1YiI6InVzZXIxIiwiaWF0IjoxNTU1NDc3MTQ3LCJhdXRob3JpdGllcyI6IltST0xFX1VTRVJdIiwiZXhwIjoxNTU1NDc3NDQ3fQ.yFoHmYWaW4q4zPaDVzy8MmCMOoxnJszZG9WVp8LIfWR5kOxSqdQgTlk64xabAQuKOYfskQCVy2riQ6lFtOL41g, authOk=true, message=login successful)
+2019-04-17 06:59:44 - /login , loginRequest:AuthRequest(username=user1, password=pwd1qss)
+2019-04-17 06:59:44 - echec authentification:Bad credentials
+2019-04-17 07:00:05 - /login , loginRequest:AuthRequest(username=user1sxdd, password=pwd1qss)
+2019-04-17 07:00:05 - echec authentification:Bad credentials
+2019-04-17 07:00:27 - /login , loginRequest:AuthRequest(username=user1, password=pwd1)
+2019-04-17 07:00:27 - /login authResponse:AuthResponse(authToken=eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJodHRwOi8vd3d3Lm15Y29tcGFueSIsInN1YiI6InVzZXIxIiwiaWF0IjoxNTU1NDc3MjI3LCJhdXRob3JpdGllcyI6IltST0xFX1VTRVJdIiwiZXhwIjoxNTU1NDc3NTI3fQ.NkhtR5LLzv6M-y7LrDNI-SKWVLPze1ltpuTatQOJGYQZh9-zZV4SyyTkJl9TSQqKm9JO7zAc61u6jjaIWDtKhA, authOk=true, message=login successful)
+2019-04-17 07:08:01 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 7264 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 07:08:01 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 07:08:01 - No active profile set, falling back to default profiles: default
+2019-04-17 07:08:02 - Started MySpringBootApplicationRest in 0.764 seconds (JVM running for 583.776)
+2019-04-17 07:08:02 - No active profile set, falling back to default profiles: default
+2019-04-17 07:08:03 - configure rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@420d2e2b
+2019-04-17 07:08:03 - Started MySpringBootApplicationRest in 1.078 seconds (JVM running for 584.857)
+2019-04-17 07:08:22 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 7264 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 07:08:22 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 07:08:22 - No active profile set, falling back to default profiles: default
+2019-04-17 07:08:23 - Started MySpringBootApplicationRest in 0.644 seconds (JVM running for 604.654)
+2019-04-17 07:08:23 - No active profile set, falling back to default profiles: default
+2019-04-17 07:08:24 - configure rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@35aadba0
+2019-04-17 07:08:24 - Started MySpringBootApplicationRest in 1.082 seconds (JVM running for 605.739)
+2019-04-17 07:08:49 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 7264 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 07:08:49 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 07:08:49 - No active profile set, falling back to default profiles: default
+2019-04-17 07:08:50 - Started MySpringBootApplicationRest in 0.598 seconds (JVM running for 631.503)
+2019-04-17 07:08:50 - No active profile set, falling back to default profiles: default
+2019-04-17 07:08:51 - configure rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@e34b09
+2019-04-17 07:08:51 - Started MySpringBootApplicationRest in 0.976 seconds (JVM running for 632.483)
+2019-04-17 07:12:47 - /login , loginRequest:AuthRequest(username=user1, password=pwd1)
+2019-04-17 07:12:47 - /login authResponse:AuthResponse(authToken=eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJodHRwOi8vd3d3Lm15Y29tcGFueSIsInN1YiI6InVzZXIxIiwiaWF0IjoxNTU1NDc3OTY3LCJhdXRob3JpdGllcyI6IltST0xFX1VTRVJdIiwiZXhwIjoxNTU1NDc4MjY3fQ.hi5I574kbpz7OuxxeOCyeDzGEkwF60G1yu4_LbjQz1dnhTSCZk19NCBS3RIC9cCLKZH45VMWvEUhLWzWDxezmA, authOk=true, message=login successful)
+2019-04-17 07:15:44 - /login , loginRequest:AuthRequest(username=user1, password=pwd1a)
+2019-04-17 07:15:44 - echec authentification:Bad credentials
+2019-04-17 07:23:39 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 7264 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 07:23:39 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 07:23:39 - No active profile set, falling back to default profiles: default
+2019-04-17 07:23:40 - Started MySpringBootApplicationRest in 0.627 seconds (JVM running for 1521.718)
+2019-04-17 07:23:40 - No active profile set, falling back to default profiles: default
+2019-04-17 07:27:53 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 7264 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 07:27:53 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 07:27:53 - No active profile set, falling back to default profiles: default
+2019-04-17 07:27:53 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 7264 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 07:27:53 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 07:27:53 - No active profile set, falling back to default profiles: default
+2019-04-17 07:27:54 - Started MySpringBootApplicationRest in 0.593 seconds (JVM running for 1775.291)
+2019-04-17 07:27:54 - No active profile set, falling back to default profiles: default
+2019-04-17 07:28:24 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 7264 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 07:28:24 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 07:28:24 - No active profile set, falling back to default profiles: default
+2019-04-17 07:28:24 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 7264 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 07:28:24 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 07:28:24 - No active profile set, falling back to default profiles: default
+2019-04-17 07:28:25 - Started MySpringBootApplicationRest in 0.711 seconds (JVM running for 1806.497)
+2019-04-17 07:28:25 - No active profile set, falling back to default profiles: default
+2019-04-17 07:28:25 - Started MySpringBootApplicationRest in 0.78 seconds (JVM running for 1806.903)
+2019-04-17 07:28:26 - No active profile set, falling back to default profiles: default
+2019-04-17 07:28:26 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 7264 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 07:28:26 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 07:28:26 - No active profile set, falling back to default profiles: default
+2019-04-17 07:28:26 - Started MySpringBootApplicationRest in 0.643 seconds (JVM running for 1808.01)
+2019-04-17 07:28:26 - No active profile set, falling back to default profiles: default
+2019-04-17 07:29:19 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 7264 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 07:29:19 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 07:29:19 - No active profile set, falling back to default profiles: default
+2019-04-17 07:29:20 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 7264 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 07:29:20 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 07:29:20 - No active profile set, falling back to default profiles: default
+2019-04-17 07:29:20 - Started MySpringBootApplicationRest in 0.946 seconds (JVM running for 1861.947)
+2019-04-17 07:29:20 - No active profile set, falling back to default profiles: default
+2019-04-17 07:29:20 - Started MySpringBootApplicationRest in 1.011 seconds (JVM running for 1862.2)
+2019-04-17 07:29:21 - No active profile set, falling back to default profiles: default
+2019-04-17 07:29:21 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 7264 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 07:29:21 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 07:29:21 - No active profile set, falling back to default profiles: default
+2019-04-17 07:29:22 - Started MySpringBootApplicationRest in 0.69 seconds (JVM running for 1863.318)
+2019-04-17 07:29:22 - No active profile set, falling back to default profiles: default
+2019-04-17 07:30:58 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 7264 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 07:30:58 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 07:30:58 - No active profile set, falling back to default profiles: default
+2019-04-17 07:30:59 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 7264 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 07:30:59 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 07:30:59 - No active profile set, falling back to default profiles: default
+2019-04-17 07:30:59 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 7264 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 07:30:59 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 07:30:59 - No active profile set, falling back to default profiles: default
+2019-04-17 07:30:59 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 7264 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 07:30:59 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 07:30:59 - No active profile set, falling back to default profiles: default
+2019-04-17 07:30:59 - Started MySpringBootApplicationRest in 0.828 seconds (JVM running for 1960.771)
+2019-04-17 07:30:59 - No active profile set, falling back to default profiles: default
+2019-04-17 07:31:00 - Started MySpringBootApplicationRest in 1.439 seconds (JVM running for 1961.778)
+2019-04-17 07:31:00 - No active profile set, falling back to default profiles: default
+2019-04-17 07:31:01 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 7264 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 07:31:01 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 07:31:01 - No active profile set, falling back to default profiles: default
+2019-04-17 07:31:50 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 7264 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 07:31:50 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 07:31:50 - No active profile set, falling back to default profiles: default
+2019-04-17 07:31:51 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 7264 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 07:31:51 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 07:31:51 - No active profile set, falling back to default profiles: default
+2019-04-17 07:31:51 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 7264 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 07:31:51 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 07:31:51 - No active profile set, falling back to default profiles: default
+2019-04-17 07:31:51 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 7264 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 07:31:51 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 07:31:51 - No active profile set, falling back to default profiles: default
+2019-04-17 07:31:51 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 7264 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 07:31:51 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 07:31:51 - No active profile set, falling back to default profiles: default
+2019-04-17 07:31:52 - Started MySpringBootApplicationRest in 1.012 seconds (JVM running for 2013.253)
+2019-04-17 07:31:52 - No active profile set, falling back to default profiles: default
+2019-04-17 07:31:52 - No active profile set, falling back to default profiles: default
+2019-04-17 07:31:52 - Started MySpringBootApplicationRest in 1.105 seconds (JVM running for 2013.507)
+2019-04-17 07:31:52 - No active profile set, falling back to default profiles: default
+2019-04-17 07:31:52 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 7264 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 07:31:52 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 07:31:52 - No active profile set, falling back to default profiles: default
+2019-04-17 07:31:53 - Started MySpringBootApplicationRest in 1.643 seconds (JVM running for 2014.258)
+2019-04-17 07:31:53 - No active profile set, falling back to default profiles: default
+2019-04-17 07:32:40 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 7264 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 07:32:40 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 07:32:40 - No active profile set, falling back to default profiles: default
+2019-04-17 07:32:40 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 7264 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 07:32:40 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 07:32:40 - No active profile set, falling back to default profiles: default
+2019-04-17 07:32:41 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 7264 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 07:32:41 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 07:32:41 - No active profile set, falling back to default profiles: default
+2019-04-17 07:32:41 - Started MySpringBootApplicationRest in 0.741 seconds (JVM running for 2062.767)
+2019-04-17 07:32:41 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 7264 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 07:32:41 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 07:32:41 - No active profile set, falling back to default profiles: default
+2019-04-17 07:32:41 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 7264 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 07:32:41 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 07:32:41 - No active profile set, falling back to default profiles: default
+2019-04-17 07:32:41 - Started MySpringBootApplicationRest in 0.962 seconds (JVM running for 2063.099)
+2019-04-17 07:32:42 - No active profile set, falling back to default profiles: default
+2019-04-17 07:32:42 - Started MySpringBootApplicationRest in 1.51 seconds (JVM running for 2063.668)
+2019-04-17 07:32:42 - No active profile set, falling back to default profiles: default
+2019-04-17 07:32:42 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 7264 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 07:32:42 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 07:32:42 - No active profile set, falling back to default profiles: default
+2019-04-17 07:34:50 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 07:34:50 - No active profile set, falling back to default profiles: default
+2019-04-17 07:34:50 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 7264 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 07:34:50 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 07:34:50 - No active profile set, falling back to default profiles: default
+2019-04-17 07:34:50 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 7264 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 07:34:50 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 07:34:50 - No active profile set, falling back to default profiles: default
+2019-04-17 07:34:50 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 7264 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 07:34:50 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 07:34:50 - No active profile set, falling back to default profiles: default
+2019-04-17 07:34:50 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 7264 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 07:34:50 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 07:34:50 - No active profile set, falling back to default profiles: default
+2019-04-17 07:34:50 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 7264 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 07:34:50 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 07:34:50 - No active profile set, falling back to default profiles: default
+2019-04-17 07:34:51 - Started MySpringBootApplicationRest in 1.062 seconds (JVM running for 2192.493)
+2019-04-17 07:34:51 - No active profile set, falling back to default profiles: default
+2019-04-17 07:34:52 - Initializing filter 'jwtAuthenticationFilter'
+2019-04-17 07:34:52 - Filter 'jwtAuthenticationFilter' configured successfully
+2019-04-17 07:34:53 - configure rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@5f1ffaf7
+2019-04-17 07:34:53 - Started MySpringBootApplicationRest in 2.064 seconds (JVM running for 2194.557)
+2019-04-17 07:35:05 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 07:35:07 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 07:35:08 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 07:35:10 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 07:35:11 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 07:35:12 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 07:35:13 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 07:35:13 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 07:35:14 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 07:35:15 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:56:07 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 16536 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 17:56:07 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 17:56:07 - No active profile set, falling back to default profiles: default
+2019-04-17 17:56:12 - Started MySpringBootApplicationRest in 5.028 seconds (JVM running for 5.779)
+2019-04-17 17:56:12 - No active profile set, falling back to default profiles: default
+2019-04-17 17:56:13 - Initializing filter 'jwtAuthenticationFilter'
+2019-04-17 17:56:13 - Filter 'jwtAuthenticationFilter' configured successfully
+2019-04-17 17:56:14 - configure rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@71962604
+2019-04-17 17:56:15 - Started MySpringBootApplicationRest in 3.205 seconds (JVM running for 8.988)
+2019-04-17 17:56:23 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:56:29 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:56:36 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:57:35 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:57:38 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:57:45 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:57:50 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:57:50 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:57:50 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:57:53 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:58:10 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:58:18 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:58:18 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:58:18 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:58:18 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:58:21 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:58:24 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:58:24 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:58:24 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:58:24 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:58:26 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:58:28 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:58:28 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:58:28 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:58:28 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:58:29 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:58:35 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:58:35 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:58:35 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:58:37 - jwt extract by JwtAuthenticationFilter in request:eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJodHRwOi8vd3d3Lm15Y29tcGFueSIsInN1YiI6InVzZXIxIiwiaWF0IjoxNTU1NDc3OTY3LCJhdXRob3JpdGllcyI6IltST0xFX1VTRVJdIiwiZXhwIjoxNTU1NDc4MjY3fQ.hi5I574kbpz7OuxxeOCyeDzGEkwF60G1yu4_LbjQz1dnhTSCZk19NCBS3RIC9cCLKZH45VMWvEUhLWzWDxezmA
+2019-04-17 17:58:38 - Expired JWT token
+2019-04-17 17:58:42 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:58:55 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:58:55 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:58:55 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:58:58 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:59:26 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 16536 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 17:59:26 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 17:59:26 - No active profile set, falling back to default profiles: default
+2019-04-17 17:59:26 - Started MySpringBootApplicationRest in 0.726 seconds (JVM running for 200.516)
+2019-04-17 17:59:26 - No active profile set, falling back to default profiles: default
+2019-04-17 17:59:27 - Initializing filter 'jwtAuthenticationFilter'
+2019-04-17 17:59:27 - Filter 'jwtAuthenticationFilter' configured successfully
+2019-04-17 17:59:27 - configure rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@61fb056d
+2019-04-17 17:59:27 - Started MySpringBootApplicationRest in 1.129 seconds (JVM running for 201.648)
+2019-04-17 17:59:36 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:59:39 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:59:41 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:59:42 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:59:42 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:59:42 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:59:44 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:59:44 - /login , loginRequest:AuthRequest(username=user1, password=pwd1)
+2019-04-17 17:59:44 - /login authResponse:AuthResponse(authToken=eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJodHRwOi8vd3d3Lm15Y29tcGFueSIsInN1YiI6InVzZXIxIiwiaWF0IjoxNTU1NTE2Nzg0LCJhdXRob3JpdGllcyI6IltST0xFX1VTRVJdIiwiZXhwIjoxNTU1NTE3MDg0fQ.ceccJm0alnE90sL0-WfCCm0LORNBIh7bnRmdGoNhNQpx95bzIpDJ5QZbU7z3I2kLR67DdytMTr9v_sEaZL_rTQ, authOk=true, message=login successful)
+2019-04-17 17:59:57 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:59:59 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:59:59 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 17:59:59 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:00:02 - jwt extract by JwtAuthenticationFilter in request:eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJodHRwOi8vd3d3Lm15Y29tcGFueSIsInN1YiI6InVzZXIxIiwiaWF0IjoxNTU1NTE2Nzg0LCJhdXRob3JpdGllcyI6IltST0xFX1VTRVJdIiwiZXhwIjoxNTU1NTE3MDg0fQ.ceccJm0alnE90sL0-WfCCm0LORNBIh7bnRmdGoNhNQpx95bzIpDJ5QZbU7z3I2kLR67DdytMTr9v_sEaZL_rTQ
+2019-04-17 18:00:02 - extracted claims in JWT={iss=http://www.mycompany, sub=user1, iat=1555516784, authorities=[ROLE_USER], exp=1555517084}
+2019-04-17 18:00:02 - in jwt claims, found roleName=ROLE_USER
+2019-04-17 18:00:02 - JwtAuthenticationFilter is storing authentication:org.springframework.security.authentication.UsernamePasswordAuthenticationToken@42bb3c92: Principal: org.springframework.security.core.userdetails.User@6a68dc6: Username: user1; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_USER in spring security SecurityContextHolder
+2019-04-17 18:00:07 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:00:10 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:00:13 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:00:17 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:00:17 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:00:17 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:00:17 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:00:19 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:00:22 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:00:22 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:00:22 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:00:24 - jwt extract by JwtAuthenticationFilter in request:eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJodHRwOi8vd3d3Lm15Y29tcGFueSIsInN1YiI6InVzZXIxIiwiaWF0IjoxNTU1NTE2Nzg0LCJhdXRob3JpdGllcyI6IltST0xFX1VTRVJdIiwiZXhwIjoxNTU1NTE3MDg0fQ.ceccJm0alnE90sL0-WfCCm0LORNBIh7bnRmdGoNhNQpx95bzIpDJ5QZbU7z3I2kLR67DdytMTr9v_sEaZL_rTQ
+2019-04-17 18:00:24 - extracted claims in JWT={iss=http://www.mycompany, sub=user1, iat=1555516784, authorities=[ROLE_USER], exp=1555517084}
+2019-04-17 18:00:24 - in jwt claims, found roleName=ROLE_USER
+2019-04-17 18:00:24 - JwtAuthenticationFilter is storing authentication:org.springframework.security.authentication.UsernamePasswordAuthenticationToken@42bb3c92: Principal: org.springframework.security.core.userdetails.User@6a68dc6: Username: user1; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_USER in spring security SecurityContextHolder
+2019-04-17 18:00:24 - jwt extract by JwtAuthenticationFilter in request:eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJodHRwOi8vd3d3Lm15Y29tcGFueSIsInN1YiI6InVzZXIxIiwiaWF0IjoxNTU1NTE2Nzg0LCJhdXRob3JpdGllcyI6IltST0xFX1VTRVJdIiwiZXhwIjoxNTU1NTE3MDg0fQ.ceccJm0alnE90sL0-WfCCm0LORNBIh7bnRmdGoNhNQpx95bzIpDJ5QZbU7z3I2kLR67DdytMTr9v_sEaZL_rTQ
+2019-04-17 18:00:24 - extracted claims in JWT={iss=http://www.mycompany, sub=user1, iat=1555516784, authorities=[ROLE_USER], exp=1555517084}
+2019-04-17 18:00:24 - in jwt claims, found roleName=ROLE_USER
+2019-04-17 18:00:24 - JwtAuthenticationFilter is storing authentication:org.springframework.security.authentication.UsernamePasswordAuthenticationToken@42bb3c92: Principal: org.springframework.security.core.userdetails.User@6a68dc6: Username: user1; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_USER in spring security SecurityContextHolder
+2019-04-17 18:00:26 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:00:53 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:00:53 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:00:53 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:00:56 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:04:43 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:04:46 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:04:48 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:04:49 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:04:49 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:04:49 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:04:51 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:04:51 - /login , loginRequest:AuthRequest(username=user1, password=pwd1)
+2019-04-17 18:04:51 - /login authResponse:AuthResponse(authToken=eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJodHRwOi8vd3d3Lm15Y29tcGFueSIsInN1YiI6InVzZXIxIiwiaWF0IjoxNTU1NTE3MDkxLCJhdXRob3JpdGllcyI6IltST0xFX1VTRVJdIiwiZXhwIjoxNTU1NTE3MzkxfQ.GcliT_IFv1GbUsOSOxLRFm0MOP4jS33eW4vgLeoIer25YaZqerPSJhtY-M-9syXzczpqNR02qrI_yGC_Mgw3VQ, authOk=true, message=login successful)
+2019-04-17 18:04:53 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:04:56 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:04:56 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:04:56 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:04:57 - jwt extract by JwtAuthenticationFilter in request:eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJodHRwOi8vd3d3Lm15Y29tcGFueSIsInN1YiI6InVzZXIxIiwiaWF0IjoxNTU1NTE3MDkxLCJhdXRob3JpdGllcyI6IltST0xFX1VTRVJdIiwiZXhwIjoxNTU1NTE3MzkxfQ.GcliT_IFv1GbUsOSOxLRFm0MOP4jS33eW4vgLeoIer25YaZqerPSJhtY-M-9syXzczpqNR02qrI_yGC_Mgw3VQ
+2019-04-17 18:04:57 - extracted claims in JWT={iss=http://www.mycompany, sub=user1, iat=1555517091, authorities=[ROLE_USER], exp=1555517391}
+2019-04-17 18:04:57 - in jwt claims, found roleName=ROLE_USER
+2019-04-17 18:04:57 - JwtAuthenticationFilter is storing authentication:org.springframework.security.authentication.UsernamePasswordAuthenticationToken@42bb3c92: Principal: org.springframework.security.core.userdetails.User@6a68dc6: Username: user1; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_USER in spring security SecurityContextHolder
+2019-04-17 18:05:00 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:05:04 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:05:04 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:05:04 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:05:06 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:05:06 - Invalid JWT token
+2019-04-17 18:05:51 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:06:43 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:06:52 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:06:54 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:06:56 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:06:56 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:06:56 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:06:59 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:06:59 - /login , loginRequest:AuthRequest(username=user1, password=pwd1)
+2019-04-17 18:06:59 - /login authResponse:AuthResponse(authToken=eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJodHRwOi8vd3d3Lm15Y29tcGFueSIsInN1YiI6InVzZXIxIiwiaWF0IjoxNTU1NTE3MjE5LCJhdXRob3JpdGllcyI6IltST0xFX1VTRVJdIiwiZXhwIjoxNTU1NTE3NTE5fQ.GPZC0mcGe1cKEafQQjtWGCDZAQVJTaPlgS-VIslbmCuIVwSZYmWnl_xSK1X3M5Y3phltYm1TTVluS-qfzjdbig, authOk=true, message=login successful)
+2019-04-17 18:07:01 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:07:03 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:07:03 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:07:03 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:07:04 - jwt extract by JwtAuthenticationFilter in request:eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJodHRwOi8vd3d3Lm15Y29tcGFueSIsInN1YiI6InVzZXIxIiwiaWF0IjoxNTU1NTE3MjE5LCJhdXRob3JpdGllcyI6IltST0xFX1VTRVJdIiwiZXhwIjoxNTU1NTE3NTE5fQ.GPZC0mcGe1cKEafQQjtWGCDZAQVJTaPlgS-VIslbmCuIVwSZYmWnl_xSK1X3M5Y3phltYm1TTVluS-qfzjdbig
+2019-04-17 18:07:04 - extracted claims in JWT={iss=http://www.mycompany, sub=user1, iat=1555517219, authorities=[ROLE_USER], exp=1555517519}
+2019-04-17 18:07:04 - in jwt claims, found roleName=ROLE_USER
+2019-04-17 18:07:04 - JwtAuthenticationFilter is storing authentication:org.springframework.security.authentication.UsernamePasswordAuthenticationToken@42bb3c92: Principal: org.springframework.security.core.userdetails.User@6a68dc6: Username: user1; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_USER in spring security SecurityContextHolder
+2019-04-17 18:07:06 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:07:14 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:07:14 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:07:14 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:07:15 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:07:15 - Invalid JWT token
+2019-04-17 18:07:19 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:08:28 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:25:10 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 17864 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 18:25:10 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 18:25:10 - No active profile set, falling back to default profiles: default
+2019-04-17 18:25:14 - Started MySpringBootApplicationRest in 4.384 seconds (JVM running for 5.035)
+2019-04-17 18:25:14 - No active profile set, falling back to default profiles: default
+2019-04-17 18:25:15 - Initializing filter 'jwtAuthenticationFilter'
+2019-04-17 18:25:15 - Filter 'jwtAuthenticationFilter' configured successfully
+2019-04-17 18:25:16 - configure rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@47b7f222
+2019-04-17 18:25:17 - Started MySpringBootApplicationRest in 2.9 seconds (JVM running for 7.939)
+2019-04-17 18:25:25 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:25:28 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:25:32 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:25:33 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:25:34 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:25:34 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:25:35 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:25:36 - /login , loginRequest:AuthRequest(username=user1, password=pwd1)
+2019-04-17 18:25:37 - /login authResponse:AuthResponse(authToken=eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJodHRwOi8vd3d3Lm15Y29tcGFueSIsInN1YiI6InVzZXIxIiwiaWF0IjoxNTU1NTE4MzM2LCJhdXRob3JpdGllcyI6IltST0xFX1VTRVJdIiwiZXhwIjoxNTU1NTE4NjM2fQ.2o4-AKR-yAmlPrO2Zk-KVxAqi4xqDdvrRc8E_--OTKfZHRvvN5-QOVa3lIWT0XlBndYEJ2k62777hBje7CShJA, authOk=true, message=login successful)
+2019-04-17 18:25:38 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:25:40 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:25:40 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:25:40 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:25:42 - jwt extract by JwtAuthenticationFilter in request:eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJodHRwOi8vd3d3Lm15Y29tcGFueSIsInN1YiI6InVzZXIxIiwiaWF0IjoxNTU1NTE4MzM2LCJhdXRob3JpdGllcyI6IltST0xFX1VTRVJdIiwiZXhwIjoxNTU1NTE4NjM2fQ.2o4-AKR-yAmlPrO2Zk-KVxAqi4xqDdvrRc8E_--OTKfZHRvvN5-QOVa3lIWT0XlBndYEJ2k62777hBje7CShJA
+2019-04-17 18:25:42 - extracted claims in JWT={iss=http://www.mycompany, sub=user1, iat=1555518336, authorities=[ROLE_USER], exp=1555518636}
+2019-04-17 18:25:42 - in jwt claims, found roleName=ROLE_USER
+2019-04-17 18:25:42 - JwtAuthenticationFilter is storing authentication:org.springframework.security.authentication.UsernamePasswordAuthenticationToken@42bb1a88: Principal: org.springframework.security.core.userdetails.User@6a68dc6: Username: user1; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@957e: RemoteIpAddress: 127.0.0.1; SessionId: null; Granted Authorities: ROLE_USER in spring security SecurityContextHolder
+2019-04-17 18:25:44 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:25:50 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:25:50 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:25:50 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:25:51 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:25:51 - Invalid JWT token
+2019-04-17 18:25:56 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:26:11 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:26:11 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:26:11 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:26:18 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:26:18 - /login , loginRequest:AuthRequest(username=user12, password=pwd1)
+2019-04-17 18:26:18 - echec authentification:Bad credentials
+2019-04-17 18:26:36 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:26:36 - /login , loginRequest:AuthRequest(username=user1, password=pwd1)
+2019-04-17 18:26:36 - /login authResponse:AuthResponse(authToken=eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJodHRwOi8vd3d3Lm15Y29tcGFueSIsInN1YiI6InVzZXIxIiwiaWF0IjoxNTU1NTE4Mzk2LCJhdXRob3JpdGllcyI6IltST0xFX1VTRVJdIiwiZXhwIjoxNTU1NTE4Njk2fQ.uvlJEgD7Nmyb1D8ZKB9ZA3rVFmKAME93nQg1K7DB9OuJsFUTJJ17UoJzBxJq-E7TTmch84A_Th-WP5Bbuy19sA, authOk=true, message=login successful)
+2019-04-17 18:26:41 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:28:38 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 14088 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 18:28:38 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 18:28:38 - No active profile set, falling back to default profiles: default
+2019-04-17 18:28:42 - Started MySpringBootApplicationRest in 4.705 seconds (JVM running for 5.345)
+2019-04-17 18:28:42 - No active profile set, falling back to default profiles: default
+2019-04-17 18:28:44 - Initializing filter 'jwtAuthenticationFilter'
+2019-04-17 18:28:44 - Filter 'jwtAuthenticationFilter' configured successfully
+2019-04-17 18:28:45 - configure rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@63cd64a
+2019-04-17 18:28:46 - Started MySpringBootApplicationRest in 3.215 seconds (JVM running for 8.565)
+2019-04-17 18:28:46 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:28:49 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:28:51 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:28:56 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:29:01 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:29:04 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:29:07 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:29:07 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:29:07 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:29:09 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:29:09 - /login , loginRequest:AuthRequest(username=user1, password=pwd1)
+2019-04-17 18:29:10 - /login authResponse:AuthResponse(authToken=eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJodHRwOi8vd3d3Lm15Y29tcGFueSIsInN1YiI6InVzZXIxIiwiaWF0IjoxNTU1NTE4NTUwLCJhdXRob3JpdGllcyI6IltST0xFX1VTRVJdIiwiZXhwIjoxNTU1NTE4ODUwfQ.fXD0HX3stzKV43WUGelePrydqGFwaZxcRwH6fiu5NR7ziuHPlwhepOju6RgwCbyFFyyHNwSfKNGXlSel_iGqmg, authOk=true, message=login successful)
+2019-04-17 18:29:12 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:29:16 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:29:16 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:29:16 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:29:17 - jwt extract by JwtAuthenticationFilter in request:eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJodHRwOi8vd3d3Lm15Y29tcGFueSIsInN1YiI6InVzZXIxIiwiaWF0IjoxNTU1NTE4NTUwLCJhdXRob3JpdGllcyI6IltST0xFX1VTRVJdIiwiZXhwIjoxNTU1NTE4ODUwfQ.fXD0HX3stzKV43WUGelePrydqGFwaZxcRwH6fiu5NR7ziuHPlwhepOju6RgwCbyFFyyHNwSfKNGXlSel_iGqmg
+2019-04-17 18:29:17 - extracted claims in JWT={iss=http://www.mycompany, sub=user1, iat=1555518550, authorities=[ROLE_USER], exp=1555518850}
+2019-04-17 18:29:17 - in jwt claims, found roleName=ROLE_USER
+2019-04-17 18:29:17 - JwtAuthenticationFilter is storing authentication:org.springframework.security.authentication.UsernamePasswordAuthenticationToken@42bb3c92: Principal: org.springframework.security.core.userdetails.User@6a68dc6: Username: user1; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_USER in spring security SecurityContextHolder
+2019-04-17 18:29:19 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:29:22 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:29:22 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:29:22 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:29:25 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:29:30 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:29:30 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:29:30 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:29:34 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:29:36 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:29:36 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:29:36 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:29:38 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:29:38 - Invalid JWT token
+2019-04-17 18:29:54 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:29:57 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:29:57 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:29:57 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:29:59 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:29:59 - /login , loginRequest:AuthRequest(username=user1, password=pwd1)
+2019-04-17 18:29:59 - /login authResponse:AuthResponse(authToken=eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJodHRwOi8vd3d3Lm15Y29tcGFueSIsInN1YiI6InVzZXIxIiwiaWF0IjoxNTU1NTE4NTk5LCJhdXRob3JpdGllcyI6IltST0xFX1VTRVJdIiwiZXhwIjoxNTU1NTE4ODk5fQ.N28AlmMTxJ4zaFOa416jJgrK9ovvBtfW7A5vMc232AWchL_CRs99kfpGl8xlcSJnEVcgRPiTRg4EVUy9mJ8B-Q, authOk=true, message=login successful)
+2019-04-17 18:30:01 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:30:03 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:30:03 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:30:03 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:30:04 - jwt extract by JwtAuthenticationFilter in request:eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJodHRwOi8vd3d3Lm15Y29tcGFueSIsInN1YiI6InVzZXIxIiwiaWF0IjoxNTU1NTE4NTk5LCJhdXRob3JpdGllcyI6IltST0xFX1VTRVJdIiwiZXhwIjoxNTU1NTE4ODk5fQ.N28AlmMTxJ4zaFOa416jJgrK9ovvBtfW7A5vMc232AWchL_CRs99kfpGl8xlcSJnEVcgRPiTRg4EVUy9mJ8B-Q
+2019-04-17 18:30:04 - extracted claims in JWT={iss=http://www.mycompany, sub=user1, iat=1555518599, authorities=[ROLE_USER], exp=1555518899}
+2019-04-17 18:30:04 - in jwt claims, found roleName=ROLE_USER
+2019-04-17 18:30:04 - JwtAuthenticationFilter is storing authentication:org.springframework.security.authentication.UsernamePasswordAuthenticationToken@42bb3c92: Principal: org.springframework.security.core.userdetails.User@6a68dc6: Username: user1; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_USER in spring security SecurityContextHolder
+2019-04-17 18:30:46 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 14088 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 18:30:46 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 18:30:46 - No active profile set, falling back to default profiles: default
+2019-04-17 18:30:46 - Started MySpringBootApplicationRest in 0.735 seconds (JVM running for 129.237)
+2019-04-17 18:30:46 - No active profile set, falling back to default profiles: default
+2019-04-17 18:30:47 - Initializing filter 'jwtAuthenticationFilter'
+2019-04-17 18:30:47 - Filter 'jwtAuthenticationFilter' configured successfully
+2019-04-17 18:30:47 - configure rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@36ba90ba
+2019-04-17 18:30:48 - Started MySpringBootApplicationRest in 1.226 seconds (JVM running for 130.467)
+2019-04-17 18:36:04 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 2984 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 18:36:04 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 18:36:04 - No active profile set, falling back to default profiles: default
+2019-04-17 18:36:08 - Started MySpringBootApplicationRest in 4.532 seconds (JVM running for 5.178)
+2019-04-17 18:36:08 - No active profile set, falling back to default profiles: default
+2019-04-17 18:36:09 - Initializing filter 'jwtAuthenticationFilter'
+2019-04-17 18:36:09 - Filter 'jwtAuthenticationFilter' configured successfully
+2019-04-17 18:36:10 - configure rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@6a578735
+2019-04-17 18:36:11 - Started MySpringBootApplicationRest in 3.058 seconds (JVM running for 8.239)
+2019-04-17 18:36:19 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:36:21 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:36:23 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:36:26 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:36:44 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:36:44 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:36:44 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:36:46 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:36:46 - /login , loginRequest:AuthRequest(username=user1, password=pwd1)
+2019-04-17 18:36:47 - /login authResponse:AuthResponse(authToken=eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJodHRwOi8vd3d3Lm15Y29tcGFueSIsInN1YiI6InVzZXIxIiwiaWF0IjoxNTU1NTE5MDA3LCJhdXRob3JpdGllcyI6IltST0xFX1VTRVJdIiwiZXhwIjoxNTU1NTE5MzA3fQ.71mpHf_1GruaJ4ZCH-ZambFHsVnnaWRDgeEcjjs000zD9eXxn5jbwL95suaJi7lQTVvn0RtQm1jbHlcLbTTnug, authOk=true, message=login successful)
+2019-04-17 18:36:49 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:36:51 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:36:51 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:36:51 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:36:52 - jwt extract by JwtAuthenticationFilter in request:eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJodHRwOi8vd3d3Lm15Y29tcGFueSIsInN1YiI6InVzZXIxIiwiaWF0IjoxNTU1NTE5MDA3LCJhdXRob3JpdGllcyI6IltST0xFX1VTRVJdIiwiZXhwIjoxNTU1NTE5MzA3fQ.71mpHf_1GruaJ4ZCH-ZambFHsVnnaWRDgeEcjjs000zD9eXxn5jbwL95suaJi7lQTVvn0RtQm1jbHlcLbTTnug
+2019-04-17 18:36:53 - extracted claims in JWT={iss=http://www.mycompany, sub=user1, iat=1555519007, authorities=[ROLE_USER], exp=1555519307}
+2019-04-17 18:36:53 - in jwt claims, found roleName=ROLE_USER
+2019-04-17 18:36:53 - JwtAuthenticationFilter is storing authentication:org.springframework.security.authentication.UsernamePasswordAuthenticationToken@42bb3c92: Principal: org.springframework.security.core.userdetails.User@6a68dc6: Username: user1; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_USER in spring security SecurityContextHolder
+2019-04-17 18:37:02 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:37:14 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:37:14 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:37:14 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:37:16 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:37:16 - Invalid JWT token
+2019-04-17 18:37:35 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:37:37 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:37:48 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:37:58 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:37:58 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:37:58 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:37:59 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:37:59 - /login , loginRequest:AuthRequest(username=user1, password=pwd1)
+2019-04-17 18:38:00 - /login authResponse:AuthResponse(authToken=eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJodHRwOi8vd3d3Lm15Y29tcGFueSIsInN1YiI6InVzZXIxIiwiaWF0IjoxNTU1NTE5MDgwLCJhdXRob3JpdGllcyI6IltST0xFX1VTRVJdIiwiZXhwIjoxNTU1NTE5MzgwfQ.yufaShTlSjE8094t_zUGKB8kdL-s1b5ID1tVlOtAa4kFrTQ7wX7DwApv8oBw9YQjzNMlGgUz-mfaRLaCWBT1fg, authOk=true, message=login successful)
+2019-04-17 18:38:01 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:38:03 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:38:03 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:38:03 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:38:04 - jwt extract by JwtAuthenticationFilter in request:eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJodHRwOi8vd3d3Lm15Y29tcGFueSIsInN1YiI6InVzZXIxIiwiaWF0IjoxNTU1NTE5MDgwLCJhdXRob3JpdGllcyI6IltST0xFX1VTRVJdIiwiZXhwIjoxNTU1NTE5MzgwfQ.yufaShTlSjE8094t_zUGKB8kdL-s1b5ID1tVlOtAa4kFrTQ7wX7DwApv8oBw9YQjzNMlGgUz-mfaRLaCWBT1fg
+2019-04-17 18:38:04 - extracted claims in JWT={iss=http://www.mycompany, sub=user1, iat=1555519080, authorities=[ROLE_USER], exp=1555519380}
+2019-04-17 18:38:04 - in jwt claims, found roleName=ROLE_USER
+2019-04-17 18:38:04 - JwtAuthenticationFilter is storing authentication:org.springframework.security.authentication.UsernamePasswordAuthenticationToken@42bb3c92: Principal: org.springframework.security.core.userdetails.User@6a68dc6: Username: user1; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_USER in spring security SecurityContextHolder
+2019-04-17 18:38:09 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:38:12 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:38:12 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:38:12 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:38:19 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:38:19 - /login , loginRequest:AuthRequest(username=admin1, password=pwd1)
+2019-04-17 18:38:19 - /login authResponse:AuthResponse(authToken=eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJodHRwOi8vd3d3Lm15Y29tcGFueSIsInN1YiI6ImFkbWluMSIsImlhdCI6MTU1NTUxOTA5OSwiYXV0aG9yaXRpZXMiOiJbUk9MRV9BRE1JTl0iLCJleHAiOjE1NTU1MTkzOTl9.Iutpq6DstPQSA_NoQMKr8B20nH-Js3gPrRaYanRLbAb37e6oHRdLJS9Ook1yXhXyvBjNA6Y_w_LzGp_bBYLSJA, authOk=true, message=login successful)
+2019-04-17 18:38:21 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:38:23 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:38:23 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:38:23 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:38:24 - jwt extract by JwtAuthenticationFilter in request:eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJodHRwOi8vd3d3Lm15Y29tcGFueSIsInN1YiI6ImFkbWluMSIsImlhdCI6MTU1NTUxOTA5OSwiYXV0aG9yaXRpZXMiOiJbUk9MRV9BRE1JTl0iLCJleHAiOjE1NTU1MTkzOTl9.Iutpq6DstPQSA_NoQMKr8B20nH-Js3gPrRaYanRLbAb37e6oHRdLJS9Ook1yXhXyvBjNA6Y_w_LzGp_bBYLSJA
+2019-04-17 18:38:24 - extracted claims in JWT={iss=http://www.mycompany, sub=admin1, iat=1555519099, authorities=[ROLE_ADMIN], exp=1555519399}
+2019-04-17 18:38:24 - in jwt claims, found roleName=ROLE_ADMIN
+2019-04-17 18:38:24 - JwtAuthenticationFilter is storing authentication:org.springframework.security.authentication.UsernamePasswordAuthenticationToken@eb991c44: Principal: org.springframework.security.core.userdetails.User@ab3a66c2: Username: admin1; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ADMIN in spring security SecurityContextHolder
+2019-04-17 18:38:27 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:38:31 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:38:34 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:40:45 - Starting MySpringBootApplicationRest on LAPTOP-DDC with PID 2984 (D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\mySpringBootApp\mySpringBootAppRest)
+2019-04-17 18:40:45 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-04-17 18:40:45 - No active profile set, falling back to default profiles: default
+2019-04-17 18:40:46 - Started MySpringBootApplicationRest in 0.731 seconds (JVM running for 283.063)
+2019-04-17 18:40:46 - No active profile set, falling back to default profiles: default
+2019-04-17 18:40:46 - Initializing filter 'jwtAuthenticationFilter'
+2019-04-17 18:40:46 - Filter 'jwtAuthenticationFilter' configured successfully
+2019-04-17 18:40:47 - configure rest,  http:org.springframework.security.config.annotation.web.builders.HttpSecurity@103ac8da
+2019-04-17 18:40:47 - Started MySpringBootApplicationRest in 1.217 seconds (JVM running for 284.283)
+2019-04-17 18:41:08 - jwt extract by JwtAuthenticationFilter in request:null
+2019-04-17 18:41:09 - jwt extract by JwtAuthenticationFilter in request:null

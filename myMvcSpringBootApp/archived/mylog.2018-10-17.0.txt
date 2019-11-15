@@ -1,0 +1,50 @@
+2018-10-17 19:33:06 - Starting TestServiceCompte on LAPTOP-DDC with PID 10968 (started by didier in D:\tp\ECLIPSE_WKSP\spring\myMvcSpringBootApp)
+2018-10-17 19:33:06 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018-10-17 19:33:06 - No active profile set, falling back to default profiles: default
+2018-10-17 19:33:11 - Started TestServiceCompte in 5.26 seconds (JVM running for 6.03)
+2018-10-17 19:33:11 - liste des comptes du client 1:
+2018-10-17 19:33:11 - 	Compte [numero=1, label=compte courant, solde=1200.0]
+2018-10-17 19:33:11 - 	Compte [numero=2, label=compte codevi, solde=50.0]
+2018-10-17 19:33:11 - compte_1 : Compte [numero=1, label=compte courant, solde=1200.0]
+2018-10-17 19:33:11 - 	Operation [numOp=1, label=achat yy, montant=-50.0, dateOp=2011-01-20 00:00:00.0]
+2018-10-17 19:33:11 - 	Operation [numOp=2, label=achat zz, montant=-30.0, dateOp=2011-01-21 00:00:00.0]
+2018-10-17 19:33:11 - avant s1=1200.0 et s2=50.0
+2018-10-17 19:33:11 - apres s1=1150.0 et s2=100.0
+2018-10-17 19:33:58 - Starting TestServiceCompte on LAPTOP-DDC with PID 24488 (started by didier in D:\tp\ECLIPSE_WKSP\spring\myMvcSpringBootApp)
+2018-10-17 19:33:58 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018-10-17 19:33:58 - No active profile set, falling back to default profiles: default
+2018-10-17 19:34:03 - Started TestServiceCompte in 5.266 seconds (JVM running for 6.061)
+2018-10-17 19:34:03 - liste des comptes du client 1:
+2018-10-17 19:34:03 - 	Compte [numero=1, label=compte courant, solde=1200.0]
+2018-10-17 19:34:03 - 	Compte [numero=2, label=compte codevi, solde=50.0]
+2018-10-17 19:34:03 - compte_1 : Compte [numero=1, label=compte courant, solde=1200.0]
+2018-10-17 19:34:03 - 	Operation [numOp=1, label=achat yy, montant=-50.0, dateOp=2011-01-20 00:00:00.0]
+2018-10-17 19:34:03 - 	Operation [numOp=2, label=achat zz, montant=-30.0, dateOp=2011-01-21 00:00:00.0]
+2018-10-17 19:34:03 - avant s1=1200.0 et s2=50.0
+2018-10-17 19:34:03 - apres s1=1150.0 et s2=100.0
+2018-10-17 19:34:10 - Starting TestServiceGestionDevises on LAPTOP-DDC with PID 25436 (started by didier in D:\tp\ECLIPSE_WKSP\spring\myMvcSpringBootApp)
+2018-10-17 19:34:10 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018-10-17 19:34:10 - No active profile set, falling back to default profiles: default
+2018-10-17 19:34:15 - Started TestServiceGestionDevises in 5.393 seconds (JVM running for 6.151)
+2018-10-17 19:34:15 - test_convertir
+2018-10-17 19:34:15 - 50 euros= 5799.965897843246 yens
+2018-10-17 19:34:15 - 20 euros= 22.314 dollars
+2018-10-17 19:34:15 - test_getListeDevises
+2018-10-17 19:34:15 - 	Devise(dChange=1.1157,monnaie=euro,codeDevise=EUR)
+2018-10-17 19:34:15 - 	Devise(dChange=0.00961816,monnaie=yen,codeDevise=JPY)
+2018-10-17 19:34:15 - 	Devise(dChange=1.0,monnaie=dollar,codeDevise=USD)
+2018-10-17 19:34:15 - 	Devise(dChange=1.3294,monnaie=livre,codeDevise=GBP)
+2018-10-17 19:34:15 - test_getDeviseByName
+2018-10-17 19:34:15 - monnaie euro (getDeviseByName) : Devise(dChange=1.1157,monnaie=euro,codeDevise=EUR)
+2018-10-17 19:35:09 - Starting MySpringBootApplication on LAPTOP-DDC with PID 18396 (D:\tp\ECLIPSE_WKSP\spring\myMvcSpringBootApp\target\classes started by didier in D:\tp\ECLIPSE_WKSP\spring\myMvcSpringBootApp)
+2018-10-17 19:35:09 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018-10-17 19:35:09 - No active profile set, falling back to default profiles: default
+2018-10-17 19:35:15 - Started MySpringBootApplication in 5.753 seconds (JVM running for 6.206)
+2018-10-17 19:37:01 - json string of info 1 via rest: <html><head><title>Login Page</title></head><body onload='document.f.username.focus();'>
+<h3>Login with Username and Password</h3><form name='f' action='/myMvcSpringBootApp/login' method='POST'>
+<table>
+	<tr><td>User:</td><td><input type='text' name='username' value=''></td></tr>
+	<tr><td>Password:</td><td><input type='password' name='password'/></td></tr>
+	<tr><td colspan='2'><input name="submit" type="submit" value="Login"/></td></tr>
+</table>
+</form></body></html>

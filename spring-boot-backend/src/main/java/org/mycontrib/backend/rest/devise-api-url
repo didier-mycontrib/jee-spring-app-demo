@@ -1,0 +1,9 @@
+URL de devise-api (mêmes que celles de la version nodeJs)
+=========================================================
+
+/devise-api/public/devise/:code
+/devise-api/public/devise ?changeMini=1.1
+/devise-api/public/convert?source=EUR&target=USD&amount=100
+
+/devise-api/private/role_admin/devise (POST et PUT)
+/devise-api/private/role_admin/devise/:code (DELETE)
