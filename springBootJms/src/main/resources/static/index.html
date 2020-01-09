@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Index majeur</title>
+</head>
+<body>
+	<h1>welcome to springBootJsf</h1>
+	<pre>
+	cette mini application ne fonctionne bien que si le serveur/agent/broker
+	"activemq" est prealablement demarre .
+	Les messages envoyes en mode POST vers l'api REST seront automatiquement envoyes
+	vers une file JMS denommee "MyDataQueue"
+	Le composant spring "MyDataJmsReceiver" de cette application recupere/extrait
+	les messages de la file "MyDataQueue" et les stocke dans une autre file
+	nommee "MyForwardDataQueue" .
+	Via la console de activemq (url=http://localhost:8161/admin,username=admin,password=admin) 
+	on pourra visualiser les messages accumules dans la file "MyForwardDataQueue".
+	Sachant que ces messages seraient recuperables par n'importe quelle autre application
+	connecte a l'agent "activemq" et a la file "MyForwardDataQueue" .
+	</pre>
+	<hr/>
+	ref: <input type="text" id="txtRef" /> (as string) <br/>
+	value: <input type="text" id="txtValue" /> (as number) <br/>
+	<input type="button" id="btnPostData" value="post data" /> <br/>
+	<span id="spanMsg"></span>
+</body>
+<script>
+function makePostAjaxRequest(url,obj,callback) {
+	var xhr = new XMLHttpRequest();
+	xhr.onreadystatechange = function() {
+		if (xhr.readyState == 4 && (xhr.status == 200 || xhr.status == 0)) {
+	   		callback(xhr.responseText);
+		}
+	};
+	xhr.open("POST", url, true);
+	xhr.setRequestHeader("Content-Type", "application/json");
+	xhr.send(JSON.stringify(obj));
+}
+
+var inputRef=document.getElementById("txtRef");
+var inputValue=document.getElementById("txtValue");
+var btnPostData=document.getElementById("btnPostData");
+var spanMsg=document.getElementById("spanMsg");
+btnPostData.addEventListener("click", function(){
+	var dataObj = { ref : null , value : 0 };
+	dataObj.ref = inputRef.value;
+	dataObj.value = Number(inputValue.value);
+	var url="./my-api/data";
+	makePostAjaxRequest(url,dataObj,function(savedData){
+		spanMsg.innerHTML="savedData="+savedData;
+	});
+});
+
+</script>
+</html>
