@@ -8,7 +8,7 @@
 	<h1>welcome to springBootJsf</h1>
 	<pre>
 	cette mini application ne fonctionne bien que si le serveur/agent/broker
-	"activemq" est prealablement demarre .
+	"activemq" ou "artemis" est prealablement demarre .
 	Les messages envoyes en mode POST vers l'api REST seront automatiquement envoyes
 	vers une file JMS denommee "MyDataQueue"
 	Le composant spring "MyDataJmsReceiver" de cette application recupere/extrait
@@ -16,6 +16,7 @@
 	nommee "MyForwardDataQueue" .
 	Via la console de activemq (url=http://localhost:8161/admin,username=admin,password=admin) 
 	on pourra visualiser les messages accumules dans la file "MyForwardDataQueue".
+	La console artemis (url=http://localhost:8161/console) est moins complète. 
 	Sachant que ces messages seraient recuperables par n'importe quelle autre application
 	connecte a l'agent "activemq" et a la file "MyForwardDataQueue" .
 	</pre>

@@ -1,5 +1,7 @@
 package org.mycontrib.xyz.jms;
 
+import javax.jms.Message;
+
 import org.mycontrib.xyz.dto.MyData;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jms.annotation.JmsListener;
@@ -10,7 +12,8 @@ import org.springframework.stereotype.Component;
 public class MyDataJmsReceiver {
 	
 	@JmsListener(destination = "MyDataQueue", containerFactory = "myFactory")
-	  public void receiveMessage(MyData data) {
+	  public void receiveMessage(MyData data,Message msg) {
+		System.out.println("JMS Message received:"+msg);
 	    System.out.println("Received <" + data + ">");
 	    //...
 	    forwardData(data);
