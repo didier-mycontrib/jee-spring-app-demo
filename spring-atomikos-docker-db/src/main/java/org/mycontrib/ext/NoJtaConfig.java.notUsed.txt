@@ -1,0 +1,76 @@
+package org.mycontrib.ext;
+
+import java.util.Properties;
+
+import javax.persistence.EntityManagerFactory;
+import javax.sql.DataSource;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+import org.springframework.jdbc.datasource.DriverManagerDataSource;
+import org.springframework.orm.jpa.JpaTransactionManager;
+import org.springframework.orm.jpa.JpaVendorAdapter;
+import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
+import org.springframework.orm.jpa.vendor.Database;
+import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
+import org.springframework.transaction.PlatformTransactionManager;
+
+//a utiliser via 
+//@Transactional("jtaTransactionManager")
+// à coté de @Service
+
+
+@Configuration
+@Profile("noJta")
+@EnableConfigurationProperties
+@EnableJpaRepositories(basePackages = "org.mycontrib.backend.dao", 
+						entityManagerFactoryRef = "noJtaEntityManagerFactory", 
+						transactionManagerRef = "noJtaTransactionManager")
+public class NoJtaConfig {
+
+	private static Logger logger = LoggerFactory.getLogger(NoJtaConfig.class);
+
+	@Bean
+	@ConfigurationProperties(prefix = "spring.datasource")
+	public DataSource dataSource() {
+		logger.trace("init dataSource in NoJtaConfig");
+		return new DriverManagerDataSource();
+	}
+
+	@Bean
+	public JpaVendorAdapter jpaVendorAdapter() {
+		HibernateJpaVendorAdapter hibernateJpaVendorAdapter = new HibernateJpaVendorAdapter();
+		hibernateJpaVendorAdapter.setShowSql(true);
+		hibernateJpaVendorAdapter.setGenerateDdl(true);
+		hibernateJpaVendorAdapter.setDatabase(Database.H2);
+		return hibernateJpaVendorAdapter;
+	}
+
+	// EntityManagerFactory
+	@Bean(name = "noJtaEntityManagerFactory")
+	public EntityManagerFactory entityManagerFactory() {
+		LocalContainerEntityManagerFactoryBean factory = new LocalContainerEntityManagerFactoryBean();
+		factory.setJpaVendorAdapter(jpaVendorAdapter());
+		factory.setPackagesToScan("org.mycontrib.backend.entity");
+		factory.setDataSource(dataSource());
+		Properties jpaProperties = new Properties(); // java.util
+		jpaProperties.setProperty("javax.persistence.schema-generation.database.action", "drop-and-create"); 
+		factory.setJpaProperties(jpaProperties);
+		factory.afterPropertiesSet();
+		return factory.getObject();
+	}
+	
+	// Transaction Manager for JPA or ...
+	@Bean(name="noJtaTransactionManager") 
+	public PlatformTransactionManager transactionManager() {
+	JpaTransactionManager txManager = new JpaTransactionManager();
+	txManager.setEntityManagerFactory(entityManagerFactory());
+	return txManager;
+	}
+
+}

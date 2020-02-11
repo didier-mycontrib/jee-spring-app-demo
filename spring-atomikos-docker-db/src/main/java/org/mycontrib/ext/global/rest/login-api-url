@@ -1,0 +1,8 @@
+URL de login-api (mêmes que celles de la version nodeJs)
+=========================================================
+
+/login-api/public/auth (POST (authRequest,authResponse))
+
+/login-api/private/role_admin/login
+/login-api/private/role_admin/login (POST et PUT)
+/login-api/private/role_admin/login/:username (DELETE)

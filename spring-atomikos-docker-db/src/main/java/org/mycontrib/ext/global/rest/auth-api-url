@@ -1,0 +1,7 @@
+URL de auth-api (mêmes que celles de la version nodeJs)
+=========================================================
+auth-api : pour TP seulement --> active ou désactive globalement la sécurité
+=========================================================
+
+/auth-api/public/dev-only/set-secure-mode/:mode (GET avec :mode = true or false)
+/auth-api/public/dev-only/get-secure-mode (GET retournant JSON)

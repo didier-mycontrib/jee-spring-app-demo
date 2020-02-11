@@ -1,8 +1,7 @@
-package org.mycontrib.api.dao;
+package org.mycontrib.ext.devises.dao;
 
-import org.mycontrib.api.entity.Devise;
+import org.mycontrib.ext.devises.entity.Devise;
 import org.springframework.data.repository.CrudRepository;
-import org.springframework.transaction.annotation.Transactional;
 
 public interface DeviseDao extends CrudRepository<Devise,String>{
 	/*

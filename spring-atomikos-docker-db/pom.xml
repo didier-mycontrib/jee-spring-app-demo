@@ -1,0 +1,127 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.mycontrib</groupId>
+  <artifactId>spring-atomikos-docker-db</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+   <parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.2.4.RELEASE</version> <!-- 2.1.x for java 11 -->
+		<relativePath /> <!-- lookup parent from repository -->
+	</parent>
+	<properties>
+		<packaging.type>jar</packaging.type>
+		<java.version>1.8</java.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	
+	<repositories>
+     <repository>
+      <id>Jahia</id>
+    <url>http://maven.jahia.org/maven2/</url> <!-- for com.oracle:ojdbc6:11.2.0.4.0 -->
+     </repository>
+  </repositories>
+	
+	<dependencies>
+	
+	
+	<dependency>
+		<groupId>io.jsonwebtoken</groupId>
+		<artifactId>jjwt</artifactId>
+		<version>0.6.0</version>
+  </dependency>
+	
+	     <dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+		</dependency>
+	
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<version>1.4.199</version> 
+			<!--  not 1.4.200 with DROP TABLE order bug -->
+		</dependency>
+		
+		<dependency>
+		    <groupId>mysql</groupId>
+		    <artifactId>mysql-connector-java</artifactId>
+		    <version>8.0.19</version>
+		</dependency>
+		<!--
+			<dependency>
+		 		<groupId>org.mariadb.jdbc</groupId>
+    			<artifactId>mariadb-java-client</artifactId>
+    			<version>2.5.4</version>
+ 			</dependency>
+ 		-->
+		<dependency>
+    		<groupId>org.postgresql</groupId>
+    		<artifactId>postgresql</artifactId>
+    		<!-- <version>42.2.6</version> -->
+		</dependency>
+		 
+		<dependency>
+		    <groupId>com.oracle</groupId>
+		    <artifactId>ojdbc6</artifactId>
+		    <version>12.1.0.2</version>
+		</dependency>
+ 	   <dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-c3p0</artifactId>
+		</dependency>
+ 
+
+ <!-- Atomikos is an embedded JTA Transaction Manager -->
+  		<dependency>
+			<groupId>org.springframework.boot</groupId>
+  			<artifactId>spring-boot-starter-jta-atomikos</artifactId>
+  	</dependency>
+  	
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<!-- spring-boot-devtools useful for refresh without restarting -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<!-- with hibernate-entitymanager inside -->
+			<!-- version conseillee par spring-boot-starter-parent -->
+		</dependency>
+		
+	</dependencies>
+	<build>
+		<finalName>${project.artifactId}</finalName>
+		<plugins>
+		  <plugin>
+			    <groupId>org.springframework.boot</groupId>
+			    <artifactId>spring-boot-maven-plugin</artifactId>
+			    <!-- <version>2.0.5.RELEASE</version> -->
+			    <configuration>
+			        <mainClass>org.mycontrib.backend.MySpringBootApplication</mainClass>
+                    <layout>ZIP</layout>
+			    </configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
