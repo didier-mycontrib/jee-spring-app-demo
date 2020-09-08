@@ -2,8 +2,8 @@ package org.mycontrib.ext;
 
 import javax.transaction.TransactionManager;
 import javax.transaction.UserTransaction;
+
 import org.hibernate.engine.transaction.jta.platform.internal.AbstractJtaPlatform;
-import com.atomikos.icatch.jta.UserTransactionManager;
 
 
 /**

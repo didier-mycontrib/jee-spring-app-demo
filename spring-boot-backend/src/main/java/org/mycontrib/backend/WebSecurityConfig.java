@@ -16,6 +16,15 @@ public class WebSecurityConfig extends AbstractGenericWebSecurityConfig {
 	//AbstractGenericWebSecurityConfig is a subclass of WebSecurityConfigurerAdapter
 	//with @EnableWebSecurity and other generic security config
 	
+	private static final String[] SWAGGER_AUTH_WHITELIST = {
+
+            // -- swagger ui
+            "/swagger-resources/**",
+            "/swagger-ui.html",
+            "/v2/api-docs",
+            "/webjars/**"
+    };
+	
 protected void configure(HttpSecurity http) throws Exception {
 		http = super.configureHttpForRestApi(http);
 		http = super.configureDefaultPermitAllUrl(http) ;    
@@ -23,6 +32,7 @@ protected void configure(HttpSecurity http) throws Exception {
     	 .authorizeRequests()
     	       .antMatchers("/rest/devise-api/public/**").permitAll()
     	       //.antMatchers("/rest/xyz-api/public/**").permitAll()
+    	       .antMatchers(SWAGGER_AUTH_WHITELIST).permitAll()
 	 		   .anyRequest().authenticated();
     }
 

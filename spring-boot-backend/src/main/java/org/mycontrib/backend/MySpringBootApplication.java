@@ -14,8 +14,8 @@ public class MySpringBootApplication extends SpringBootServletInitializer {
 		
 		SpringApplication app = new SpringApplication(MySpringBootApplication.class);
 		//app.setLogStartupInfo(false);
-		//app.setAdditionalProfiles("embeddedDb","reInit","basicSecurity");
-		app.setAdditionalProfiles("embeddedDb","reInit","appDbSecurity");
+		//app.setAdditionalProfiles("embeddedDb","reInit","basicSecurity","swagger");
+		app.setAdditionalProfiles("embeddedDb","reInit","appDbSecurity","swagger");
 		
 		ConfigurableApplicationContext context = app.run(args);
 		

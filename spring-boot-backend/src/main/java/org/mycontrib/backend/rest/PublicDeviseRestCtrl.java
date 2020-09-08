@@ -17,6 +17,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
+
+
 @CrossOrigin("*")//pour accepter de répondre à des appels ajax 
                  //provenant d'autres domaines/applications/...
 
@@ -34,9 +38,17 @@ public class PublicDeviseRestCtrl {
 	
 	//URL : ..../rest/devise-api/public/convert?source=EUR&target=USD&amount=100
 	@RequestMapping(value="/convert" , method=RequestMethod.GET)
-	public ResConv convertir(@RequestParam("amount")Double montant,
-							@RequestParam("source")String source,
-							@RequestParam("target")String cible) {
+	@ApiOperation(value = "convert amount from source to target currency",
+      notes = "exemple: convert?source=EUR&target=USD&amount=100")
+	public ResConv convertir(@RequestParam("amount")
+	                         @ApiParam(value = "amount to convert", example = "100")
+	                         Double montant,
+							@RequestParam("source")
+							@ApiParam(value = "source currency code", example = "EUR")		
+							String source,
+							@RequestParam("target")
+	                        @ApiParam(value = "target currency code", example = "USD")
+	                        String cible) {
 		Double res = convertisseur.convertir(montant, source, cible);
 		return new ResConv(montant, source, cible,res);
 	}
