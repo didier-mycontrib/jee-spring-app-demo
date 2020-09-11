@@ -54,3 +54,5 @@ create table devise (code varchar(255) not null, taux_change double check (taux_
 create table login (username varchar(255) not null, password varchar(255), roles varchar(255), primary key (username))
 create table devise (code varchar(255) not null, taux_change double check (taux_change>=0), name varchar(255), primary key (code))
 create table login (username varchar(255) not null, password varchar(255), roles varchar(255), primary key (username))
+create table devise (code varchar(255) not null, taux_change double check (taux_change>=0), name varchar(255), primary key (code))
+create table login (username varchar(255) not null, password varchar(255), roles varchar(255), primary key (username))

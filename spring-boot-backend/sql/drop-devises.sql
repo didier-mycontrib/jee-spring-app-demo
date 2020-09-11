@@ -54,3 +54,5 @@ drop table devise if exists
 drop table login if exists
 drop table devise if exists
 drop table login if exists
+drop table devise if exists
+drop table login if exists
