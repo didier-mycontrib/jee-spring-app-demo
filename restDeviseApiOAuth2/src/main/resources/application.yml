@@ -1,0 +1,34 @@
+# .yml (ou .yaml) = syntaxe alternative à .properties
+# IMPORTANT = indentation via double espaces mais pas de tabulation !
+# localhost:8585/serverRest
+server:
+  servlet:
+    context-path: /serverRest
+  port: 8585
+
+
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/deviseDB?createDatabaseIfNotExist=true&serverTimezone=UTC
+    username: root
+    password: root
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate.ddl-auto: create
+  data:
+    jpa:
+      repositories:
+        enabled: true
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8989/auth/realms/myrealm
+
+#spring.security.oauth2.resourceserver.jwt.issuer-uri=http://localhost:8080/auth/realms/myrealm
+
+#si elements de liste en .yml .yaml
+#liste:
+#  - elt: valeur1
+#  - elt: valeur2
