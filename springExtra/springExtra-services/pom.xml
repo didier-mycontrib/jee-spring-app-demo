@@ -101,7 +101,7 @@
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId> <!-- h2 un peu mieux que hsqldb -->
-			<version>1.4.191</version>
+			<version>2.0.206</version>
 		</dependency>
 
 		
