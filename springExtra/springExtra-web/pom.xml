@@ -148,7 +148,7 @@
 		<dependency>
    			 <groupId>com.fasterxml.jackson.core</groupId>
    			 <artifactId>jackson-databind</artifactId>
-   			 <version>2.5.4</version> <!-- to produces json -->
+   			 <version>2.12.6.1</version> <!-- to produces json -->
 		</dependency>
 
 		<dependency>
