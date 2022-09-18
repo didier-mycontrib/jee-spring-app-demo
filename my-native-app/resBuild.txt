@@ -1,0 +1,138 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< tp:my-native-app >--------------------------
+[INFO] Building my-native-app 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:2.7.3:build-image (default-cli) > package @ my-native-app >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ my-native-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ my-native-app ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\tp\local-git-mycontrib-repositories\jee-spring-app-demo\my-native-app\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ my-native-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory C:\tp\local-git-mycontrib-repositories\jee-spring-app-demo\my-native-app\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ my-native-app ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\tp\local-git-mycontrib-repositories\jee-spring-app-demo\my-native-app\target\test-classes
+[INFO] 
+[INFO] --- spring-aot-maven-plugin:0.12.1:test-generate (test-generate) @ my-native-app ---
+2022-09-18 21:14:26.019  INFO 10436 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [tp.mynativeapp.MyNativeAppApplicationTests], using SpringBootContextLoader
+2022-09-18 21:14:26.024  INFO 10436 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [tp.mynativeapp.MyNativeAppApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-09-18 21:14:26.025  INFO 10436 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [tp.mynativeapp.MyNativeAppApplicationTests]: MyNativeAppApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-09-18 21:14:26.102  INFO 10436 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration tp.mynativeapp.MyNativeAppApplication for test class tp.mynativeapp.MyNativeAppApplicationTests
+2022-09-18 21:14:28.619  INFO 10436 --- [           main] o.s.nativex.support.SpringAnalyzer       : Spring Native operating mode: native
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 34 source files to C:\tp\local-git-mycontrib-repositories\jee-spring-app-demo\my-native-app\target\test-classes
+[INFO] /C:/tp/local-git-mycontrib-repositories/jee-spring-app-demo/my-native-app/target/generated-runtime-test-sources/spring-aot/src/test/java/org/springframework/boot/jdbc/_FactoryProvider.java: C:\tp\local-git-mycontrib-repositories\jee-spring-app-demo\my-native-app\target\generated-runtime-test-sources\spring-aot\src\test\java\org\springframework\boot\jdbc\_FactoryProvider.java uses or overrides a deprecated API.
+[INFO] /C:/tp/local-git-mycontrib-repositories/jee-spring-app-demo/my-native-app/target/generated-runtime-test-sources/spring-aot/src/test/java/org/springframework/boot/jdbc/_FactoryProvider.java: Recompile with -Xlint:deprecation for details.
+[INFO] /C:/tp/local-git-mycontrib-repositories/jee-spring-app-demo/my-native-app/target/generated-runtime-test-sources/spring-aot/src/test/java/org/springframework/aot/StaticSpringFactories.java: C:\tp\local-git-mycontrib-repositories\jee-spring-app-demo\my-native-app\target\generated-runtime-test-sources\spring-aot\src\test\java\org\springframework\aot\StaticSpringFactories.java uses unchecked or unsafe operations.
+[INFO] /C:/tp/local-git-mycontrib-repositories/jee-spring-app-demo/my-native-app/target/generated-runtime-test-sources/spring-aot/src/test/java/org/springframework/aot/StaticSpringFactories.java: Recompile with -Xlint:unchecked for details.
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 6 resources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ my-native-app ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running tp.mynativeapp.MyNativeAppApplicationTests
+21:14:35.983 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.aot.test.AotCacheAwareContextLoaderDelegate]
+21:14:36.005 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+21:14:36.040 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [tp.mynativeapp.MyNativeAppApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+21:14:36.052 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [tp.mynativeapp.MyNativeAppApplicationTests], using SpringBootContextLoader
+21:14:36.056 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [tp.mynativeapp.MyNativeAppApplicationTests]: class path resource [tp/mynativeapp/MyNativeAppApplicationTests-context.xml] does not exist
+21:14:36.056 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [tp.mynativeapp.MyNativeAppApplicationTests]: class path resource [tp/mynativeapp/MyNativeAppApplicationTestsContext.groovy] does not exist
+21:14:36.057 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [tp.mynativeapp.MyNativeAppApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+21:14:36.058 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [tp.mynativeapp.MyNativeAppApplicationTests]: MyNativeAppApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:14:36.115 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [tp.mynativeapp.MyNativeAppApplicationTests]
+21:14:36.137 [main] DEBUG org.springframework.context.index.CandidateComponentsIndexLoader - Loaded 2 index(es)
+21:14:36.200 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Using candidate component class from index: tp.mynativeapp.MyNativeAppApplication
+21:14:36.201 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration tp.mynativeapp.MyNativeAppApplication for test class tp.mynativeapp.MyNativeAppApplicationTests
+21:14:36.323 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [tp.mynativeapp.MyNativeAppApplicationTests]: using defaults.
+21:14:36.323 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.aot.test.AotDependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+21:14:36.330 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [javax/servlet/ServletContext]
+21:14:36.332 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+21:14:36.332 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+21:14:36.333 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7966baa7, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@60975100, org.springframework.aot.test.AotDependencyInjectionTestExecutionListener@1253e7cb, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2d36e77e, org.springframework.test.context.event.EventPublishingTestExecutionListener@61c9c3fd, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3b0c9195, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@366c4480, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2c7b5824, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@302a07d, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5cdd09b1]
+21:14:36.336 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@7c1e2a2d testClass = MyNativeAppApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@333dd51e testClass = MyNativeAppApplicationTests, locations = '{}', classes = '{class tp.mynativeapp.MyNativeAppApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@51bf5add, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@478db956, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@2dc9b0f5, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@34b9f960, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@239105a8, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@c267ef4], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+21:14:36.350 [main] DEBUG org.springframework.aot.test.AotDependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@7c1e2a2d testClass = MyNativeAppApplicationTests, testInstance = tp.mynativeapp.MyNativeAppApplicationTests@78365cfa, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@333dd51e testClass = MyNativeAppApplicationTests, locations = '{}', classes = '{class tp.mynativeapp.MyNativeAppApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@51bf5add, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@478db956, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@2dc9b0f5, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@34b9f960, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@239105a8, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@c267ef4], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]].
+21:14:36.354 [main] INFO org.springframework.aot.test.AotCacheAwareContextLoaderDelegate - Loading test ApplicationContext in AOT mode using org.springframework.aot.test.boot.AotSpringBootConfigContextLoader@736d6a5c
+21:14:36.376 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+2022-09-18 21:14:36.570  INFO 15660 --- [           main] o.s.nativex.NativeListener               : AOT mode enabled
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.3)
+
+2022-09-18 21:14:36.642  INFO 15660 --- [           main] t.m.MyNativeAppApplicationTests          : Starting MyNativeAppApplicationTests using Java 11.0.12 on LAPTOP-D2FC with PID 15660 (started by d2fde in C:\tp\local-git-mycontrib-repositories\jee-spring-app-demo\my-native-app)
+2022-09-18 21:14:36.643  INFO 15660 --- [           main] t.m.MyNativeAppApplicationTests          : No active profile set, falling back to 1 default profile: "default"
+2022-09-18 21:14:36.784  INFO 15660 --- [           main] t.m.MyNativeAppApplicationTests          : Started MyNativeAppApplicationTests in 0.406 seconds (JVM running for 1.396)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.899 s - in tp.mynativeapp.MyNativeAppApplicationTests
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- spring-aot-maven-plugin:0.12.1:generate (generate) @ my-native-app ---
+2022-09-18 21:14:38.056  INFO 16404 --- [           main] o.s.a.build.ContextBootstrapContributor  : Detected application class: tp.mynativeapp.MyNativeAppApplication
+2022-09-18 21:14:38.060  INFO 16404 --- [           main] o.s.a.build.ContextBootstrapContributor  : Processing application context
+2022-09-18 21:14:40.098  INFO 16404 --- [           main] o.s.a.build.ContextBootstrapContributor  : Processed 33 bean definitions in 2035ms
+2022-09-18 21:14:40.355  INFO 16404 --- [           main] o.s.nativex.support.SpringAnalyzer       : Spring Native operating mode: native
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 20 source files to C:\tp\local-git-mycontrib-repositories\jee-spring-app-demo\my-native-app\target\classes
+[INFO] /C:/tp/local-git-mycontrib-repositories/jee-spring-app-demo/my-native-app/target/generated-runtime-sources/spring-aot/src/main/java/org/springframework/boot/jdbc/_FactoryProvider.java: C:\tp\local-git-mycontrib-repositories\jee-spring-app-demo\my-native-app\target\generated-runtime-sources\spring-aot\src\main\java\org\springframework\boot\jdbc\_FactoryProvider.java uses or overrides a deprecated API.
+[INFO] /C:/tp/local-git-mycontrib-repositories/jee-spring-app-demo/my-native-app/target/generated-runtime-sources/spring-aot/src/main/java/org/springframework/boot/jdbc/_FactoryProvider.java: Recompile with -Xlint:deprecation for details.
+[INFO] /C:/tp/local-git-mycontrib-repositories/jee-spring-app-demo/my-native-app/target/generated-runtime-sources/spring-aot/src/main/java/org/springframework/aot/StaticSpringFactories.java: C:\tp\local-git-mycontrib-repositories\jee-spring-app-demo\my-native-app\target\generated-runtime-sources\spring-aot\src\main\java\org\springframework\aot\StaticSpringFactories.java uses unchecked or unsafe operations.
+[INFO] /C:/tp/local-git-mycontrib-repositories/jee-spring-app-demo/my-native-app/target/generated-runtime-sources/spring-aot/src/main/java/org/springframework/aot/StaticSpringFactories.java: Recompile with -Xlint:unchecked for details.
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-jar-plugin:3.2.2:jar (default-jar) @ my-native-app ---
+[INFO] Building jar: C:\tp\local-git-mycontrib-repositories\jee-spring-app-demo\my-native-app\target\my-native-app-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.7.3:repackage (repackage) @ my-native-app ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] <<< spring-boot-maven-plugin:2.7.3:build-image (default-cli) < package @ my-native-app <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.7.3:build-image (default-cli) @ my-native-app ---
+[INFO] Building image 'docker.io/library/my-native-app:0.0.1-SNAPSHOT'
+[INFO] 
+[INFO] I/O exception (java.nio.file.NoSuchFileException) caught when processing request to {}->docker://localhost:2376: \\.\pipe\docker_engine
+[INFO] Retrying request to {}->docker://localhost:2376
+[INFO] I/O exception (java.nio.file.NoSuchFileException) caught when processing request to {}->docker://localhost:2376: \\.\pipe\docker_engine
+[INFO] Retrying request to {}->docker://localhost:2376
+[INFO] I/O exception (java.nio.file.NoSuchFileException) caught when processing request to {}->docker://localhost:2376: \\.\pipe\docker_engine
+[INFO] Retrying request to {}->docker://localhost:2376
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:tiny' 100%
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  27.279 s
+[INFO] Finished at: 2022-09-18T21:14:50+02:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:2.7.3:build-image (default-cli) on project my-native-app: Execution default-cli of goal org.springframework.boot:spring-boot-maven-plugin:2.7.3:build-image failed: Connection to the Docker daemon at 'localhost' failed with error "\\.\pipe\docker_engine"; ensure the Docker daemon is running and accessible -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginExecutionException
