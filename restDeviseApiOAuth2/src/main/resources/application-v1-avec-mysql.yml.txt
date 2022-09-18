@@ -6,16 +6,15 @@ server:
     context-path: /serverRest
   port: 8585
 
-#si pb , spring.datasource.url=jdbc:h2:./h2-data/deviseDB
 
 spring:
   datasource:
-    driverClassName: org.h2.Driver
-    url: jdbc:h2:~/deviseDB
-    username: sa
-    password: 
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/deviseDB?createDatabaseIfNotExist=true&serverTimezone=UTC
+    username: root
+    password: root
   jpa:
-    database-platform: org.hibernate.dialect.H2Dialect
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
     hibernate.ddl-auto: create
   data:
     jpa:

@@ -16,7 +16,7 @@ public class MySpringBootApplication extends SpringBootServletInitializer {
 		
 		SpringApplication app = new SpringApplication(MySpringBootApplication.class);
 		//app.setLogStartupInfo(false);
-		app.setAdditionalProfiles("web.dev");
+		app.setAdditionalProfiles("web.dev","swagger");
 		ConfigurableApplicationContext context = app.run(args);
 		
 		System.out.println("http://localhost:8282/deviseApi");

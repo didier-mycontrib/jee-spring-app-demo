@@ -13,8 +13,12 @@
 	</parent>
 	<properties>
 		<packaging.type>jar</packaging.type>
-		<java.version>1.8</java.version>
+		<java.version>11</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<phase.generate-documentation>package</phase.generate-documentation>
+		<generated.asciidoc.directory>${basedir}/generated/asciidoc</generated.asciidoc.directory>
+		<generated.html.directory>${basedir}/generated/html</generated.html.directory>
+		<generated.pdf.directory>${basedir}/generated/pdf</generated.pdf.directory>
 	</properties>
 	<dependencies>
 	
@@ -39,6 +43,7 @@
 	     <dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
+			<version>1.18.22</version>
 		</dependency>
 	
 		<dependency>
@@ -80,6 +85,17 @@
 			<!-- version conseillee par spring-boot-starter-parent -->
 		</dependency>
 		
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+			<version>2.9.2</version>
+			</dependency>
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>2.9.2</version>
+		</dependency>
+		
 	</dependencies>
 	<build>
 		<finalName>${project.artifactId}</finalName>
@@ -93,6 +109,39 @@
                     <layout>ZIP</layout>
 			    </configuration>
 			</plugin>
+			<plugin>
+			<groupId>com.github.kongchen</groupId>
+			<artifactId>swagger-maven-plugin</artifactId>
+			<version>3.1.8</version>
+			<configuration>
+				<apiSources>
+					<apiSource>
+						  <springmvc>true</springmvc>
+						  <locations>
+                    		<location>org.mycontrib.api.rest</location>
+               			 </locations>
+						  <info>
+		                    <title>DeviseApi</title>
+		                    <version>v1</version>
+		                    <description>
+		                        DeviseApi
+		                    </description>
+		                   </info>
+		                   <outputFormats>json</outputFormats>
+		                   <outputPath>${basedir}/generated/document.html</outputPath>
+                		  <swaggerDirectory>${project.build.directory}/api</swaggerDirectory>
+					</apiSource>
+				</apiSources>
+			</configuration>
+			<executions>
+				<execution>
+					<phase>${phase.generate-documentation}</phase>
+					<goals>
+						<goal>generate</goal>
+					</goals>
+				</execution>
+			</executions>
+		</plugin>
 		</plugins>
 	</build>
 </project>

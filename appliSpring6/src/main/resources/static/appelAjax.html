@@ -1,0 +1,24 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>appelAjax</title>
+<script src="js/my_ajax_util.js"></script>
+<script src="js/appelAjax.js"></script>
+</head>
+<body>
+codeDevise :<input type="text" id="txtCodeDevise"/> <br/>
+<input type="button" id="btnSearch" onclick="onSearchDevise()"
+value="rechercher devise"/> <br/>
+change : <span id="spanRes"></span>
+
+    
+    <hr/>
+     <h3>ajout (post) de nouvelle devise</h3>
+    code: <input type="text" value="M1" id="txtCode" /> <br/>
+    nom: <input type="text" value="Monnaie1" id="txtNom" /> <br/>
+    change: <input type="text" value="2.56" id="txtChange" /><br/>
+    <input type="button" value="ajout (post) " onclick="doAjout()" /><br/>
+    message : <span id="spanMessage"></span>
+
+</body>
+</html>

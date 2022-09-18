@@ -17,6 +17,7 @@
 	<description>devise api rest (resource server with oauth2 scopes checks)</description>
 	<properties>
 		<java.version>11</java.version>
+		<start-class>org.mycontrib.tp.serverRest.ServerRestApplication</start-class>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
@@ -52,10 +53,15 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
-
+        <!--  
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
+		</dependency>
+		-->
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
 		</dependency>
 
 		<dependency>
@@ -106,6 +112,10 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+		        		<mainClass>org.mycontrib.tp.serverRest.ServerRestApplication</mainClass>
+		        		<layout>ZIP</layout>
+		       </configuration>
 			</plugin>
 		</plugins>
 	</build>

@@ -19,6 +19,11 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true)//necessary for @PreAuthorize("hasRole('ADMIN or ...')")
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
+	
+	private static final String[] SWAGGER_AUTH_WHITELIST = {
+			"/swagger-resources/**", "/swagger-ui.html", "/v2/api-docs", "/webjars/**"
+			};
+	
     @Autowired
     private BCryptPasswordEncoder passwordEncoder;
     
@@ -70,6 +75,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                  "/**/*.html",
                  "/**/*.css",
                  "/**/*.js").permitAll()
+    	       .antMatchers(SWAGGER_AUTH_WHITELIST).permitAll()
 	 		   .antMatchers("/rest/auth/**").permitAll()
 	 		   .antMatchers("/rest/public/**").permitAll()
 	 		   .antMatchers("/service/**").permitAll() //pour cxf/soap
