@@ -9,7 +9,7 @@
   <packaging>war</packaging>
   
   <properties>
-   		<org.springframework.version>4.1.1.RELEASE</org.springframework.version>
+   		<org.springframework.version>4.2.7.RELEASE</org.springframework.version>
    		 <org.apache.cxf.version>3.0.2</org.apache.cxf.version> <!-- 2.7.13 , 3.0.2 , ... -->
    		 <org.apache.myfaces.version>2.2.5</org.apache.myfaces.version> <!-- 2.1.5 , 2.2.5 -->
 	</properties>
