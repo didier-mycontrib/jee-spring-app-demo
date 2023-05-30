@@ -8,8 +8,7 @@ server:
   
 logging:
   level:
-#    root: DEBUG  
-    root: WARN  
+    root: DEBUG  
 
 #si pb , spring.datasource.url=jdbc:h2:./h2-data/deviseDB
 
@@ -30,12 +29,16 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: https://www.d-defrance.fr/keycloak/realms/sandboxrealm
+#          issuer-uri: http://www.d-defrance.fr:8989/keycloak/realms/myrealm ok/start but jwt issuer not valid (not same)
+          issuer-uri: https://www.d-defrance.fr:8443/keycloak/realms/myrealm
+#          jwk-set-uri: http://www.d-defrance.fr:8989/keycloak/realms/myrealm/protocol/openid-connect/certs
+          jwk-set-uri: http://www.d-defrance.fr:80/keycloak/realms/myrealm/protocol/openid-connect/certs
+#          jwk-set-uri: https://www.d-defrance.fr:8443/keycloak/realms/myrealm/protocol/openid-connect/certs not ok (unable to find valid certification path to requested target)
 
 #spring.security.oauth2.resourceserver.jwt.issuer-uri=http://localhost:8080/auth/realms/myrealm
 #NB: http://localhost:8989_ou_8080/auth/realms/myrealm with keycloak 14
 #    http://localhost:8989_ou_8080/realms/myrealm      with keycloack 21
-#    https://www.d-defrance.fr:8443/keycloak/realms/myrealm      with keycloack 21 derriere nginx or kong
+#    https://www.d-defrance.fr:8443/keycloak/realms/myrealm      with keycloack 21 derriere kong
 
 #si elements de liste en .yml .yaml
 #liste:

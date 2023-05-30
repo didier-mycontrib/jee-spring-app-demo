@@ -21,13 +21,14 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import io.swagger.annotations.ApiParam;
 
 @RestController
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "*" , methods = { RequestMethod.GET , RequestMethod.POST , RequestMethod.PUT , RequestMethod.DELETE })
 //@CrossOrigin(origins = { "http://localhost:3000" , "http://localhost:4200" } , methods = { RequestMethod.GET , RequestMethod.POST , RequestMethod.PUT , RequestMethod.DELETE })
 @RequestMapping(value="/devise-api" , headers="Accept=application/json")
 public class DeviseRestCtrl {
@@ -44,12 +45,12 @@ public class DeviseRestCtrl {
 	
 	
 	//V2 avec exception personnalisée et @ResponseStatus
-	//URL = localhost:8585/serverRest/devise-api/role_admin/private/devise 
+	//URL = localhost:8585/serverRest/devise-api/private/devise 
 	// a appeler en mode POST via POSTMAN ou autre
 	// et avec { "code" : "M1",	"nom" : "monnaie1",	"change" : 345.67 } 
 	// dans la partie invisible body de la requete HTTP
 	// et avec Content-Type = application/json dans le header de la requête HTTP
-	@PostMapping("/private/role_admin/devise")
+	@PostMapping("/private/devise")
 	@PreAuthorize("hasAuthority('SCOPE_resource.write')")
 	public Devise postNewDevise(@Valid @RequestBody Devise d) {
 		
@@ -57,21 +58,21 @@ public class DeviseRestCtrl {
 			return deviseSauvegardee;
 	}
 	
-	//URL = localhost:8585/serverRest/devise-api/private/role_admin/devise 
+	//URL = localhost:8585/serverRest/devise-api/private/devise 
 	// a appeler en mode PUT via POSTMAN ou autre
 	// et avec { "code" : "M1",	"nom" : "monnaie1Bis",	"change" : 675.67 } 
 	// dans la partie invisible body de la requete HTTP
 	// et avec Content-Type = application/json dans le header de la requête HTTP
 	//@PreAuthorize("hasRole('ADMIN')")
-	@PutMapping("/private/role_admin/devise")
+	@PutMapping("/private/devise")
 	public Devise updateDevise(@RequestBody Devise d) {
 			serviceDevise.updateDevise(d);
 			return d;//en tant que devise sauvegardée (mise à jour)
 	}
 	
-	//localhost:8585/serverRest/devise-api/private/role_admin/devise/m1 (DELETE)
+	//localhost:8585/serverRest/devise-api/private/devise/m1 (DELETE)
 	@PreAuthorize("hasAuthority('SCOPE_resource.delete')") 
-	@DeleteMapping("/private/role_admin/devise/{codeDevise}")
+	@DeleteMapping("/private/devise/{codeDevise}")
 	public ResponseEntity<?> deleteDeviseByCode(@PathVariable("codeDevise") String codeDevise) {
 		serviceDevise.deleteDevise(codeDevise);
 		Map<String,Object> mapRes = new HashMap<>();
